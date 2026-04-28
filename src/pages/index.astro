@@ -216,15 +216,40 @@ import Layout from '../layouts/Layout.astro';
                 </div>
             </div>
             
-            <!-- Partners -->
-            <div style="margin-top: 4rem; text-align: center;">
-                <h4 style="color: var(--text-secondary); margin-bottom: 1.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600;">Powered by world-class infrastructure</h4>
-                <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; align-items: center;">
-                    <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; color: #0f172a; background: rgba(15, 23, 42, 0.05); padding: 0.5rem 1.5rem; border-radius: 8px; border: 1px solid rgba(15, 23, 42, 0.1);">GLASSHOUSE GROUP</span>
-                    <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; color: #0f172a; background: rgba(15, 23, 42, 0.05); padding: 0.5rem 1.5rem; border-radius: 8px; border: 1px solid rgba(15, 23, 42, 0.1);">ANTHROPIC CLAUDE</span>
-                    <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; color: #0f172a; background: rgba(15, 23, 42, 0.05); padding: 0.5rem 1.5rem; border-radius: 8px; border: 1px solid rgba(15, 23, 42, 0.1);">AWS</span>
-                    <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.05em; color: #0f172a; background: rgba(15, 23, 42, 0.05); padding: 0.5rem 1.5rem; border-radius: 8px; border: 1px solid rgba(15, 23, 42, 0.1);">IBM</span>
+            <!-- MOCK A: The Stack — Categorised Capability Cards -->
+            <div style="margin-top: 5rem;">
+                <div style="display: inline-block; background: #f59e0b; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.25rem 0.75rem; border-radius: 9999px; margin-bottom: 1.5rem;">Option A — The Stack</div>
+                <h4 style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem; text-align: center;">Built on world-class infrastructure</h4>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.25rem;">
+                    <div class="glass-card" style="padding: 1.75rem; text-align: left;">
+                        <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;">🧠 AI & Language</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">Anthropic Claude</div>
+                        <div style="font-size: 0.85rem; color: var(--text-secondary);">Fan intent & natural language intelligence</div>
+                    </div>
+                    <div class="glass-card" style="padding: 1.75rem; text-align: left;">
+                        <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;">☁️ Cloud Infrastructure</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">Amazon Web Services</div>
+                        <div style="font-size: 0.85rem; color: var(--text-secondary);">Global scale, edge compute & data sovereignty</div>
+                    </div>
+                    <div class="glass-card" style="padding: 1.75rem; text-align: left;">
+                        <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;">📊 Predictive Analytics</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">IBM</div>
+                        <div style="font-size: 0.85rem; color: var(--text-secondary);">Enterprise-grade fan behaviour modelling</div>
+                    </div>
+                    <div class="glass-card" style="padding: 1.75rem; text-align: left;">
+                        <div style="font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;">🤝 Commercial Network</div>
+                        <div style="font-size: 1.1rem; font-weight: 700; color: #0f172a; margin-bottom: 0.25rem;">GlassHouse Group</div>
+                        <div style="font-size: 0.85rem; color: var(--text-secondary);">UK & European club market access</div>
+                    </div>
                 </div>
+            </div>
+
+            <!-- MOCK B: Trust Architecture — Single Clean Sentence -->
+            <div style="margin-top: 4rem; padding: 3rem; background: #f8fafc; border-radius: 16px; border: 1px solid var(--border);">
+                <div style="display: inline-block; background: #6366f1; color: #fff; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; padding: 0.25rem 0.75rem; border-radius: 9999px; margin-bottom: 1.5rem;">Option B — Trust Architecture</div>
+                <p style="font-size: 1.2rem; color: var(--text-secondary); line-height: 1.8; max-width: 750px; margin: 0;">
+                    Built on <strong style="color: #0f172a;">AWS global infrastructure</strong>, powered by <strong style="color: #0f172a;">Anthropic Claude's</strong> language intelligence and <strong style="color: #0f172a;">IBM's</strong> predictive analytics engine — and distributed through <strong style="color: #0f172a;">GlassHouse Group's</strong> commercial network across Europe.
+                </p>
             </div>
         </div>
     </section>
