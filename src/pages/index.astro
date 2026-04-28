@@ -1,37 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>360ENGAGE | Corporate</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        html { scroll-behavior: smooth; }
-    </style>
-</head>
-<body>
-    <div class="ambient-orb"></div>
+---
+import Layout from '../layouts/Layout.astro';
+---
 
-    <!-- Global Navigation -->
-    <nav class="global-nav">
-        <a href="#" style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; color: var(--accent); text-decoration: none; letter-spacing: -0.05em;">
-            360ENGAGE
-        </a>
-        <div class="nav-links">
-            <a href="#" class="nav-link">Homepage</a>
-            <a href="#problem" class="nav-link">The Problem</a>
-            <a href="#solution" class="nav-link">The Solution</a>
-            <a href="#how-it-works" class="nav-link">How It Works</a>
-            <a href="#features" class="nav-link">Platform Features</a>
-            <a href="#team" class="nav-link">About Us</a>
-            <a href="#contact" class="nav-link">Contact Us</a>
-            <a href="demo/index.html" class="cta-button" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">Explore Platform</a>
-        </div>
-    </nav>
-
+<Layout title="360ENGAGE | Corporate">
     <!-- Hero Section -->
     <section class="hero" style="padding-top: 100px; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(241,245,249,0.5) 100%);">
         <div class="container" style="text-align: center; position: relative; z-index: 10;">
@@ -39,7 +10,7 @@
             <h1 style="max-width: 1000px; margin: 0 auto 2rem;">TURN INVISIBLE FANS INTO MEASURABLE REVENUE</h1>
             <p style="max-width: 700px; margin: 0 auto 3rem;">The infrastructure platform enabling sports properties to capture zero-party data, drive in-seat sales, and build proprietary engagement moats.</p>
             
-            <a href="demo/index.html" class="cta-button">See How It Works</a>
+            <a href="/demo/" class="cta-button">See How It Works</a>
             <a href="#problem" style="display: inline-block; margin-left: 1rem; color: var(--text-secondary); text-decoration: none; font-weight: 500;">Learn More &rarr;</a>
         </div>
     </section>
@@ -53,8 +24,8 @@
                 <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.6;">Rights holders reach billions, but on average, they only "know" 24% of their audience. This is the "Million-Dollar Blind Spot"—a systemic revenue leakage costing the average sports property between $1M and $5M annually.</p>
             </div>
             <div class="image-stack">
-                <img src="assets/alfonso-scarpa-e12EkMYv44U-unsplash.jpg" alt="Stadium Crowd" class="img-main" onerror="this.src='https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&q=80&w=800';">
-                <img src="assets/thomas-serer-alUSb8lCE5s-unsplash.jpg" alt="Fan Interaction" class="img-accent" onerror="this.src='https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?auto=format&fit=crop&q=80&w=600';">
+                <img src="/assets/alfonso-scarpa-e12EkMYv44U-unsplash.jpg" alt="Stadium Crowd" class="img-main" onerror="this.src='https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&q=80&w=800';">
+                <img src="/assets/thomas-serer-alUSb8lCE5s-unsplash.jpg" alt="Fan Interaction" class="img-accent" onerror="this.src='https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?auto=format&fit=crop&q=80&w=600';">
             </div>
         </div>
     </section>
@@ -68,7 +39,7 @@
         </div>
     </section>
 
-    <!-- NEW: How It Works (Step-by-Step Flow) -->
+    <!-- How It Works (Step-by-Step Flow) -->
     <section id="how-it-works" class="section">
         <div class="container">
             <div style="text-align: center; margin-bottom: 4rem;">
@@ -95,7 +66,7 @@
         </div>
     </section>
 
-    <!-- NEW: Platform Features Grid -->
+    <!-- Platform Features Grid -->
     <section id="features" class="section" style="background: rgba(241, 245, 249, 0.4); border-top: 1px solid var(--border);">
         <div class="container">
             <div style="max-width: 600px; margin-bottom: 3rem;">
@@ -150,7 +121,7 @@
         </div>
     </section>
 
-    <!-- NEW: Why Now Urgency Band -->
+    <!-- Why Now Urgency Band -->
     <section id="why-now" class="section" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; border-top: 1px solid rgba(255,255,255,0.1);">
         <div class="container" style="text-align: center; max-width: 900px;">
             <div class="tagline" style="justify-content: center; color: var(--accent);">Why Now?</div>
@@ -170,37 +141,37 @@
             
             <div class="team-grid">
                 <div class="team-card">
-                    <img src="image/William Block.png" alt="William Block" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/William Block.png" alt="William Block" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">WB</div>
                     <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">William Block</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem;">Co-Founder</p>
                 </div>
                 <div class="team-card">
-                    <img src="image/Daniel Davis.png" alt="Daniel Davis" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/Daniel Davis.png" alt="Daniel Davis" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">DD</div>
                     <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Daniel Davis</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem;">Co-Founder & CFO</p>
                 </div>
                 <div class="team-card">
-                    <img src="image/Simon Moseley.png" alt="Simon Moseley" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/Simon Moseley.png" alt="Simon Moseley" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">SM</div>
                     <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Simon Moseley</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem;">Co-Founder</p>
                 </div>
                 <div class="team-card">
-                    <img src="image/Graham Warren.png" alt="Graham Warren" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/Graham Warren.png" alt="Graham Warren" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">GW</div>
                     <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Graham Warren</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem;">Co-Founder</p>
                 </div>
                 <div class="team-card">
-                    <img src="image/Stewart Irvine.png" alt="Stewart Irvine" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/Stewart Irvine.png" alt="Stewart Irvine" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">SI</div>
                     <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Stewart Irvine</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem;">Co-Founder & CTO</p>
                 </div>
                 <div class="team-card">
-                    <img src="image/Ben Prior.png" alt="Ben Prior" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/Ben Prior.png" alt="Ben Prior" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">BP</div>
                     <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Ben Prior</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem;">Creative Director</p>
@@ -208,48 +179,4 @@
             </div>
         </div>
     </section>
-
-    <!-- Comprehensive Footer -->
-    <footer id="contact" class="corporate-footer">
-        <div class="footer-grid">
-            <div>
-                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; margin-bottom: 1.5rem; color: white; letter-spacing: -0.05em;">360ENGAGE</h3>
-                <p style="margin-bottom: 1.5rem; color: #94A3B8; max-width: 400px; line-height: 1.6;">
-                    <strong style="color:white;">Technology Partners:</strong><br>
-                    Powered by world-class infrastructure including AWS, IBM, and Anthropic's Claude models.
-                </p>
-                <p style="color: #94A3B8; max-width: 400px; line-height: 1.6;">
-                    <strong style="color:white;">The Quebec Advantage:</strong><br>
-                    Our engineering is optimized through Quebec-based arbitrage, reducing net MVP costs by 35-50% while utilizing world-class AI talent.
-                </p>
-            </div>
-            <div>
-                <h5 style="color: white; font-size: 1.1rem; margin-bottom: 1.5rem;">Platform</h5>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: 0.75rem;"><a href="#problem" style="color: #94A3B8; text-decoration: none;">The Problem</a></li>
-                    <li style="margin-bottom: 0.75rem;"><a href="#solution" style="color: #94A3B8; text-decoration: none;">The Solution</a></li>
-                    <li style="margin-bottom: 0.75rem;"><a href="#how-it-works" style="color: #94A3B8; text-decoration: none;">How It Works</a></li>
-                    <li style="margin-bottom: 0.75rem;"><a href="#roi" style="color: #94A3B8; text-decoration: none;">The ROI</a></li>
-                </ul>
-            </div>
-            <div>
-                <h5 style="color: white; font-size: 1.1rem; margin-bottom: 1.5rem;">Contact Us</h5>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: 1.5rem;">
-                        <span style="color: white; display: block; margin-bottom: 0.25rem;">UK</span>
-                        <a href="mailto:Graham@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">Graham Warren</a>
-                    </li>
-                    <li>
-                        <span style="color: white; display: block; margin-bottom: 0.25rem;">USA</span>
-                        <a href="mailto:Wil@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">Wil Block</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div>&copy; 2026 by 360Engage. All rights reserved.</div>
-            <div>The Fan Intelligence Platform</div>
-        </div>
-    </footer>
-</body>
-</html>
+</Layout>

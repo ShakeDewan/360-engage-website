@@ -1,0 +1,63 @@
+---
+interface Props {
+  isDemo?: boolean;
+}
+
+const { isDemo = false } = Astro.props;
+---
+
+{isDemo ? (
+  <div class="citations-bar">
+      <div class="container" style="max-width: 1200px; margin: 0 auto;">
+          <strong>Methodology & Citations:</strong> This investment brief synthesizes audited industry data across
+          macroeconomics, behavioral architecture, and B2B M&A valuations. Figures reflect verified enterprise
+          modeling from leading authorities: The <em>€665K friction penalty</em> (PickEat Stadium Concourse Modeling);
+          <em>77% App Deletion</em> (BlueThrone Engagement Metrics); <em>2.5x LTV Multiplier</em> (Frontiers in Sports
+          ML Valuation); <em>11,000 Hours Deflected & $232k Incremental Revenue</em> (Satisfi Labs Astros Case Study);
+          <em>24% Anonymous Fan Index</em> (Dizplai); and the <em>$130 Billion Tech TAM</em> (Morgan Stanley
+          Research). A fully annotated document is available in the data room.
+      </div>
+  </div>
+) : (
+  <footer id="contact" class="corporate-footer">
+      <div class="footer-grid">
+          <div>
+              <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; margin-bottom: 1.5rem; color: white; letter-spacing: -0.05em;">360ENGAGE</h3>
+              <p style="margin-bottom: 1.5rem; color: #94A3B8; max-width: 400px; line-height: 1.6;">
+                  <strong style="color:white;">Technology Partners:</strong><br>
+                  Powered by world-class infrastructure including AWS, IBM, and Anthropic's Claude models.
+              </p>
+              <p style="color: #94A3B8; max-width: 400px; line-height: 1.6;">
+                  <strong style="color:white;">The Quebec Advantage:</strong><br>
+                  Our engineering is optimized through Quebec-based arbitrage, reducing net MVP costs by 35-50% while utilizing world-class AI talent.
+              </p>
+          </div>
+          <div>
+              <h5 style="color: white; font-size: 1.1rem; margin-bottom: 1.5rem;">Platform</h5>
+              <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 0.75rem;"><a href="#problem" style="color: #94A3B8; text-decoration: none;">The Problem</a></li>
+                  <li style="margin-bottom: 0.75rem;"><a href="#solution" style="color: #94A3B8; text-decoration: none;">The Solution</a></li>
+                  <li style="margin-bottom: 0.75rem;"><a href="#how-it-works" style="color: #94A3B8; text-decoration: none;">How It Works</a></li>
+                  <li style="margin-bottom: 0.75rem;"><a href="#roi" style="color: #94A3B8; text-decoration: none;">The ROI</a></li>
+              </ul>
+          </div>
+          <div>
+              <h5 style="color: white; font-size: 1.1rem; margin-bottom: 1.5rem;">Contact Us</h5>
+              <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 1.5rem;">
+                      <span style="color: white; display: block; margin-bottom: 0.25rem;">UK</span>
+                      <a href="mailto:Graham@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">Graham Warren</a>
+                  </li>
+                  <li>
+                      <span style="color: white; display: block; margin-bottom: 0.25rem;">USA</span>
+                      <a href="mailto:Wil@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">Wil Block</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          <div>&copy; 2026 by 360Engage. All rights reserved.</div>
+          <div>The Fan Intelligence Platform</div>
+      </div>
+  </footer>
+)}

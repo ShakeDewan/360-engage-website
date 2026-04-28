@@ -1,35 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+import Layout from '../../layouts/Layout.astro';
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>360ENGAGE | Investor Brief</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <style>
-        html { scroll-behavior: smooth; }
-    </style>
-</head>
-
-<body>
-
-    <div class="ambient-orb"></div>
-
-    <!-- Global Navigation -->
-    <nav class="global-nav">
-        <a href="../index.html" style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; font-weight: 800; color: var(--accent); text-decoration: none; letter-spacing: -0.05em;">
-            360ENGAGE
-        </a>
-        <div class="nav-links">
-            <a href="../index.html" class="nav-link">&larr; Back to Corporate Homepage</a>
-            <a href="#investment-thesis" class="nav-link">Investment Thesis</a>
-        </div>
-    </nav>
+<Layout title="360ENGAGE | Investor Brief" isDemo={true}>
 
     <!-- 1. The Hook (Hero) -->
     <section class="hero">
@@ -362,18 +335,4 @@
         </div>
     </section>
 
-    <div class="citations-bar">
-        <div class="container" style="max-width: 1200px; margin: 0 auto;">
-            <strong>Methodology & Citations:</strong> This investment brief synthesizes audited industry data across
-            macroeconomics, behavioral architecture, and B2B M&A valuations. Figures reflect verified enterprise
-            modeling from leading authorities: The <em>€665K friction penalty</em> (PickEat Stadium Concourse Modeling);
-            <em>77% App Deletion</em> (BlueThrone Engagement Metrics); <em>2.5x LTV Multiplier</em> (Frontiers in Sports
-            ML Valuation); <em>11,000 Hours Deflected & $232k Incremental Revenue</em> (Satisfi Labs Astros Case Study);
-            <em>24% Anonymous Fan Index</em> (Dizplai); and the <em>$130 Billion Tech TAM</em> (Morgan Stanley
-            Research). A fully annotated document is available in the data room.
-        </div>
-    </div>
-
-</body>
-
-</html>
+</Layout>

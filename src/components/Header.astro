@@ -1,0 +1,43 @@
+---
+interface Props {
+  isDemo?: boolean;
+}
+
+const { isDemo = false } = Astro.props;
+---
+
+<nav class="global-nav">
+  <a href="/" class="brand-logo">
+      360ENGAGE
+  </a>
+  <div class="nav-links">
+      {isDemo ? (
+          <>
+              <a href="/" class="nav-link">&larr; Back to Corporate Homepage</a>
+              <a href="#investment-thesis" class="nav-link">Investment Thesis</a>
+          </>
+      ) : (
+          <>
+              <a href="#" class="nav-link">Homepage</a>
+              <a href="#problem" class="nav-link">The Problem</a>
+              <a href="#solution" class="nav-link">The Solution</a>
+              <a href="#how-it-works" class="nav-link">How It Works</a>
+              <a href="#features" class="nav-link">Platform Features</a>
+              <a href="#team" class="nav-link">About Us</a>
+              <a href="#contact" class="nav-link">Contact Us</a>
+              <a href="/demo/" class="cta-button" style="padding: 0.75rem 1.5rem; font-size: 0.9rem;">Explore Platform</a>
+          </>
+      )}
+  </div>
+</nav>
+
+<style>
+  .brand-logo {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--accent);
+      text-decoration: none;
+      letter-spacing: -0.05em;
+  }
+</style>
