@@ -19,45 +19,23 @@ const { isDemo = false } = Astro.props;
       </div>
   </div>
 ) : (
-  <footer id="contact" class="corporate-footer">
-      <div class="footer-grid">
-          <div>
-              <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; margin-bottom: 1.5rem; color: white; letter-spacing: -0.05em;">360ENGAGE</h3>
-              <p style="margin-bottom: 1.5rem; color: #94A3B8; max-width: 400px; line-height: 1.6;">
-                  <strong style="color:white;">Technology Partners:</strong><br>
-                  Powered by world-class infrastructure including AWS, IBM, and Anthropic's Claude models.
-              </p>
-              <p style="color: #94A3B8; max-width: 400px; line-height: 1.6;">
-                  <strong style="color:white;">The Quebec Advantage:</strong><br>
-                  Our engineering is optimized through Quebec-based arbitrage, reducing net MVP costs by 35-50% while utilizing world-class AI talent.
-              </p>
+  <footer id="footer" class="corporate-footer" style="padding: 3rem 0; background: var(--bg-surface); border-top: 1px solid var(--border);">
+      <div class="container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+          <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.5rem; margin-bottom: 0.5rem; color: #0f172a; letter-spacing: -0.05em;">360ENGAGE</h3>
+          <p style="color: var(--text-secondary); margin-bottom: 2rem;">The Fan Intelligence Platform for professional sports clubs.</p>
+          
+          <div style="display: flex; gap: 2rem; margin-bottom: 2rem; flex-wrap: wrap; justify-content: center;">
+              <span style="color: var(--text-secondary); font-size: 0.9rem;">
+                  <strong style="color: #0f172a;">UK:</strong> Graham Warren — <a href="mailto:Graham@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none;">Graham@glasshouse-group.co.uk</a>
+              </span>
+              <span style="color: var(--text-secondary); font-size: 0.9rem;">
+                  <strong style="color: #0f172a;">Global:</strong> Stewart Irvine — <a href="mailto:stewart@360engage.ai" style="color: var(--accent); text-decoration: none;">stewart@360engage.ai</a>
+              </span>
           </div>
-          <div>
-              <h5 style="color: white; font-size: 1.1rem; margin-bottom: 1.5rem;">Platform</h5>
-              <ul style="list-style: none; padding: 0;">
-                  <li style="margin-bottom: 0.75rem;"><a href="#problem" style="color: #94A3B8; text-decoration: none;">The Problem</a></li>
-                  <li style="margin-bottom: 0.75rem;"><a href="#solution" style="color: #94A3B8; text-decoration: none;">The Solution</a></li>
-                  <li style="margin-bottom: 0.75rem;"><a href="#how-it-works" style="color: #94A3B8; text-decoration: none;">How It Works</a></li>
-                  <li style="margin-bottom: 0.75rem;"><a href="#roi" style="color: #94A3B8; text-decoration: none;">The ROI</a></li>
-              </ul>
+
+          <div style="font-size: 0.85rem; color: var(--text-secondary);">
+              &copy; 2026 Glasshouse Engage Inc. | <a href="https://360engage.ai" style="color: var(--text-secondary); text-decoration: none;">360engage.ai</a>
           </div>
-          <div>
-              <h5 style="color: white; font-size: 1.1rem; margin-bottom: 1.5rem;">Contact Us</h5>
-              <ul style="list-style: none; padding: 0;">
-                  <li style="margin-bottom: 1.5rem;">
-                      <span style="color: white; display: block; margin-bottom: 0.25rem;">UK</span>
-                      <a href="mailto:Graham@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">Graham Warren</a>
-                  </li>
-                  <li>
-                      <span style="color: white; display: block; margin-bottom: 0.25rem;">USA</span>
-                      <a href="mailto:Wil@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500;">Wil Block</a>
-                  </li>
-              </ul>
-          </div>
-      </div>
-      <div class="footer-bottom">
-          <div>&copy; 2026 by 360Engage. All rights reserved.</div>
-          <div>The Fan Intelligence Platform</div>
       </div>
   </footer>
 )}
