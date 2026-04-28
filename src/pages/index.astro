@@ -4,15 +4,15 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="360ENGAGE | The Fan Intelligence Platform">
     <!-- PAGE 1: HERO SECTION -->
-    <section class="hero" style="padding-top: 100px; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(241,245,249,0.5) 100%);">
+    <section class="hero" style="padding-top: 120px; padding-bottom: 80px; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(241,245,249,0.5) 100%);">
         <div class="container" style="text-align: center; position: relative; z-index: 10;">
-            <div class="tagline" style="justify-content: center;">The Million-Dollar Blind Spot</div>
-            <h1 style="max-width: 1000px; margin: 0 auto 2rem;">7 OUT OF 10 OF YOUR FANS ARE INVISIBLE TO YOU.</h1>
-            <p style="max-width: 700px; margin: 0 auto 3rem;">They follow every result. They wear your colours. They have supported your club for years. And they have never once appeared in your database.</p>
-            <p style="max-width: 700px; margin: 0 auto 3rem; font-weight: 600; color: var(--accent);">Glasshouse Engage Inc. built 360ENGAGE to change that.</p>
+            <div class="tagline" style="justify-content: center; margin-bottom: 1.5rem;">The Million-Dollar Blind Spot</div>
+            <h1 style="max-width: 900px; margin: 0 auto 1.5rem; font-size: clamp(3rem, 6vw, 5rem); line-height: 1.1; letter-spacing: -0.03em; background: linear-gradient(90deg, #0f172a 0%, #334155 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">7 OUT OF 10 OF YOUR FANS ARE INVISIBLE.</h1>
+            <p style="max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.25rem; line-height: 1.6; color: var(--text-secondary);">They follow every result. They wear your colours. They have supported your club for years. And they have never once appeared in your database.</p>
+            <p style="max-width: 600px; margin: 0 auto 3rem; font-size: 1.25rem; font-weight: 600; color: var(--accent);">360ENGAGE is the infrastructure built to change that.</p>
             
-            <a href="#talk-to-us" class="cta-button" style="background: var(--accent); color: #0f172a;">Talk to Us</a>
-            <a href="/demo/" style="display: inline-block; margin-left: 1rem; color: var(--text-secondary); text-decoration: none; font-weight: 500;">Explore the Platform &rarr;</a>
+            <a href="#talk-to-us" class="cta-button" style="background: var(--accent); color: #0f172a; padding: 1rem 2rem; font-size: 1.1rem;">Talk to Us</a>
+            <a href="/demo/" style="display: inline-block; margin-left: 1.5rem; color: var(--text-secondary); text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: color 0.2s ease;">Explore the Platform &rarr;</a>
         </div>
     </section>
 
@@ -87,14 +87,49 @@ import Layout from '../layouts/Layout.astro';
                 </div>
             </div>
 
-            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-                <h3 style="font-size: 2rem; margin-bottom: 2rem;">From Scan to Revenue. Five Steps.</h3>
-                <div style="text-align: left; background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
-                    <div style="margin-bottom: 1.5rem;"><strong><span style="color: var(--accent);">01 — The Scan:</span></strong> A fan scans a QR code on merchandise or a stadium asset. No app required. A Progressive Web App opens instantly.</div>
-                    <div style="margin-bottom: 1.5rem;"><strong><span style="color: var(--accent);">02 — The Conversation:</span></strong> An AI-powered interface opens a natural dialogue, capturing name, location, and intent without a form.</div>
-                    <div style="margin-bottom: 1.5rem;"><strong><span style="color: var(--accent);">03 — The Profile:</span></strong> Each conversation builds a verified first-party profile integrated directly into the club's CRM.</div>
-                    <div style="margin-bottom: 1.5rem;"><strong><span style="color: var(--accent);">04 — The Revenue Trigger:</span></strong> The platform surfaces relevant offers—merchandise, F&B, partner promotions—delivering 4x traditional conversion.</div>
-                    <div><strong><span style="color: var(--accent);">05 — The Relationship:</span></strong> The fan is no longer invisible. Every subsequent interaction deepens the profile and compounds commercial value.</div>
+            <div style="max-width: 900px; margin: 0 auto;">
+                <h3 style="font-size: 2rem; margin-bottom: 3rem; text-align: center;">From Scan to Revenue. Five Steps.</h3>
+                
+                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
+                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">01</div>
+                        <div>
+                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Scan</h4>
+                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">A fan scans a QR code on merchandise or a stadium asset. No app required. A Progressive Web App opens instantly.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
+                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">02</div>
+                        <div>
+                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Conversation</h4>
+                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">An AI-powered interface opens a natural dialogue, capturing name, location, and intent without a form.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
+                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">03</div>
+                        <div>
+                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Profile</h4>
+                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">Each conversation builds a verified first-party profile integrated directly into the club's CRM.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
+                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">04</div>
+                        <div>
+                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Revenue Trigger</h4>
+                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">The platform surfaces relevant offers—merchandise, F&B, partner promotions—delivering 4x traditional conversion.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #0f172a; color: white;">
+                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">05</div>
+                        <div>
+                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: white;">The Relationship</h4>
+                            <p style="color: #94A3B8; line-height: 1.6; margin: 0;">The fan is no longer invisible. Every subsequent interaction deepens the profile and compounds commercial value.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -110,21 +145,21 @@ import Layout from '../layouts/Layout.astro';
             </div>
             
             <div class="grid-4">
-                <div class="glass-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+                <div class="glass-card" style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); padding: 2rem;">
                     <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.25rem;">01 — Direct Fan Monetisation</h3>
-                    <p style="color: #cbd5e1; font-size: 0.95rem;">Merchandise, subscriptions, ticketing, and F&B surfaced in-conversation, at the moment of highest engagement.</p>
+                    <p style="color: white; font-size: 0.95rem; line-height: 1.5;">Merchandise, subscriptions, ticketing, and F&B surfaced in-conversation, at the moment of highest engagement.</p>
                 </div>
-                <div class="glass-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+                <div class="glass-card" style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); padding: 2rem;">
                     <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.25rem;">02 — Partner Activation</h3>
-                    <p style="color: #cbd5e1; font-size: 0.95rem;">Give commercial partners precision targeting built on verified first-party data, not panel estimates.</p>
+                    <p style="color: white; font-size: 0.95rem; line-height: 1.5;">Give commercial partners precision targeting built on verified first-party data, not panel estimates.</p>
                 </div>
-                <div class="glass-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+                <div class="glass-card" style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); padding: 2rem;">
                     <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.25rem;">03 — Subscriptions</h3>
-                    <p style="color: #cbd5e1; font-size: 0.95rem;">Progressive engagement converts anonymous fans into paying members within a tiered ecosystem you own.</p>
+                    <p style="color: white; font-size: 0.95rem; line-height: 1.5;">Progressive engagement converts anonymous fans into paying members within a tiered ecosystem you own.</p>
                 </div>
-                <div class="glass-card" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+                <div class="glass-card" style="background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); padding: 2rem;">
                     <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.25rem;">04 — Impact Revenue</h3>
-                    <p style="color: #cbd5e1; font-size: 0.95rem;">Link fan purchases to verified ecosystem restoration. A brand story partners want to fund.</p>
+                    <p style="color: white; font-size: 0.95rem; line-height: 1.5;">Link fan purchases to verified ecosystem restoration. A brand story partners want to fund.</p>
                 </div>
             </div>
         </div>
@@ -167,9 +202,9 @@ import Layout from '../layouts/Layout.astro';
                     <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Oversees financial strategy and investor relations. Brings institutional finance experience to a team that builds fast and plans deliberately.</p>
                 </div>
                 <div class="team-card">
-                    <img src="/image/Shekhar Dewan.png" alt="Shekhar Dewan" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <img src="/image/Shake Dewan.png" alt="Shake Dewan" class="team-photo glass-card" style="padding:0; object-fit: cover;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
                     <div class="team-photo glass-card" style="display:none;">SD</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Shekhar Dewan</h4>
+                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Shake Dewan</h4>
                     <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">Technology Lead, AI Forward Inc.</p>
                     <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Leads platform architecture and AI deployment. Brings applied AI engineering expertise to build systems that scale globally.</p>
                 </div>
