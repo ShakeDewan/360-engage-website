@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>360ENGAGE | Investor Brief</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #ffffff;
+            --bg-surface: rgba(241, 245, 249, 0.6);
+            --bg-surface-hover: rgba(241, 245, 249, 0.9);
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --accent: #1d4ed8;
+            --accent-glow: rgba(29, 78, 216, 0.15);
+            --border: rgba(226, 232, 240, 1);
+            --gradient-primary: linear-gradient(135deg, #2563eb 0%, #1745c1 100%);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+            background-image:
+                radial-gradient(circle at 15% 50%, rgba(37, 99, 235, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 85% 30%, rgba(29, 78, 216, 0.05) 0%, transparent 50%),
+                url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.606 14.535c-.067-.008-.135-.015-.206-.022V2.414l5.6 5.6V15c-.233-.16-.466-.314-.7-.465h-.002c-.234-.145-.48-.284-.71-.413l-.004-.002c-.26-.145-.52-.284-.783-.418l-.004-.002c-.276-.14-.555-.27-.837-.393l-.004-.002c-.322-.14-.648-.266-.98-.38l-.003-.002c-.347-.118-.7-.225-1.057-.318l-.003-.001c-.13-.034-.262-.066-.395-.095l-.002-.001c-.34-.07-.68-.13-1.028-.178l-.002-.001c-.15-.02-.303-.036-.457-.05zm-15.106 25c-.067-.008-.135-.015-.206-.022V27.414l5.6 5.6V40c-.233-.16-.466-.314-.7-.465h-.002c-.234-.145-.48-.284-.71-.413l-.004-.002c-.26-.145-.52-.284-.783-.418l-.004-.002c-.276-.14-.555-.27-.837-.393l-.004-.002c-.322-.14-.648-.266-.98-.38l-.003-.002c-.347-.118-.7-.225-1.057-.318l-.003-.001c-.13-.034-.262-.066-.395-.095l-.002-.001c-.34-.07-.68-.13-1.028-.178l-.002-.001c-.15-.02-.303-.036-.457-.05z' fill='%232563eb' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+            background-attachment: fixed;
+        }
+
+        /* Ambient glowing orb for premium feel */
+        .ambient-orb {
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(37, 99, 235, 0.08) 0%, transparent 70%);
+            border-radius: 50%;
+            top: -300px;
+            left: 50%;
+            transform: translateX(-50%);
+            pointer-events: none;
+            z-index: 0;
+            animation: orb-breathe 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes orb-breathe {
+            0% {
+                transform: translateX(-50%) scale(1);
+                opacity: 0.3;
+            }
+
+            100% {
+                transform: translateX(-50%) scale(1.1);
+                opacity: 0.6;
+            }
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Outfit', sans-serif;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        /* Glassmorphism Utilities */
+        .glass-card {
+            background: var(--bg-surface);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+        }
+
+        .glass-card:hover {
+            transform: translateY(-5px);
+            background: var(--bg-surface-hover);
+            border-color: var(--accent);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* Enhanced Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tagline {
+            color: var(--accent);
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tagline::before,
+        .tagline::after {
+            content: '';
+            height: 1px;
+            width: 30px;
+            background: var(--accent);
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 6vw, 5.5rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 2rem;
+            background: linear-gradient(180deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            max-width: 1000px;
+        }
+
+        .hero p {
+            font-size: clamp(1.125rem, 2vw, 1.5rem);
+            color: var(--text-secondary);
+            max-width: 750px;
+            margin: 0 auto 3rem auto;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: var(--gradient-primary);
+            color: white;
+            padding: 1.25rem 3rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 1.125rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px -5px var(--accent-glow);
+            position: relative;
+            overflow: hidden;
+            font-family: 'Outfit', sans-serif;
+            letter-spacing: 0.02em;
+        }
+
+        .cta-button::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(255, 255, 255, 0.2), transparent);
+            border-radius: inherit;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 15px 35px -5px var(--accent-glow);
+        }
+
+        /* High-Impact Key Metrics Band */
+        .master-metrics {
+            width: 100%;
+            padding: 2rem 0;
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            position: relative;
+            z-index: 10;
+        }
+
+        .metrics-marquee {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            max-width: 1400px;
+            margin: 0 auto;
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+
+        .marquee-item {
+            text-align: center;
+        }
+
+        .marquee-value {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .marquee-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 500;
+        }
+
+        /* Section Layouts */
+        .section {
+            min-height: auto;
+            padding: 8rem 2rem;
+            position: relative;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        @media (max-width: 960px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 3rem;
+            }
+        }
+
+        /* Typography sizing for impact */
+        .impact-heading {
+            font-size: clamp(2.5rem, 4vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.02em;
+            color: #0f172a;
+        }
+
+        .impact-text {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* Robust Data Cards */
+        .data-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .data-card {
+            padding: 3rem 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .data-card .stat-header {
+            display: flex;
+            align-items: baseline;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .stat-huge {
+            font-family: 'Outfit', sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            color: #0f172a;
+            line-height: 1;
+        }
+
+        .stat-sub {
+            font-size: 1.25rem;
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .data-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0f172a;
+        }
+
+        .data-desc {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 1.05rem;
+        }
+
+        /* Features List */
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 2.5rem 0;
+        }
+
+        .feature-list li {
+            font-size: 1.125rem;
+            margin-bottom: 2rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 1.25rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .feature-icon-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            background: rgba(14, 165, 233, 0.1);
+            border: 1px solid rgba(14, 165, 233, 0.2);
+            border-radius: 12px;
+            color: var(--accent);
+            flex-shrink: 0;
+            font-size: 1.5rem;
+        }
+
+        /* Bottom CTA */
+        .footer-cta {
+            text-align: center;
+            padding: 10rem 2rem;
+            position: relative;
+            background-color: #f8fafc;
+        }
+
+        .footer-cta::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100vw;
+            height: 500px;
+            background: radial-gradient(circle at bottom, rgba(37, 99, 235, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .footer-cta h2 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 2rem;
+            letter-spacing: -0.02em;
+        }
+
+        .citations-bar {
+            text-align: left;
+            padding: 3rem 2rem;
+            background: #ffffff;
+            border-top: 1px solid var(--border);
+            color: #64748b;
+            font-size: 0.8125rem;
+            line-height: 1.6;
+        }
+
+        .citations-bar a {
+            color: #9ca3af;
+            text-decoration: underline;
+            text-decoration-color: #374151;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="ambient-orb"></div>
+
+    <!-- 1. The Hook (Hero) -->
+    <section class="hero">
+        <span class="tagline">360ENGAGE / Investor Due Diligence</span>
+        <h1>The Frictionless<br>Fan Engagement Platform.</h1>
+        <p>Institutional capital in sports tech is pivoting from analog reach to deterministic yield. 360ENGAGE uses
+            advanced Conversational AI and app-less deployment to eliminate concourse friction—translating anonymous
+            crowds into high-margin revenue.</p>
+        <a href="360ENGAGE_Investor_Memo_Whitepaper.pdf" target="_blank" class="cta-button">Read the Investment
+            Thesis</a>
+    </section>
+
+    <!-- Hard Metrics Bar based on deep research -->
+    <div class="master-metrics">
+        <div class="metrics-marquee">
+            <div class="marquee-item">
+                <span class="marquee-value">€665K</span>
+                <span class="marquee-label">Annual Friction Penalty Loss</span>
+            </div>
+            <div class="marquee-item">
+                <span class="marquee-value">11,000</span>
+                <span class="marquee-label">Human Support Hrs Saved</span>
+            </div>
+            <div class="marquee-item">
+                <span class="marquee-value">77%</span>
+                <span class="marquee-label">Native App 3-Day Delete Rate</span>
+            </div>
+            <div class="marquee-item">
+                <span class="marquee-value">2.5x</span>
+                <span class="marquee-label">1st-Party LTV Multiplier</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Pillar 1: The Macro Reality -->
+    <section id="investment-thesis" class="section">
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <span class="tagline" style="justify-content: center;">Pillar 1: The Macro Reality</span>
+                <h2 class="impact-heading">The "Friction Penalty"</h2>
+                <p class="impact-text">With media rights cooling to a 2.7% CAGR, revenue growth relies strictly on
+                    per-capita in-stadium yield. Yet, analog infrastructure is destroying latent demand.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="glass-card data-card">
+                    <div class="stat-header">
+                        <span class="stat-huge">40%</span>
+                    </div>
+                    <h3 class="data-title">Queue Abandonment</h3>
+                    <p class="data-desc">Over 40% of global sports fans wholly abandon merchandise and concession lines
+                        due to excessive 15-minute half-time wait times.</p>
+                </div>
+                <div class="glass-card data-card">
+                    <div class="stat-header">
+                        <span class="stat-huge">€35K</span><span class="stat-sub">/ match</span>
+                    </div>
+                    <h3 class="data-title">Uncaptured Intent</h3>
+                    <p class="data-desc">Modeling for a standard 25,000-seat stadium indicates operators lose €35,000
+                        per event in uncaptured intent—equating to <strong>€665,000 in pure EBITDA leakage</strong>
+                        annually.</p>
+                </div>
+                <div class="glass-card data-card">
+                    <div class="stat-header">
+                        <span class="stat-sub">Up to</span><span class="stat-huge">+43%</span>
+                    </div>
+                    <h3 class="data-title">F&B Spend Uplift</h3>
+                    <p class="data-desc">Halving transaction wait-times via cashless and app-less infrastructure
+                        organically lifts per-capita food & beverage spending by 43%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Pillar 2: Architecture Moat vs. Native Collapse -->
+    <section class="section" style="background: #0f172a;">
+        <div class="container grid-2">
+            <div>
+                <span class="tagline" style="color: #60a5fa;">Pillar 2: Architecture Moat</span>
+                <h2 class="impact-heading" style="color: #ffffff;">The Native App is Dead.</h2>
+                <p class="impact-text" style="color: #94a3b8;">Clubs spend millions developing siloed native apps. Yet
+                    for the casual fan
+                    visiting 1-2 times a year, the hurdle rate of downloading an app on congested stadium Wi-Fi results
+                    in a structural failure.</p>
+
+                <ul class="feature-list">
+                    <li style="color: #94a3b8;">
+                        <div class="feature-icon-wrap"
+                            style="color: #60a5fa; border-color: rgba(96, 165, 250, 0.3); background: rgba(96, 165, 250, 0.1);">
+                            📉</div>
+                        <div>
+                            <strong style="color: #e2e8f0;">77% 3-Day Deletion Rate:</strong> Independent analytics
+                            confirm the vast majority of
+                            local stadium apps are abandoned immediately post-match.
+                        </div>
+                    </li>
+                    <li style="color: #94a3b8;">
+                        <div class="feature-icon-wrap"
+                            style="color: #60a5fa; border-color: rgba(96, 165, 250, 0.3); background: rgba(96, 165, 250, 0.1);">
+                            🌐</div>
+                        <div>
+                            <strong style="color: #e2e8f0;">Browser-First Bypass:</strong> 360ENGAGE bypasses app stores
+                            entirely using
+                            Progressive Web Apps (PWA) triggered via seat-back QR codes, achieving up to <strong
+                                style="color: #e2e8f0;">40%
+                                active hub engagement</strong> instantly.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <!-- Stylized UI Mockup representation -->
+                <div class="glass-card"
+                    style="padding: 3rem; text-align: center; border-color: rgba(59, 130, 246, 0.4); background: rgba(30, 41, 59, 0.6);">
+                    <div
+                        style="width: 140px; height: 140px; margin: 0 auto 2rem auto; border: 2px dashed #475569; border-radius: 20px; display: flex; align-items: center; justify-content: center; background: rgba(15, 23, 42, 0.8);">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <rect x="7" y="7" width="3" height="3"></rect>
+                            <rect x="14" y="7" width="3" height="3"></rect>
+                            <rect x="7" y="14" width="3" height="3"></rect>
+                            <rect x="14" y="14" width="3" height="3"></rect>
+                        </svg>
+                    </div>
+                    <h3 class="data-title" style="font-size: 1.75rem; color: #ffffff;">Frictionless. App-Less.</h3>
+                    <p class="data-desc" style="color: #94a3b8;">Direct to the fan's browser. Zero download abandonment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Solution Surface One: The Concierge AI -->
+    <section class="section" style="background: rgba(241, 245, 249, 0.2); border-top: 1px solid var(--border);">
+        <div class="container grid-2">
+            <div>
+                <span class="tagline">Surface One</span>
+                <h2 class="impact-heading">The Concierge AI</h2>
+                <p class="impact-text">A 24/7 conversational layer integrated directly into club websites, apps, and
+                    phone lines. Designed for speed, convenience, and service excellence.</p>
+                <ul class="feature-list">
+                    <li>
+                        <div class="feature-icon-wrap">🎙️</div>
+                        <div><strong>Instant Resolution:</strong> AI agents answer recurring logistics, accessibility,
+                            and ticketing questions with club-verified accuracy.</div>
+                    </li>
+                    <li>
+                        <div class="feature-icon-wrap">💎</div>
+                        <div><strong>Organic Upselling:</strong> Automatically identify supporter intent and seamlessly
+                            present premium upgrade options during the flow of conversation.</div>
+                    </li>
+                </ul>
+                <div style="margin-top: 2.5rem;">
+                    <a href="https://sports-ai-voice-assistant-live-demo.netlify.app/" target="_blank"
+                        class="cta-button"
+                        style="padding: 1rem 2rem; font-size: 1rem; background: linear-gradient(135deg, #10b981 0%, #059669 100%); box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.4);">
+                        <span>▶</span> Try the Live Voice AI
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="glass-card"
+                    style="padding: 4rem 3rem; text-align: center; border-color: rgba(14, 165, 233, 0.3);">
+                    <div
+                        style="width: 80px; height: 80px; border-radius: 50%; background: var(--accent); margin: 0 auto 2rem auto; box-shadow: 0 0 30px var(--accent-glow); display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+                        🤖</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: #0f172a;">"Can I bring my kid's pram into
+                        the East Stand?"</h3>
+                    <p style="color: var(--text-secondary);">Direct, accurate, club-verified responses—delivered in
+                        seconds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Solution Surface Two: The Game-Day Companion -->
+    <section class="section" style="border-top: 1px solid var(--border);">
+        <div class="container grid-2">
+            <div>
+                <div class="glass-card"
+                    style="padding: 4rem 3rem; text-align: center; border-color: rgba(59, 130, 246, 0.3);">
+                    <div
+                        style="width: 200px; height: 200px; margin: 0 auto 2rem auto; border: 2px dashed rgba(59, 130, 246, 0.5); border-radius: 16px; display: flex; align-items: center; justify-content: center;">
+                        <span style="font-size: 5rem;">📱</span>
+                    </div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: #0f172a;">Scan. Engage. Buy.</h3>
+                    <p style="color: var(--text-secondary);">Zero friction enablement. Triggered instantly by a seat or
+                        concourse QR code.</p>
+                </div>
+            </div>
+            <div>
+                <span class="tagline">Surface Two</span>
+                <h2 class="impact-heading">The Game-Day Companion</h2>
+                <p class="impact-text">An ultra-fast, browser-based QR experience right at the fan's seat. No app
+                    downloading required—just instant, frictionless access.</p>
+                <ul class="feature-list">
+                    <li>
+                        <div class="feature-icon-wrap">🛍️</div>
+                        <div><strong>Merchandise on Demand:</strong> Let fans easily browse inventory and purchase
+                            jerseys natively from the stands, bypassing busy concourses.</div>
+                    </li>
+                    <li>
+                        <div class="feature-icon-wrap">🎟️</div>
+                        <div><strong>Frictionless Renewals:</strong> Deliver one-tap upselling for future matches
+                            directly to fans when in-stadium sentiment is high.</div>
+                    </li>
+                </ul>
+                <div style="margin-top: 2.5rem;">
+                    <a href="https://360-engage-gameday-demo.netlify.app/" target="_blank" class="cta-button"
+                        style="padding: 1rem 2rem; font-size: 1rem; background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.4);">
+                        <span>▶</span> Try the Game-Day App
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Pillar 3: AI Unit Economics -->
+    <section class="section">
+        <div class="container">
+            <div style="text-align: center; max-width: 800px; margin: 0 auto; margin-bottom: 4rem;">
+                <span class="tagline" style="justify-content: center;">Pillar 3: The Operational Engine</span>
+                <h2 class="impact-heading">Deflection to Conversion.</h2>
+                <p class="impact-text">Our Concierge AI wedge protects overwhelmed ticket offices while acting as an
+                    aggressive, conversational sales engine.</p>
+            </div>
+
+            <div class="grid-2" style="gap: 2rem;">
+                <!-- AI Defensive Card -->
+                <div class="glass-card" style="padding: 3rem;">
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                        <h3 class="data-title" style="margin: 0; font-size: 2rem;">Cost Deflection</h3>
+                        <span
+                            style="background: rgba(16, 185, 129, 0.1); color: #10b981; padding: 0.5rem 1rem; border-radius: 99px; font-weight: 600;">The
+                            Defensive Wedge</span>
+                    </div>
+                    <ul class="feature-list" style="margin:0;">
+                        <li>
+                            <div class="feature-icon-wrap"
+                                style="color: #10b981; border-color: rgba(16, 185, 129, 0.2);">🛡️</div>
+                            <div>
+                                <strong>70% - 90% Containment:</strong> Advanced NLP handles all tier-1 logistical
+                                support queries (parking, pram rules, access).
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon-wrap"
+                                style="color: #10b981; border-color: rgba(16, 185, 129, 0.2);">⏱️</div>
+                            <div>
+                                <strong>11,000 Hours Saved:</strong> Verified benchmarks (e.g., Houston Astros) show
+                                automated assistants save immense human operational load in a single season.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- AI Offensive Card -->
+                <div class="glass-card" style="padding: 3rem; border-color: rgba(59, 130, 246, 0.3);">
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+                        <h3 class="data-title" style="margin: 0; font-size: 2rem;">Sales Up-Cyling</h3>
+                        <span
+                            style="background: rgba(59, 130, 246, 0.1); color: #3b82f6; padding: 0.5rem 1rem; border-radius: 99px; font-weight: 600;">The
+                            Revenue Engine</span>
+                    </div>
+                    <ul class="feature-list" style="margin:0;">
+                        <li>
+                            <div class="feature-icon-wrap">🤝</div>
+                            <div>
+                                <strong>+36% Deal Closure:</strong> Freeing staff from support allows human focus on
+                                high-ticket hospitality, boosting close rates by 36%.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon-wrap">💎</div>
+                            <div>
+                                <strong>40% Upgrade Acceptance:</strong> In-game automated conversational seat-upgrades
+                                trigger incredibly high emotional-purchase conversions.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Pillar 4: Valuation & The Endgame -->
+    <section class="section" style="background: #0f172a;">
+        <div class="container grid-2">
+            <div>
+                <div class="glass-card"
+                    style="padding: 4rem 3rem; text-align: center; border: 1px solid rgba(255, 255, 255, 0.1); background: rgba(30, 41, 59, 0.6); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+                    <span
+                        style="display: inline-block; font-size: 5rem; font-weight: 800; font-family: 'Outfit'; color: #ffffff; text-shadow: 0 4px 10px rgba(0,0,0,0.3);">24%</span>
+                    <h3 class="data-title" style="margin-top: 1rem; color: #ffffff;">The Identifiable Cap</h3>
+                    <p style="color: #94a3b8; margin-top: 1rem; line-height: 1.5;">The sports industry leaves
+                        <strong>$130 Billion</strong> in unrealized value due to anonymous audiences. We are the bridge
+                        to data sovereignty.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <span class="tagline" style="color: #60a5fa;">Pillar 4: First-Party Sovereignty</span>
+                <h2 class="impact-heading" style="color: #ffffff;">The Enterprise Valuation Multiplier.</h2>
+                <p class="impact-text" style="color: #94a3b8;">Currently, clubs possess deterministic identification for
+                    only <strong>24% of
+                        their stadium audience</strong>. 76% remain anonymous seat fillers, forcing clubs to "rent"
+                    access to their own fans via expensive social media algorithms.</p>
+                <p class="impact-text" style="color: #94a3b8;">Because 360ENGAGE sits at the point of every transaction
+                    and query, we capture
+                    deterministic first-party identities. For top-tier organizations, solving this digital gap yields a
+                    verified <strong>2.5x to 3.8x LTV multiplier</strong> per fan and unlocks massive premium CPMs for
+                    algorithmic sponsor activations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="footer-cta">
+        <div class="container">
+            <span class="tagline" style="justify-content: center;">Next Steps</span>
+            <h2>Deploying the Definitive<br>Operating Layer.</h2>
+            <p class="impact-text" style="margin: 0 auto 3rem auto; max-width: 600px;">We launch with the high-impact
+                conversational wedge, instantly paying for itself, and deepen into the ultimate multi-tenant transaction
+                platform.</p>
+            <a href="360ENGAGE_Investor_Memo_Whitepaper.pdf" target="_blank" class="cta-button">Read Full Due Diligence
+                & Financials</a>
+        </div>
+    </section>
+
+    <div class="citations-bar">
+        <div class="container" style="max-width: 1200px; margin: 0 auto;">
+            <strong>Methodology & Citations:</strong> This investment brief synthesizes audited industry data across
+            macroeconomics, behavioral architecture, and B2B M&A valuations. Figures reflect verified enterprise
+            modeling from leading authorities: The <em>€665K friction penalty</em> (PickEat Stadium Concourse Modeling);
+            <em>77% App Deletion</em> (BlueThrone Engagement Metrics); <em>2.5x LTV Multiplier</em> (Frontiers in Sports
+            ML Valuation); <em>11,000 Hours Deflected & $232k Incremental Revenue</em> (Satisfi Labs Astros Case Study);
+            <em>24% Anonymous Fan Index</em> (Dizplai); and the <em>$130 Billion Tech TAM</em> (Morgan Stanley
+            Research). A fully annotated document is available in the data room.
+        </div>
+    </div>
+
+</body>
+
+</html>

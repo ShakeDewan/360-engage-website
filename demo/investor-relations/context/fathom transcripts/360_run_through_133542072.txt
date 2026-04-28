@@ -1,0 +1,759 @@
+Title: 360 run through
+Date: 2026-03-27T18:44:54Z
+Recording ID: 133542072
+Share URL: https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF
+Internal URL: https://fathom.video/calls/617570083
+Attendees: sirvineyvr@gmail.com <sirvineyvr@gmail.com>, Wil Block <wil@glasshouse-group.co.uk>, Graham Warren <graham@glasshouse-group.co.uk>, grahamwarren1972@gmail.com <grahamwarren1972@gmail.com>, Shekhar Dewan <shekhar.dewan@gmail.com>
+========================================
+SUMMARY
+========================================
+
+## Meeting Purpose
+
+[Review the product demo and align on the go-to-market strategy for the AI-powered fan engagement platform.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=433.0)
+
+## Key Takeaways
+
+  - [**Demo Misalignment:** The current hard-coded demo fails to show the core value proposition—AI-powered, in-seat food/merch ordering, personalized fan interaction, and data capture. This is a critical blocker for investor and club engagement.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=913.0)
+  - [**Dual-Product Strategy:** The platform will have two complementary products: a 24/7 AI voice agent for deep, personalized fan engagement and an in-stadium QR code companion for game-day transactions.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2860.0)
+  - [**SaaS Business Model:** The model is a SaaS subscription for clubs, not a transaction-fee model. This positions the company as a strategic partner, with the long-term value being the aggregated fan data.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3205.0)
+  - **Urgent Demo Enhancement:** A significantly improved demo, capable of making investors say "holy \#@\!\*", is needed within one week to unblock investor and club conversations.
+
+## Topics
+
+### Product Demo & Feedback
+
+  - [Shekhar Dewan, founder of AI Forward and former National Leader of Natural Language Processing at Deloitte Canada, presented the current demo, a hard-coded simulation of an in-stadium QR code companion. His interest in AI dates back to Nick Bostrom's "Superintelligence" in 2014.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=280.0)
+  - [**Demo Interaction Flow:**](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=660.0)
+      - [Fans scan a QR code from their phone (e.g., in a seat).](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=498.0)
+      - [They enter their name (e.g., "Sam") and mood (e.g., "hyped," "chill," "family mode").](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=660.0)
+      - [They select which team they are supporting (or "neither") to ensure appropriate messaging (e.g., not congratulating an opposing team's goal).](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=698.0)
+      - [They access main options: Food, Shop, Tickets, or Report an Issue.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=720.0)
+      - [Food: Provides options for where to get food and relevant details.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=720.0)
+      - [Shop: Displays merchandise with a "place order" button; payment is currently mocked but intended to be collected on the backend for seamless future orders.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=743.0)
+      - [Report an Issue: Allows reporting safety concerns with an option to share contact info for follow-up.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=780.0)
+  - [**Dashboard:** Shekhar also demonstrated a mock dashboard as a proof of concept. This dashboard would track key metrics like conversion rates, fan chat activity, total purchases, safety concerns, traffic over time, full activity feed, fan segments, and revenue. It could also show individual fan details and sync with the club's CRM.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=833.0)
+  - [**Critical Feedback on Current Demo:** The hard-coded nature was identified as a major weakness.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=809.0)
+      - [**Specific Example:** Wil Block noted that typing "I wanted to buy a beer at halftime" resulted in instructions to leave the game 10 minutes before halftime, directly contradicting the product's core value of keeping fans in their seats to enjoy the game.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=913.0)
+      - [**Functionality:** The demo currently only allows interaction through pre-set buttons and does not respond to natural language queries (e.g., "What is a penguin?").](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1023.0)
+      - [**Conclusion:** This version is deemed unusable for showcasing the product to external parties due to its lack of AI and limited functionality.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=913.0)
+  - [**Accessibility & AI Liability Concerns:** Shekhar raised concerns about AI providing incorrect accessibility information due to potential misinterpretations or outdated club documentation, leading to liability for the club or the platform. He noted that AI "always makes up stuff."](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1475.0)
+      - [Graham Warren suggested a disclaimer: "the information that's provided has come directly from the football club, and we don't have any responsibility for it."](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1157.0)
+      - [Will and Stewart countered that from a fan's perspective, the platform *is* the club, acting as a conduit, so a disclaimer would not be perceived as separating responsibility.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1193.0)
+      - [**Resolution:** It was agreed that critical information like accessibility should be hard-coded, directly sourced from the club, rather than relying on AI generation, to avoid liability and ensure accuracy.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1563.0)
+
+### Product Strategy & Vision
+
+  - [**Core Problem:** Will explained that football clubs are "blind" to 60-70% of their supporter base. He shared a personal experience of spending £200 at his club's shop without the club capturing any of his data, nor connecting him with the club's charity he supports, highlighting a significant missed opportunity for engagement and revenue.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1633.0)
+  - [**Solution:** A platform that acts as a conduit for clubs to engage their own fans, not recreating a social media platform or asking clubs to give access to their fans, but rather giving clubs better access to fans they already have.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1768.0)
+  - [**Two Complementary Products:**](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2860.0)
+    1.  **AI Voice Agent (Primary Focus):**
+          - [**Inspiration:** Will's experience with an agentic AI company handling 5,000 simultaneous calls for screening interviews (e.g., BDO hiring in India).](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1703.0)
+          - [**Concept:** Train AI agents to represent a football club, offering 24/7 phone support and personalized conversations.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1703.0)
+          - [**Capabilities:** Gossip about the club, discuss upcoming signings, assist with travel planning (e.g., checking game schedule changes), suggest accommodation (e.g., club deals with Hilton Hotels), and facilitate pre-ordering merchandise (e.g., personalized jerseys to avoid match-day queues).](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2997.0)
+          - [**Integration:** Designed to be embedded within the club's existing app or website, leveraging fan login data for personalized interactions (e.g., "Hey Will, how are you? Last time you called, you were coming over for the Arsenal game").](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2806.0)
+          - [**Value:** Captures rich fan data for the club, enabling deeper engagement beyond match days.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2781.0)
+    2.  **In-Stadium QR Companion:**
+          - [**Purpose:** Enhance the game-day experience and revenue.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2285.0)
+          - [**Capabilities:** In-seat food/merch ordering (e.g., pre-order burger and Coke for halftime), ticket purchases for future games, live betting (future consideration, acknowledging age-gating and licensing), and real-time promotions (e.g., "burgers are half-priced after the game in XYZ bar" via push notifications).](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2211.0)
+          - [**Complementary:** While distinct from the voice agent, it serves to capture fans who might only interact during a game, feeding data into the broader system.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2860.0)
+  - [**Club Partnership Model:**](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2298.0)
+      - [**"Painless and Brainless":** Stewart emphasized that the solution must be easy for clubs, as most, especially smaller ones like Sutton, lack the manpower and backend administrative infrastructure to implement complex tech.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2298.0)
+      - [**Our Role:** The company will handle all provisioning, onboarding, scripting the AI and conversations, and managing the backend.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2298.0)
+      - [**Club's Role:** Clubs provide source data (e.g., accessibility maps, club narrative, specific rules for fan segregation) and are responsible for its accuracy. This ensures the system speaks in the club's language and adheres to their procedures.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=1989.0)
+      - [**Benefits:** Allows clubs to learn more about their fans and "make more money off of them." It also improves fan experience by offering convenience and a sense of belonging.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=2478.0)
+      - [**Monetization beyond sales:** Graham suggested connecting local businesses (e.g., vegan restaurants, Japanese food) for sponsorships, enabling clubs to get kickbacks for recommendations.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3146.0)
+
+### Business Model & Urgency
+
+  - [**Decision:** The business model is a SaaS (Software as a Service) subscription for clubs.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3205.0)
+      - [**Rejected Alternative:** Shekhar proposed a free app with a transaction-fee model (e.g., 2-4% of sales).](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3205.0)
+      - [**Rationale for SaaS:** Wil strongly dismissed the transaction-fee model as "shrapnel," arguing that it would misalign incentives and reduce the perceived value. He asserted, "we're selling a relationship between club and fan." The SaaS model positions the company as a strategic partner, and the long-term value lies in aggregating compelling fan data from 20-100+ clubs. This data will eventually enable the company to develop its own sports-specific Large Language Model (LLM) for projections and analytics, which clubs would subscribe to.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3205.0)
+  - [**Urgency:** Graham conveyed extreme urgency, stating he has three potential investors and several clubs (including a close friend in football) waiting for a tangible product demo.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3377.0)
+      - **Risk:** Without a working demo, he is "losing face" and risks being perceived as a "time waster" in the "incestuous industry" of football, jeopardizing potential investments and club partnerships. He noted an investor is calling him "on a daily basis" asking "where the \#@\! is it?"
+      - [**Requirement:** An significantly enhanced demo is needed within one week. Graham clarified he wants to "leave them wanting more," not necessarily a fully finished product.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3489.0)
+  - [**Meeting Frequency:** Graham stressed the need for regular communication, suggesting weekly meetings for Shekhar and at least 2-3 times a week for himself, Stewart, and Wil.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3360.0)
+
+## Next Steps
+
+  - [**Stewart & Shekhar:** Create a roadmap with deliverables, budget, and timelines for product development.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3448.0)
+  - [**Stewart & Shekhar:** Enhance the demo to significantly improve its visual appeal and functionality, incorporating AI-powered interaction and showcasing core capabilities (especially in-seat ordering and initial voice agent concepts) to impress investors. This demo needs to be ready within one week.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3489.0)
+  - [**All:** Schedule a follow-up meeting immediately. The current meeting's extension was facilitated by Shekhar creating a new Google Meets link due to time constraints.](https://fathom.video/share/2tiCyN-zFwtzsupJeXpYXbGiVf8rMSPF?tab=summary&timestamp=3448.0)
+
+
+========================================
+ACTION ITEMS
+========================================
+
+No explicit action items.
+
+========================================
+TRANSCRIPT
+========================================
+
+[00:00:00] Graham Warren: How are you?
+[00:00:01] Graham Warren: Not too bad, thank you.
+[00:00:02] Graham Warren: Whereabouts are you in the world?
+[00:00:03] Graham Warren: I'm in Toronto.
+[00:00:05] Graham Warren: In Toronto, very nice.
+[00:00:06] Graham Warren: I'm just outside London.
+[00:00:09] Graham Warren: Oh, nice.
+[00:00:09] Graham Warren: Where are you outside London?
+[00:00:11] Graham Warren: It's in a county called Kent.
+[00:00:13] Graham Warren: Yeah, I've heard of Kent.
+[00:00:15] Graham Warren: Yeah, we're just on the southeast coast.
+[00:00:19] Graham Warren: Literally, as I look out my back window, I've got a golf course, and on the front it's looking out over the sea.
+[00:00:25] Graham Warren: So, yeah, very pleasant.
+[00:00:26] Graham Warren: Oh, wonderful.
+[00:00:27] Graham Warren: Hey, guys.
+[00:00:29] Stewart Irvine: Hi, Stuart.
+[00:00:30] Stewart Irvine: Graham, are you?
+[00:00:31] Stewart Irvine: to keep you up so late.
+[00:00:33] Stewart Irvine: It's not late.
+[00:00:34] Graham Warren: It's just Friday evenings.
+[00:00:35] Graham Warren: It's, yeah, just I'm sure we want to be doing different things at six o'clock in the evening.
+[00:00:42] Graham Warren: Come on, it's Friday.
+[00:00:44] Graham Warren: Yeah, exactly.
+[00:00:44] Graham Warren: Yeah.
+[00:00:46] Graham Warren: How's your neck?
+[00:00:48] Stewart Irvine: I've been a few challenges.
+[00:00:51] Stewart Irvine: You know, I can't driving, turning.
+[00:00:54] Stewart Irvine: This is the motion.
+[00:00:55] Stewart Irvine: That's it right now.
+[00:00:57] Stewart Irvine: So I had to go in and get a CT scan and So, can
+[00:00:59] Stewart Irvine: Some other things, so just complications, you know?
+[00:01:05] Stewart Irvine: So what are saying, you can't turn left?
+[00:01:08] Stewart Irvine: Well, that's the range that I've got.
+[00:01:12] Shekhar Dewan: Stewart, one thing I can recommend for you, I was in Colombia, like six months ago, I got stem cells, right?
+[00:01:19] Stewart Irvine: Made a huge difference, oh yeah.
+[00:01:24] Shekhar Dewan: Yeah, I've got contacts, I can hook you up, it'll make a big difference.
+[00:01:31] Stewart Irvine: Oh, wow.
+[00:01:32] Shekhar Dewan: Plus, you'll feel 10 years younger in all other ways, too.
+[00:01:36] Shekhar Dewan: Can you hook me up as well, then, if it makes you feel 10 years younger?
+[00:01:39] Graham Warren: Oh yeah, absolutely.
+[00:01:40] Shekhar Dewan: And it regress on my hair, right?
+[00:01:44] Shekhar Dewan: Oh, wow.
+[00:01:46] Shekhar Dewan: We'll get down on you next time, then.
+[00:01:50] Shekhar Dewan: Oh, that's great.
+[00:01:52] Stewart Irvine: Anyhow, Will, you're back, how was it?
+[00:01:56] wil block: Yeah, it was great, Atlanta is always a fun place to visit.
+[00:01:58] wil block: this That's Um.
+[00:01:59] wil block: Right.
+[00:02:00] wil block: So an hour and a half in TSA pre-check was a pain in the arse, and I can confirm that they had ice doing security all over the airport, which was also an experience.
+[00:02:17] wil block: Yeah, I mean, the event itself was phenomenal.
+[00:02:19] wil block: The stadium is amazing.
+[00:02:22] wil block: The people there were really, really good.
+[00:02:25] wil block: Got to meet a number of really, really interesting people.
+[00:02:29] wil block: The owner of the Atlanta Falcons, Arthur Blank, and a couple of other soccer people, don't know how, Shekhar, I don't know if you're a North American soccer fan at all, but they're, you know, studio hosts and other pundits and that kind of thing.
+[00:02:47] wil block: So, yeah, it was good.
+[00:02:48] wil block: Was he in now?
+[00:02:51] wil block: You had to pay to go, so I'll let you draw your own conclusion.
+[00:02:55] wil block: Okay, so he wasn't at it?
+[00:02:56] wil block: No, he wasn't.
+[00:02:58] wil block: No.
+[00:03:00] wil block: There's a guy that actually made some really good relationships with the chief business officer of the NWSL team in New York called Gotham, Gotham City FC, and also a guy that hosts the MLS.
+[00:03:18] wil block: He's kind of the Gary Lineker for MLS, a guy called Kevin Egan.
+[00:03:23] wil block: And we watched the Irish game yesterday, which was not good for them, a little bit humorous for me, but I had to pretend like I gave a  about them not qualifying for the World Cup.
+[00:03:33] wil block: Anyway, yeah, no, no, it was extremely good.
+[00:03:36] wil block: I had a really good time.
+[00:03:38] Stewart Irvine: Was there much discussion about the Women's League?
+[00:03:42] wil block: Yeah, there was an entire panel about women, and Arthur Blank has just bought an NWSL team.
+[00:03:49] wil block: Well, he created one in Atlanta was the last one, which ratcheted up the expansion fee from $125 to $165 million.
+[00:04:01] wil block: So, yeah, I mean, there was a lot of talk about the women's game.
+[00:04:05] wil block: The head of U.S.
+[00:04:07] wil block: soccer is a female, and she's part of the, as they call them, the 99ers, the women's World Cup winning team.
+[00:04:16] wil block: So, yeah, all round, there's a lot of good contacts to be made.
+[00:04:21] wil block: And also got myself some hospitality tickets to the PGA coming up in a couple of weeks.
+[00:04:28] wil block: So, that'll be fun, too.
+[00:04:31] wil block: Oh, that's great.
+[00:04:32] wil block: That's a whole other stuff.
+[00:04:33] Graham Warren: Great.
+[00:04:34] Graham Warren: Okay.
+[00:04:34] Graham Warren: So, where are we then, guys?
+[00:04:37] Graham Warren: Well, I'd like to introduce you.
+[00:04:40] Stewart Irvine: Shek, explain why you're the AI group guru.
+[00:04:46] Shekhar Dewan: Well, the way to put me on the spot, I'm happy to try.
+[00:04:50] Shekhar Dewan: So, firstly, pleasure to be here and meet both of you, Will and Graham.
+[00:04:54] Shekhar Dewan: I'm Shek.
+[00:04:55] Shekhar Dewan: I used to be a computer guy.
+[00:04:58] Shekhar Dewan: I'm still a computer guy.
+[00:04:59] Shekhar Dewan: Bye-bye.
+[00:05:00] Shekhar Dewan: Now, a lot of it is AI, right?
+[00:05:03] Shekhar Dewan: So I'm a programmer and stuff originally, but I've been interested in the field of AI since 2014 when I read Nick Boston's book called Superintelligence.
+[00:05:14] Shekhar Dewan: Boston, by the way, was at Oxford earlier, and I had visited Oxford.
+[00:05:18] Shekhar Dewan: I hadn't met him.
+[00:05:21] Shekhar Dewan: So that was 10 years ago, well, 12 years ago when he prophesied what was coming.
+[00:05:28] Shekhar Dewan: And so I was interested in that.
+[00:05:31] Shekhar Dewan: I worked as a data scientist.
+[00:05:32] Shekhar Dewan: I was the national leader of natural language processing, like the Center of Excellence at Deloitte in Canada.
+[00:05:39] Shekhar Dewan: And natural language processing deals with language AI.
+[00:05:43] Shekhar Dewan: As you guys know, ChatGPT, all the other LLMs are language models, right?
+[00:05:49] Shekhar Dewan: So I've been interested in that in a long time.
+[00:05:53] Shekhar Dewan: Just before ChatGPT launched, which I didn't know about, I started my company called AI Forward, which is...
+[00:06:00] Shekhar Dewan: It really aiming to help businesses transform and move forward with AI, and then, of course, since then, we've had not just one AI revolution, but it feels like every few months there is an ongoing thing, and so I'm really excited.
+[00:06:17] Shekhar Dewan: I think we're amidst a new industrial revolution, and I really want to help move things forward in what's coming, and so that's a little bit about me.
+[00:06:27] Shekhar Dewan: I hope I didn't bore you, and I hope I covered enough.
+[00:06:31] Shekhar Dewan: Yep.
+[00:06:31] wil block: Nice.
+[00:06:32] wil block: That's fantastic.
+[00:06:32] wil block: Thanks for sharing that.
+[00:06:33] wil block: That's really exciting to hear that.
+[00:06:36] Stewart Irvine: So we've been working on a roadmap which we'll share with you guys over the weekend, where it's going, how it's going to unfold, and the MVP build, and all the feature sets that'll be coming out with a budget, with timeframes, so that it's all aligned.
+[00:06:57] Stewart Irvine: And the biggest thing is that… … …
+[00:07:00] Stewart Irvine: Everything is doable, and it's always sequence and timing and build out, but we'll walk through all that.
+[00:07:09] Stewart Irvine: We'll have a session and walk top to bottom on that.
+[00:07:13] Stewart Irvine: Purpose for this is to be able to walk through the demo, and there's a sequence that, I mean, it's functional, it works.
+[00:07:23] Stewart Irvine: Shekhar is just going to walk you through the demo so that all the feature sets and explain how it works.
+[00:07:32] Stewart Irvine: Can we record this session?
+[00:07:34] Graham Warren: Simon and Dan, can we send you to them?
+[00:07:39] Shekhar Dewan: Yeah, so I do have my note checker here, which is recording, but I think whoever's hosting could also turn that on.
+[00:07:45] Shekhar Dewan: Yeah, okay.
+[00:07:47] Graham Warren: It's just visually, it's better than just the note side of it.
+[00:07:51] Graham Warren: Yeah.
+[00:07:52] Stewart Irvine: okay.
+[00:07:54] Stewart Irvine: Well, Shekhar, we'll use yours, because I'm on a different system here.
+[00:07:59] Stewart Irvine: So...
+[00:08:01] Shekhar Dewan: Okay, so one thing I'd invite everybody to do is I'm gonna, I'm gonna, I'm gonna, gonna, so I want you guys to actually interact with it, if you have, have this seen it at all, Stewart?
+[00:08:16] Graham Warren: Yeah, I'm gonna open it.
+[00:08:17] Graham Warren: Okay.
+[00:08:18] Shekhar Dewan: Well, so what I want you guys to do here, so I'm gonna share a QR code with you.
+[00:08:23] Shekhar Dewan: You scan it with your phone, and you want to try this live.
+[00:08:27] Shekhar Dewan: I like, I'm taking a risk here, because you know, usually they said don't do anything live.
+[00:08:33] Shekhar Dewan: Let me get my phone.
+[00:08:34] wil block: Of course.
+[00:08:40] Shekhar Dewan: Okay.
+[00:08:42] Shekhar Dewan: Yeah, so we'll wait for Will, and then I'll, I'll stop sharing the screen once you guys have scanned it, and then I'll show you guys the demo.
+[00:08:57] Graham Warren: Bye.
+[00:08:59] wil block: Bye.
+[00:09:00] wil block: OK, I'm in.
+[00:09:02] wil block: OK, awesome.
+[00:09:06] Shekhar Dewan: So...
+[00:09:06] Shekhar Dewan: Did it work for you, Graham?
+[00:09:09] Graham Warren: Perfect.
+[00:09:10] Shekhar Dewan: So if you are looking at it, you will see something like this, but it should look hopefully even better on your phone.
+[00:09:18] Shekhar Dewan: Guys, just give me two seconds.
+[00:09:19] Shekhar Dewan: Just give me two seconds.
+[00:09:21] Shekhar Dewan: Sorry.
+[00:09:22] Graham Warren: Can we just pause it a second?
+[00:09:23] Graham Warren: Sorry.
+[00:09:45] Graham Warren: Apologies.
+[00:09:46] Graham Warren: Sorry.
+[00:09:48] Graham Warren: Oh, good.
+[00:09:50] Graham Warren: Yep, I've got that, Shekhar.
+[00:09:52] wil block: Perfect.
+[00:09:52] wil block: Perfect.
+[00:09:53] Shekhar Dewan: So this is the original demo that we had built.
+[00:09:55] Shekhar Dewan: I have not yet released the new version that we're working on.
+[00:09:58] Shekhar Dewan: So this is still the same old...
+[00:10:00] Shekhar Dewan: But I'll walk you through it, and then we can talk about sort of what else we're building.
+[00:10:05] Shekhar Dewan: Sorry, sorry, Shekhar.
+[00:10:07] Graham Warren: When the call just come through, it's taken me.
+[00:10:10] Graham Warren: Of course, of course.
+[00:10:11] Graham Warren: Let me get you the QR code again, right?
+[00:10:15] Graham Warren: Okay.
+[00:10:17] Graham Warren: So let me do that.
+[00:10:18] Graham Warren: No problem at all.
+[00:10:19] Shekhar Dewan: So I'm going to pull that up again, and if you could just scan it, give me one second to get it back for you, okay?
+[00:10:27] Shekhar Dewan: Thank you.
+[00:10:28] Shekhar Dewan: No problem at all.
+[00:10:32] Shekhar Dewan: Okay.
+[00:10:34] Shekhar Dewan: So.
+[00:10:40] Shekhar Dewan: If I can.
+[00:10:42] Shekhar Dewan: I think I could just do that on my browser here.
+[00:10:45] Shekhar Dewan: Okay, here.
+[00:10:45] Shekhar Dewan: If you could just scan this.
+[00:10:50] Graham Warren: Yeah, I'm in again.
+[00:10:51] Graham Warren: Yep.
+[00:10:51] Graham Warren: Okay, thank you.
+[00:10:52] Graham Warren: Perfect.
+[00:10:53] Graham Warren: Of course.
+[00:10:53] Shekhar Dewan: So, you should see something like this, right?
+[00:10:58] Graham Warren: Yep.
+[00:10:59] Graham Warren: Okay.
+[00:11:00] Shekhar Dewan: So you could just put in your, so here I could say my name, right, so I could say I'm Sam, or somebody, right, okay, so it says, you know, nice to meet you, and then how are you feeling right now, right, so this is like, so pretend somebody is like in the game, they're sitting down, the QR code is in the seat in front of them, they scanned it, this is what they're going to see, right, so you type your name, okay, I'm Sam, whatever, now it knows your name, so it says, how are you feeling, right, hi, I'm Sam, chill, I'm in family mode, right, let's say I'm, let's say I'm hyped, right, this is the big game, okay, and then who am I here with, right, am I here alone, am I here with friends, etc., so I'm here with my buddies, it's a big game, right, now it asks me, like, which team am I supporting, right, because we want to make sure that we don't, like, congratulate them when the opposing team scores a goal or something like that, right, so we ask them, which team do you support, you could say neither, you could
+[00:12:00] Shekhar Dewan: You say, you know, the home team, and then you can ask, like, what you want help with, right?
+[00:12:06] Shekhar Dewan: You want help with food, you want help with shopping, tickets, or you need to report something.
+[00:12:11] Shekhar Dewan: Let's say I want something for food, right?
+[00:12:14] Shekhar Dewan: It gives me some options, right?
+[00:12:18] Shekhar Dewan: It tells me where I can get the food and things like that, okay?
+[00:12:23] Shekhar Dewan: If I go back to main options, I can do shop.
+[00:12:27] Shekhar Dewan: And here it actually show me some of the merch that they have available.
+[00:12:34] wil block: Okay.
+[00:12:34] Shekhar Dewan: Now I can hit place order on any of these, right?
+[00:12:38] Shekhar Dewan: What we're going to be doing is collecting their payment information on the backend, right?
+[00:12:44] Shekhar Dewan: Once we have their credit card details, they can literally just click place order, and we can place the order on the backend.
+[00:12:51] Shekhar Dewan: For now, payment is not enabled, so it just creates a reservation, right?
+[00:12:56] Shekhar Dewan: Yep.
+[00:12:57] Shekhar Dewan: So, and then, so you could, you could, you could do shop.
+[00:13:00] Shekhar Dewan: Again, you could go back to many options, could look at tickets, you could also report an issue, right?
+[00:13:06] Shekhar Dewan: Okay, I have a safety concern, right?
+[00:13:09] Shekhar Dewan: Okay, so let's say, okay, we're gonna mark that, and then you might want to share contact for follow-up, right?
+[00:13:17] Shekhar Dewan: I might just give it a number, right?
+[00:13:22] Shekhar Dewan: Okay.
+[00:13:24] Shekhar Dewan: So this is kind of a very kind of simple demonstration.
+[00:13:29] Shekhar Dewan: Now, at the moment, this doesn't have any AI in it, okay?
+[00:13:32] Shekhar Dewan: It's purely hard-coded.
+[00:13:35] Shekhar Dewan: Very easy for us to add AI if we want to, okay?
+[00:13:38] Shekhar Dewan: But this is a simulation, right?
+[00:13:41] Shekhar Dewan: Now, one more component, I haven't shown you everything here, you also have these buttons on top, and you can always click food right away, you can click shop right away, and you'll jump straight to those things, okay?
+[00:13:53] Shekhar Dewan: The other thing we have at the moment is a dashboard, okay?
+[00:13:57] Shekhar Dewan: Now, I'm gonna open that in a new tab, but you can open it
+[00:14:00] Shekhar Dewan: in the same tab.
+[00:14:01] Shekhar Dewan: So this is the dashboard.
+[00:14:03] Shekhar Dewan: This is, again, it's mock data, it is a proof of concept, right?
+[00:14:07] Shekhar Dewan: But we would be able to track how many fans, like, what is that conversion rate?
+[00:14:12] Shekhar Dewan: How many are chatting?
+[00:14:13] Shekhar Dewan: How much money have people purchased through the app, right?
+[00:14:18] Shekhar Dewan: Safety concerns will be shown right here, right?
+[00:14:22] Shekhar Dewan: You can see traffic over time, you can see the full activity feed, you can see different kinds of segments of fans, revenue tracker from different fans, did they claim it, did they save it?
+[00:14:37] Shekhar Dewan: And all of this can be synced.
+[00:14:39] Shekhar Dewan: You can click on individual fan, you can see their details, right?
+[00:14:45] Shekhar Dewan: And all of this can be synced in the back end with their CRM, right?
+[00:14:51] Shekhar Dewan: So this is kind of a kind of, this is kind of a view of what we have at the moment.
+[00:15:06] Shekhar Dewan: Any questions?
+[00:15:10] wil block: No, I mean, that's fine.
+[00:15:13] wil block: I mean, I was playing around with it while I was away, and I'm glad that you said there's no AI built into it because the honest truth is I was very concerned because it didn't work.
+[00:15:25] wil block: I was typing in I wanted to buy a beer at halftime, and it was telling me to leave the game 10 minutes before halftime, and that's exactly what we're trying to solve for.
+[00:15:35] wil block: We don't want people having to leave the game, and so obviously...
+[00:15:38] wil block: Exactly.
+[00:15:39] Shekhar Dewan: I want people to be able to sit down and get food and drinks delivered to them?
+[00:15:44] Shekhar Dewan: No.
+[00:15:45] Shekhar Dewan: No?
+[00:15:46] wil block: Okay.
+[00:15:47] wil block: Okay.
+[00:15:50] wil block: All right, point taken.
+[00:15:52] wil block: So what we were saying is, let's say you wanted to get a...
+[00:15:55] wil block: let's say me and Graham went to watch a game together, and typically what would happen...
+[00:16:00] wil block: The four of us all went to watch a game together.
+[00:16:02] wil block: would happen is someone would have drawn the short straw, and that person would get up at 38 minutes into the game, and they would have to go and queue up, and then the three of us, we would go and meet them at half-time to get our burgers and a Coke or whatever we're having at half-time.
+[00:16:17] wil block: The idea here is we'd be able to sink into the actual food and beverage outlets throughout the stadium, figure out where the shortest queues were, but also maybe pre-order the food a bit like I do with Starbucks, and say we want, you three burgers, and have it remember who we are, obviously, because in the next game, it might prompt us.
+[00:16:41] wil block: Last time you came with Sheik, Stewart, and Graham, is it the same order again, hit, you know, re-order or whatever.
+[00:16:47] wil block: So that was, so I'm glad you said that, because obviously, I wasn't going to show this not knowing that to anyone at the conference I was at, because I was, when we looked at it before, we were typing in questions, and it was giving.
+[00:17:03] wil block: If you say, what is a penguin?
+[00:17:08] Shekhar Dewan: It will just not answer you, right?
+[00:17:11] Shekhar Dewan: It'll just tell you, I can help with these three things.
+[00:17:14] wil block: I mean, but even if you type in, I want to buy a beer.
+[00:17:17] wil block: Exactly.
+[00:17:18] wil block: Because there's no AI, it's hard-coded.
+[00:17:21] wil block: So this is great.
+[00:17:22] wil block: mean, obviously, stadium by stadium, it will be, what's the word I'm looking for?
+[00:17:29] wil block: Like a wayfinder that we've, one of the things we're going to unlock is people with disabilities, powered wheelchairs and whatnot.
+[00:17:37] wil block: What's the best access point at the stadium?
+[00:17:39] wil block: But that's going to differ per stadium.
+[00:17:41] wil block: So we need to be able to explain that we're going to be able to do that, but we can't do that in general because we're inventing a stadium that doesn't really exist.
+[00:17:51] wil block: Yeah.
+[00:17:52] wil block: So there's that.
+[00:17:53] Shekhar Dewan: So the access points, so there's some things that are easier to do and some things that are harder to do, right?
+[00:17:58] Shekhar Dewan: Right.
+[00:17:58] Shekhar Dewan: So the food or.
+[00:18:00] Shekhar Dewan: As long as their back-end system works, we can do the food ordering, and we can schedule it, we can have a sequence of food ordering, where you can order and pick it up at various times, and from various stalls, and stalls can let us know how many orders they have in coming, how busy they are, or we can auction the order, and whichever stall accepts the order first, they take the order.
+[00:18:22] wil block: Yeah.
+[00:18:23] Shekhar Dewan: There's ways to make that work, right?
+[00:18:26] Shekhar Dewan: So I think that's something that's quite doable.
+[00:18:30] Shekhar Dewan: The accessibility side, the challenge we're going to have, which I want to present to you guys, one is liability, right?
+[00:18:38] Shekhar Dewan: What if we give them the wrong information about accessibility, right?
+[00:18:42] Shekhar Dewan: What if, you know, a stadium gives us some wrong information, their map is wrong, something has happened, something collapsed, something changed, and we've told people, here's wheelchair access, or here's, or maybe there's people with even more severe disabilities, where it could really be, maybe harm.
+[00:18:59] Shekhar Dewan: Yeah.
+[00:18:59] Shekhar Dewan: Okay.
+[00:18:59] Shekhar Dewan: Thank
+[00:19:00] Shekhar Dewan: So, to me, the big thing with the accessibility piece is that one is the liability, the other is the breadth and, like, complexity of the kinds of issues people can have around accessibility.
+[00:19:17] Graham Warren: Can I just say, Shek, sorry to interrupt, I think then what we need to put on that is a disclaimer, is to say that the information that's provided has come directly from the football club, and we don't have any responsibility for it, we're just passing one second now, you know the words, the second sort of hand, information, so we cover ourself, I guess, with that legally.
+[00:19:37] Graham Warren: understand what you're saying, and there is going to be the odd occasion when we're going to probably have, on the Monday when they use the voice activation side of it, they're going to call through and they're going to sort of make a point of sort of complaining about the fact that wrong information, there's something that you're going to have to do.
+[00:19:53] wil block: But also, that, Graham, don't, and Sheik, we're not presenting ourselves as anything different.
+[00:20:00] wil block: The relationship we have is, we are the football club, so when they click on, when they call up through the app, or through the website, and they speak to an agent, or when they click on the QR code, that's the football club they're clicking into.
+[00:20:13] wil block: They're not clicking into anything else.
+[00:20:16] wil block: We're a conduit for the football club.
+[00:20:18] wil block: So they're not, as far as the fans are concerned, there's not a different layer of anything else.
+[00:20:29] wil block: We're giving the football club the ability to do this engagement as if the football club's doing it directly.
+[00:20:37] Shekhar Dewan: So, let's take a fan, for example.
+[00:20:40] Shekhar Dewan: Let's say Will and Graham, I'm sure you're fans.
+[00:20:43] Shekhar Dewan: I'm sure you travel between games, right?
+[00:20:46] Shekhar Dewan: To different stadiums and different things and different sports.
+[00:20:50] Shekhar Dewan: So we have two ways we can develop this product.
+[00:20:53] Shekhar Dewan: One is we can create a custom product per stadium, right?
+[00:20:58] Shekhar Dewan: That will be expensive for us.
+[00:21:01] Shekhar Dewan: And it doesn't give us any ability to transfer the understanding of that fan.
+[00:21:07] Shekhar Dewan: The other way we can build it is, hey, we take in fans, right?
+[00:21:13] Shekhar Dewan: And then wherever you're going for a game, we become your conduit if that stadium has enabled it, right?
+[00:21:21] Shekhar Dewan: We can help you buy tickets off-season.
+[00:21:24] Shekhar Dewan: We can help you.
+[00:21:25] Shekhar Dewan: So there's a lot of things that the app could do if, like, you do three different sports, you travel within three different cities.
+[00:21:34] Shekhar Dewan: If we make it for the stadium, we could do that.
+[00:21:37] Shekhar Dewan: It just worked differently.
+[00:21:38] Stewart Irvine: But the team, in the case of Sutton, it has to be centered on their fans.
+[00:21:45] Stewart Irvine: So we're engaging with fans.
+[00:21:48] Stewart Irvine: The big sell is, you know, they only have a small percentage of fans that they actually engage with.
+[00:21:55] Stewart Irvine: So the hook is that, you know, you just showed up.
+[00:21:59] Stewart Irvine: help little
+[00:22:00] Stewart Irvine: At a Sutton game.
+[00:22:02] Stewart Irvine: And so now you've got this touchpoint, and we're going to look after you, and now we're going to bring you into the Sutton fanbase.
+[00:22:14] Shekhar Dewan: So suppose the person likes both football and rugby.
+[00:22:18] Shekhar Dewan: Do we not engage them on rugby because they're Sutton's fans?
+[00:22:23] Shekhar Dewan: We're not creating an app though.
+[00:22:26] wil block: We're creating a platform by which the clubs get, we're not trying to ask the clubs to give us access to their fans.
+[00:22:34] wil block: We're giving the club access to the fans that they didn't realize they had.
+[00:22:39] wil block: So we're not recreating a social media platform.
+[00:22:43] wil block: Now, we're going to capture the data when they come through our technology or our product.
+[00:22:50] wil block: We're still going to capture that.
+[00:22:51] wil block: So let's say Graham's a great example.
+[00:22:54] wil block: He is a big rugby fan and he's a big football fan.
+[00:22:57] wil block: So let's say Graham goes to an Arsenal match.
+[00:23:00] wil block: Actually clicks on the QR code, or he calls up, that gets tracked at club level, it also gets tracked at our company level, and let's say then Graham's phone, he goes to Twicken and he's watching an England international, and we're working with England, and he clicks on the QR code there, now if we can connect those two dots on our own system, then yeah, we can sort of do that, but we as a company aren't the ones engaging with the fans.
+[00:23:29] wil block: We're giving the football clubs, and the rugby clubs, the ability to engage with their own fans.
+[00:23:34] Stewart Irvine: Yeah, so this is, you know, this Sutton, and we'll use Sutton on this, so this is the tool for Sutton, and so for all intents and purposes, everything is, it is Sutton engaging, the whole persona, everything is all about Sutton.
+[00:23:55] Stewart Irvine: And so when the fan interacts They are.
+[00:24:00] Stewart Irvine: Working with Sutton.
+[00:24:02] Stewart Irvine: What we do in the back end is different, but the front end, fan facing, it's all Sutton.
+[00:24:12] Stewart Irvine: The fact that once they originally, once they sign in and through a Sutton, if they go to a rugby, they're in within the system, and if they're at that stadium and they click that stadium's QR code, we know who they are.
+[00:24:33] Shekhar Dewan: I'm so glad we're having this conversation.
+[00:24:35] Shekhar Dewan: One more point I want to raise.
+[00:24:37] Shekhar Dewan: We just talked about accessibility earlier.
+[00:24:39] Shekhar Dewan: You said we don't want to present as anything but the club itself when we're talking about accessibility.
+[00:24:45] Shekhar Dewan: Here's the challenge.
+[00:24:47] Shekhar Dewan: AI always makes up stuff.
+[00:24:48] Shekhar Dewan: I think you guys have probably used it enough to know that.
+[00:24:52] Shekhar Dewan: When we give them accessibility information and then somebody asks a question that's not clearly specified in the documentation, and by the
+[00:25:00] Shekhar Dewan: I guarantee most clubs will have poorly written documentation about anything, including accessibility, right?
+[00:25:06] Shekhar Dewan: What's going to happen is that AI will essentially lie to them and make up stuff that's not true, right?
+[00:25:12] Shekhar Dewan: And then, so either the club is then directly, so then you're saying the club is directly liable for the AI that we put in.
+[00:25:23] Shekhar Dewan: So the problem is there's three parties here.
+[00:25:26] Shekhar Dewan: There's us, there's AI, which we will not own because that'll have to be somebody else who's doing there, and there'll be the club themselves, right?
+[00:25:34] Shekhar Dewan: So I think there has to be a separation between the club and the interaction because everybody will want AI for the interaction.
+[00:25:45] Shekhar Dewan: But even if the club configures that AI perfectly, there will be issues that they, you know, I mean, we could call it the sudden AI, right?
+[00:25:53] Shekhar Dewan: And we can help them configure it and all of that.
+[00:25:57] Shekhar Dewan: But, but just there, there, there will.
+[00:26:00] Shekhar Dewan: There's be a legal thing there always.
+[00:26:03] wil block: Why wouldn't we, I mean, let's just take Sutton, for example, we're going to know because we're working with them, we're going to ask them, tell us where your accessibility points are, and we will just put that on your QR code.
+[00:26:19] wil block: So it's not a question of, so the buttons at the top, food, shop, tickets, help.
+[00:26:24] wil block: If you click on help, there's just a page that just says, this is the wheelchair accessibility points for the ground, this is where wider doors are, this is where ramps are.
+[00:26:34] wil block: So we're not, we're not asking AI to come up with an answer.
+[00:26:38] wil block: We're hardwiring in.
+[00:26:40] wil block: We asked the club, we need this information because disabled fans are coming, and we just have it on there.
+[00:26:45] wil block: So that's fine.
+[00:26:47] Shekhar Dewan: So there's, so we'll have two kinds of interactions.
+[00:26:49] Shekhar Dewan: One will be AI, and the other will be hard-coded stuff, right?
+[00:26:55] Shekhar Dewan: Yeah.
+[00:26:55] Shekhar Dewan: And things like accessibility should certainly be hard-coded.
+[00:26:58] Shekhar Dewan: So I think that's.
+[00:27:00] Shekhar Dewan: I 100% agree.
+[00:27:02] wil block: So it's probably, yeah, and you're right, it's good that we're having this conversation.
+[00:27:09] wil block: Let me give you, I don't know, obviously the first time we've spoken, obviously Stewart's been working with you.
+[00:27:13] wil block: The idea for this came about two years ago.
+[00:27:17] wil block: I was at the club that I support.
+[00:27:19] wil block: I bought three jerseys for my kids, and then I went and had a meeting with the club's charity, which I do some work with, and I live in the States.
+[00:27:27] wil block: And it became obvious to me that I just spent £200 in the club's shop, and at no point in time did the club get my information.
+[00:27:37] wil block: I'm not a season ticket holder anymore, and at no point in time did the club relay my information to the charity, which I donate to anyway.
+[00:27:44] wil block: But they should have done that, right?
+[00:27:46] wil block: And, you know, Graham and I work with executives at football clubs quite a lot, and oftentimes they say we want better fan engagement, not just for that reason, but just, like, to learn there's a fan living in Philadelphia.
+[00:28:00] wil block: We team in London.
+[00:28:01] wil block: They don't necessarily know that I exist.
+[00:28:03] wil block: I'm in that black hole to them.
+[00:28:05] wil block: And Stewart's done some research, and we've all done some research to find out that, you know, upwards of 60 or 70% of a club's supporter base are kind of blind.
+[00:28:16] wil block: The club is blind to their existence.
+[00:28:18] wil block: So that's the idea there.
+[00:28:20] wil block: That's where the idea sort of started coming to me.
+[00:28:23] wil block: And then about eight or nine months ago, I was working with an agentic AI company, and their agents were fielding upwards of, let's say, 5,000 calls simultaneously.
+[00:28:36] wil block: And they were working with large companies to handle their interview process.
+[00:28:44] wil block: So the agents, I was learning then, could be trained to receive a phone call, hold a conversation for upwards of an hour, and do the screening interview for a company.
+[00:28:55] wil block: And in this case, I put them into a company called BDO, and BDO was...
+[00:28:59] wil block: were San Thank
+[00:29:00] wil block: Hiring a number of people in India, and so it was a really good fit for them to do that, and it suddenly dawned on me, we can take these agents, train them to represent a football club, and we can go back to the football club and say, fans from all over the world can call you 24-7, you can or we will help you to train the agent to represent the club to say as much, but no more than you want to say, and genuinely have this engagement.
+[00:29:28] wil block: Stewart's layered on some wonderful things, which I was saying quite a lot in the conference, like, you know, at the moment, clubs engage with fans and rented social media, so things they don't own, and we're cutting that crap out, we're saying a fan can phone a club from anywhere in the world at any point in time, we were going to use that company's AI to be the agent, the reason why we said no to them, or the reason why at the moment we've said no, is because they said that
+[00:30:00] wil block: They wanted to create their own platform and all the fans create their own login and, you know, basically have their own social media platform again.
+[00:30:10] wil block: And that's where I said, look, we're not asking the clubs to give us access to their fans.
+[00:30:15] wil block: We're offering the clubs better access to their own fans.
+[00:30:18] wil block: So it's important that the ability to connect with the club is through the club's existing app, through the club's existing website.
+[00:30:25] wil block: And now obviously we have the in-game facilitator that we're looking at now, which is the second way of contacting the club.
+[00:30:34] wil block: But that's where it all began.
+[00:30:38] Graham Warren: I think it's also important to point out as well that the information that they pass on, they have to know the club and be responsible for the fact that it's got to be premier information that's being passed down.
+[00:30:49] Graham Warren: Because sport in the UK, England in particular, is different from that in the US.
+[00:30:54] Graham Warren: I mean, even at the start of it, where you put down hyped, chilled, famine, you've got to put down in the UK.
+[00:31:00] Graham Warren: Pissed-off, ultra-pissed-off, or angry.
+[00:31:02] Graham Warren: That's just what we are.
+[00:31:05] Graham Warren: Basically, when we go to a game, it's tribal.
+[00:31:09] Graham Warren: So what you want to be able to do is to make sure that you're getting the right information to the away fans, because you want to keep the away fans segregated in a lot of cases from the home fans.
+[00:31:18] Graham Warren: So it's important that if they decide to tell them you're going to so-and-so place and it creates a complete disaster for the security staff there and the police, then they're going to be obviously culpable of that.
+[00:31:29] Graham Warren: So it's really important that the information, I'm sure they will want to, because it will all be channeled towards the police as well, is that they will say you've got to go into so-and-so.
+[00:31:38] Graham Warren: We recommend that you leave the station at, say, so-and-so exit, where you'll be taken by the police from so-and-so to your entrance there.
+[00:31:49] Graham Warren: And then what we want to do is try to be able to get the clubs to know that they want to keep the away fans happy as well to a certain degree.
+[00:31:55] Graham Warren: Obviously, they want to see them get beat.
+[00:31:56] Graham Warren: But when they're there, they're going to want to, as Will pointed out, will be
+[00:32:00] Graham Warren: It's good for the clubs to understand that away fans from, say, Swansea and Wales, when they go to, say, a game in London, is that the Welsh might want to eat something different, and they might want to drink certain kinds of beer, so if they're going to be able to stock that on the day, they're going to make extra sales as well.
+[00:32:16] Graham Warren: So that's where the fans come in, that's where the clubs are going to really capitalise on this, is to understand each of the travelling fans as well.
+[00:32:23] Graham Warren: But, as I said, I love this, and I said I can see it because I was involved with running a football club as well, I can see the dashboard side of it, I can see how essential that is, how they can monitor everything, how they can go back, but we've just got to make it also understand that when we take this to a club in Europe, so when I worked over in Bulgaria at some of the top clubs over there, it's essential that they understand when you get CSK play Levski, for example, where the fans have got to go, where the fans can't go, where they're going to have to go and sit, where they're going to have to stand, where they're not allowed to throw chairs.
+[00:32:59] Graham Warren: And, that
+[00:33:00] Graham Warren: Opposition fans.
+[00:33:01] Graham Warren: It's like that.
+[00:33:02] Graham Warren: So it's very important that the information that the club provide is spot on.
+[00:33:07] Graham Warren: But that's all scripting.
+[00:33:09] Stewart Irvine: So, I mean, that all gets down into scripting and formatting.
+[00:33:14] Stewart Irvine: And so the procedure is going to be the same for pretty well every club.
+[00:33:21] Stewart Irvine: We will create a script, fill it in and be able to have it, because it's really standardized.
+[00:33:30] Stewart Irvine: And so every club, how we answer, how we interact will be customized for them.
+[00:33:35] Stewart Irvine: But it's still the same process and procedures.
+[00:33:39] Stewart Irvine: Yeah, and we can learn as we go as well.
+[00:33:41] wil block: There might be things that we bone up on what the script should look like.
+[00:33:44] wil block: So almost like, for lack of a better term, an application form when a club comes on board with what we're doing.
+[00:33:49] wil block: These are the things that we need the club to give us so that when we're programming the answers here, the club's giving us that information to Graham's point.
+[00:33:58] wil block: It's in the club's own best.
+[00:34:00] wil block: Because we are an amplifier for the club, it's the club's words coming through, we're just providing, we're the road, and the club is the car's, so to speak, right?
+[00:34:12] Stewart Irvine: So the conversations will always be the club's speak and the club language and the narrative, because you want to simulate the club, and every club will have its own club speak and its own way of interacting.
+[00:34:29] Shekhar Dewan: So I think there's a few things here, and I like what your point also stood, I think that makes sense.
+[00:34:36] Shekhar Dewan: So look, there's a few things here, so I want to go back to the first thing you said, Will, which is that you went, you bought something for 200 bucks, and they didn't take any information about you, right?
+[00:34:47] Shekhar Dewan: So to me, this is, in technical language, that's a CRM that's missing, right?
+[00:34:52] Shekhar Dewan: That should be in a CRM, anytime you make a purchase, they can associate using your credit card history, especially if you've
+[00:35:00] Shekhar Dewan: Signed up for membership, maybe you have a member card.
+[00:35:02] Shekhar Dewan: They know who you are, right?-hmm.
+[00:35:05] Shekhar Dewan: So that, to me, that has nothing to do with that.
+[00:35:08] Shekhar Dewan: That is an infrastructure piece.
+[00:35:10] Shekhar Dewan: That's right, Right, great.
+[00:35:12] Shekhar Dewan: The second thing you then mentioned is, oh, I had this one-hour agentic conversation with this interview thing.
+[00:35:19] Shekhar Dewan: I realized that this is something that they could do.
+[00:35:23] Shekhar Dewan: So that is a different kind of customer service, slash fan support, slash all the other stuff, but a 24-7 telephone support thing, right?
+[00:35:35] Shekhar Dewan: That is a completely distinct capability than a CRM, right?
+[00:35:39] wil block: Mm yep.
+[00:35:40] wil block: Okay, great.
+[00:35:41] Shekhar Dewan: The third thing we also discussed is things like accessibility.
+[00:35:46] Shekhar Dewan: We've sorted that out.
+[00:35:47] Shekhar Dewan: And then things like safety, because safety is also not just a one-time thing, but on the day off, there might be five or six different safety incidents happening at the same time.
+[00:35:57] Shekhar Dewan: How is that going to be handled each?
+[00:36:00] Shekhar Dewan: Club will handle safety differently.
+[00:36:02] Shekhar Dewan: So I understand there has to be some degree of club ownership and club access, because if there are safety issues going on, like that's gonna be challenging, right?
+[00:36:12] Shekhar Dewan: But the thing I wanna point out, and then there's another piece on infrastructure, which is like ordering system for these different, like vendors who are doing this, a different ordering system for merch, right?
+[00:36:25] Shekhar Dewan: So essentially we're talking about, in terms of like technical scope, there's a lot we're talking about, right?
+[00:36:32] Shekhar Dewan: So just the CRM, so why do clubs not have a CRM?
+[00:36:36] Shekhar Dewan: Is it because the software doesn't exist, which we know it does, or is it because they don't put in the effort to do all of the management and overhead that that will require, right?
+[00:36:48] Shekhar Dewan: To set it all up and to maintain it.
+[00:36:51] Shekhar Dewan: So like my feeling is that we'll have to look at two things.
+[00:36:57] Shekhar Dewan: One is, which parts of
+[00:37:00] Shekhar Dewan: The technical challenges do we want to handle first, like where's the value add we can do first, and like in what order, the other thing I think we want to look at is, to what degree do we want to give the club total ownership and to what degree do we want to try to handle it for them, because we kind of know they're not going to do it on their own, or maybe are not going to do a very good job, and one little point, Stewart, I know you're going to say something, so I, so the way I saw the vision, which was a little different, is I was like, you know, people sell seat tickets, people go and sit down, they watch a three-hour game, maybe, and some of them, all they bought was a ticket, right, they could have been sitting down, maybe they want to order food, and I understand delivery is not possible, but they could be sitting down and ordering merch, they could be sitting down, participating in an auction for a signed t-shirt that could be given out at the end of the game, they could be sitting there and betting on the live game.
+[00:38:00] Shekhar Dewan: As is happening, right?
+[00:38:02] Shekhar Dewan: Where the odds are continuing to move.
+[00:38:05] Shekhar Dewan: And just those things with zero fan engagement outside of the live game, I thought we could double or triple what clubs make from every ticket that they're selling.
+[00:38:16] Shekhar Dewan: Right?
+[00:38:18] Stewart Irvine: What I want to interject on this is clubs don't have the back-end administrative to be able to do this.
+[00:38:28] Stewart Irvine: So the plug-and-play that this has to be, we're going to do all that lifting.
+[00:38:36] Stewart Irvine: We will ask and create documentation or work with them, but there will be a provisioning and an onboarding that will be up to us.
+[00:38:48] Stewart Irvine: Because if I'm right, you know, from our conversations with Sutton, they don't have the, they don't have the manpower and the key teams that we're looking at.
+[00:39:00] Stewart Irvine: They don't have the manpower.
+[00:39:01] Stewart Irvine: They don't have the back end.
+[00:39:03] Stewart Irvine: Most of them don't even have an app.
+[00:39:04] Stewart Irvine: They, you know, they have not a lot of administrative people.
+[00:39:09] Stewart Irvine: So this is where it's got to be painless and brainless for them.
+[00:39:15] Stewart Irvine: Yeah, I mean, all the features as they go in, scripting the AI, scripting the conversation, that's not difficult anymore.
+[00:39:28] Stewart Irvine: Getting it up, getting it operational, being able to have AI and work, and as it's building out, not difficult anymore.
+[00:39:36] Stewart Irvine: But we're going to be doing that.
+[00:39:38] Stewart Irvine: Our back end people will be doing all the provisioning.
+[00:39:43] Stewart Irvine: Is that fair to say, Will, Graham?
+[00:39:47] wil block: Yeah, I mean, I think Graham's got more experience running a club.
+[00:39:51] wil block: But, you know, in the interactions I've had with people that are responsible for the income a club gets.
+[00:39:59] wil block: It's It's It's--
+[00:40:00] wil block: Clearly, if we can add monetary value to the ticket by increasing what a club makes, giving them the ability to order food, order merch, gambling is something we haven't really talked about, and I'm pretty sure there are some licenses we'd need to get before we can go down the path of gambling.
+[00:40:23] wil block: And also, then we'd have to start figuring out the age-gating on that, but yeah, I mean, yeah, clearly, if we can increase the value on there, I mean, things that occur to me is like, if a club hasn't sold out of its food, and they want to keep fans around after the game, drinking in the bars, they could send out a push notification through or onto the game companion.
+[00:40:51] wil block: That says, you know, burgers are half-priced after the game in XYZ bar, and you know, people will go there, get a burger and get a couple of beers.
+[00:41:00] wil block: So, you know, you're selling food that would otherwise go to waste and making money off that.
+[00:41:06] wil block: So all of those things are correct.
+[00:41:10] wil block: Graham, there any, I mean, you've got more practical experience in this than I do.
+[00:41:15] wil block: No, I agree with everything you're saying.
+[00:41:18] Graham Warren: You're spot on.
+[00:41:19] Graham Warren: It's what the clubs look for when you speak to them is that they say that they want to learn out more about the fans.
+[00:41:25] Graham Warren: What they're looking for is how they can earn more money off of them.
+[00:41:28] Graham Warren: Exactly.
+[00:41:30] Graham Warren: Yeah, that's really what they care about.
+[00:41:34] Graham Warren: What the fan cares about is something entirely different.
+[00:41:37] Graham Warren: They want to be part of the club.
+[00:41:38] Graham Warren: They want to feel like that they've got skin in the game and they're sort of, they're well taken care of.
+[00:41:44] Graham Warren: But we can do that because at the moment the fans are not taken care of.
+[00:41:48] Graham Warren: And this does allow that opportunity to be able to do that.
+[00:41:52] wil block: And the truth is a lot of the fan engagement stuff that's going on right now is either sort of really...
+[00:42:00] wil block: Silly stuff like ways that you can do stuff on social media, but also a bit like a guy that Graham and I both know, a guy called Matt, it's all about doing little competitions to win little prizes, it's all about having your hand in the club's, it feels like the club's hand is always in your pocket, so even though we want to increase profitability to the club, and we will do, that shouldn't feel like the sole purpose of what we're bringing to them.
+[00:42:28] wil block: What we're giving the club is the data of what their fans are doing.
+[00:42:32] wil block: So this is great.
+[00:42:33] wil block: mean, the in-game stuff is really, really great.
+[00:42:35] wil block: We haven't spoken about how we're going to show the actual telephone call, the agent receiving a call, because that's the primary thing that we're developing.
+[00:42:47] wil block: This is wonderful, don't get me wrong, but the real thing that we're selling is the ability for a fan anywhere in the world to call the club anytime and have a conversation with the club.
+[00:42:59] wil block: That's the engagement.
+[00:42:59] wil block: Thank
+[00:43:00] wil block: Right.
+[00:43:02] Stewart Irvine: I just want to add to this.
+[00:43:03] Stewart Irvine: One of the things that Sheik and I have been talking about is creating this VIP service.
+[00:43:10] Stewart Irvine: Every fan, every person wants to be treated special, and the ability of being able to actually have and interact and become part of the VIP of that club, that can be scripted, and that will then, when there's a reason why they actually want to read be engaged, want to be able to look at this because we're looking after them.
+[00:43:36] Stewart Irvine: And being able to, and I think, correct me if I'm wrong, but we talked about this before, about being able to simulate a conversation of what it's going to go through so that we can have that and we can build that out.
+[00:43:50] Stewart Irvine: Because the guys, that's the key that we want the guys to be able to show.
+[00:43:55] Shekhar Dewan: Yeah, so this is, so all of this is totally doable.
+[00:43:59] Shekhar Dewan: I think that
+[00:44:00] Shekhar Dewan: That's not a challenge.
+[00:44:01] Shekhar Dewan: The thing we want to think about is, in what order should we do this, not just for Sutton, but for other clubs, that they will want to work with us, right?
+[00:44:09] Shekhar Dewan: My feeling is that even if it's a QR code scan, like people sit down, they scan a QR code live game, they put in their credit card info, because we will need that, right?
+[00:44:19] Shekhar Dewan: Then they can order, like, food, merch, maybe tickets.
+[00:44:23] Shekhar Dewan: Like, if it's a great game, they'll maybe want to buy a season pass.
+[00:44:26] Shekhar Dewan: Now, they're in our system.
+[00:44:28] Shekhar Dewan: Once they're in our system, we can engage them and say, oh, by the way, like, this thing is coming up, do you want to buy this thing?
+[00:44:35] Shekhar Dewan: This thing is coming.
+[00:44:36] Shekhar Dewan: Now, if they want to call the club, okay, so we can, so if you think, so this part will make money.
+[00:44:44] Shekhar Dewan: On calling the club, if we want them to call the club, again, it'll be the same thing, we will need them in the CRM first, because when they call us, we want to know who they are, what the conversation history is with the club, how many tickets they've bought,
+[00:45:00] Shekhar Dewan: How many years they've been a fan for, right, when their birthday is, like, I want us to call them on their birthday and say, AI calls them and say, you know, our club wants to wish you a very happy birthday, we want to give you a free ticket to our next game, you know, just for you, and of course, if you want to bring anybody along, they get 20% off, whatever, like, there's ways to make this feel amazing for people, right?
+[00:45:25] Shekhar Dewan: Yeah.
+[00:45:27] Shekhar Dewan: The thing we need first is the infrastructure layer of the CRM, with all of the data held, once we have that, then doing outbound, inbound relationship building is totally easy, I thought the live game might be the easier way to start to show them the money quite fast, and to get people into the database, but if you guys think there's a different way we can get started, totally open it, but I, I'm totally aligned that I think long long term we want this amazing fan service.
+[00:46:00] Shekhar Dewan: And we want fans to really feel like they're part of the club.
+[00:46:03] Shekhar Dewan: Even if fans can donate and stuff, we could even have a leaderboard of who's donated the most.
+[00:46:09] Shekhar Dewan: People can see how much they've donated.
+[00:46:11] Shekhar Dewan: They can see their lifetime contributions to the club.
+[00:46:13] Shekhar Dewan: There's lots of ways we can make people feel like what they're doing for the club matters.
+[00:46:21] wil block: Yeah, I mean, the ability to train the robots, the agents to represent the club is where it all began.
+[00:46:32] wil block: And that for us is the special source because that data that we get from that, we give to the club.
+[00:46:38] wil block: That's why the club will pay us a subscription fee is because we're capturing data from fans all over the world or even domestically.
+[00:46:46] wil block: to your point about coming through the CRM, the reason why the ability to click on the phone icon like we've all got on, you know, that red phone icon we've even got on this call thing here, we want that embedded in the club's existing app.
+[00:47:00] wil block: And the existing website, because when you go into that as a fan, usually you've already logged in.
+[00:47:07] wil block: So when you click on the button, like, so when I log on to my team's app, or if Graham logs on to his team's app, if we're members of the club or a season ticket or whatever it may be, it knows who we are as soon as we open the app.
+[00:47:21] wil block: So if we call while we're in the app, obviously that information translates to the agent and it goes, hey, Will, how are you?
+[00:47:30] wil block: You know, the last time you called us, you were coming over for the Arsenal game, or you were coming over for whatever, you brought your son.
+[00:47:36] wil block: And so, yeah, you absolutely need that to build on that relationship.
+[00:47:40] wil block: And obviously that's a separate thing from the in-game companion.
+[00:47:45] wil block: The in-game companion is, you know, during the game, yeah, I want to pre-order my burger and Coke for half-time, or I want to, you know, buy next week's ticket.
+[00:47:56] wil block: The game was great.
+[00:47:56] wil block: I want to make sure I'm locking in the ticket.
+[00:48:00] wil block: So they're very complementary to each other.
+[00:48:03] wil block: And they're distinct, exactly.
+[00:48:05] Shekhar Dewan: So which one we want to do first is the thing, yeah.
+[00:48:12] wil block: Yeah, I guess I hadn't really thought about doing one first.
+[00:48:15] wil block: mean, to me, the voice is the most important thing.
+[00:48:17] wil block: The QR code is important.
+[00:48:20] wil block: They're both extremely important for different reasons.
+[00:48:23] wil block: The QR code is important for a game day, and the voice is important for everything else.
+[00:48:30] wil block: So I don't differentiate between which one is first.
+[00:48:34] Graham Warren: The game, so also, I know this is really quite relevant, but that should be in the Milchester game day chat as well.
+[00:48:40] Graham Warren: So if we can just drop the word day after game.
+[00:48:43] Graham Warren: But will correct what you're saying?
+[00:48:46] Graham Warren: Because if we just run this, the only time the fans are going to use this is probably twice a week.
+[00:48:50] Graham Warren: You normally get two games, get your Saturday game, and you get your midweek game.
+[00:48:54] Graham Warren: What we want to do is to collect the data for the fans to interact more during the course of the week.
+[00:49:00] Graham Warren: The reason they don't call at the moment, the club, is because most of time they can't get through, that's the real reason, then they're stuck on the phone for ages, what you want to be able to do is within, say, two or three rings, is get that response time, so they'll call up, they'll speak more, they'll moan, I mean, that's what most football fans want to do, they want to ring up and actually have somebody there at the other end of the phone, they can moan about what happened on Saturday and what's going on at the club, as I said, you've got to build this, when you're in, hopefully when we take this over into the US market, it's a different kind of vibe, it's a more positive vibe, you're walking around with big phone fingers on and things like that, and big fancy acts and things, it's not the same over here, so you've got to mix this into the different cultures, but what we were saying is correct, it kind of runs hand in hand, really, you weren't going to get the same buy-in if you only offer this side, as you do without the actual abilities.
+[00:49:57] wil block: And to that point about the moaning, you want
+[00:50:01] wil block: You feel like you're having a chat with the club, right?
+[00:50:03] wil block: So why did the manager make that substitute?
+[00:50:09] wil block: So the agent can be trained to gossip a little bit about the club.
+[00:50:14] wil block: Are we going to make any big signings in the summer?
+[00:50:16] wil block: Whatever.
+[00:50:17] wil block: And the club will say what they want to say, and that will train the agent, and the agent will have that kind of conversation.
+[00:50:24] wil block: But likewise, I'm a fan of a club in the UK, and the example I always give is, let's say, you know, because I booked my flight to go home and see a game, right?
+[00:50:32] wil block: So let's say, like, I'll probably go and see us play against Liverpool in a couple of weeks.
+[00:50:36] wil block: But I want to make sure that game hasn't been moved to the Monday because I'm booking a flight to come home.
+[00:50:41] wil block: So if it gets moved to Monday and I've booked a flight to come home on Monday, I'm .
+[00:50:46] wil block: So I call the club and I say, all right, I'm coming back for a Liverpool game.
+[00:50:50] wil block: Oh, great, Will, be good to see you again.
+[00:50:52] wil block: You know, last time you came back, we played Wolves and blah, blah, blah.
+[00:50:55] wil block: Yeah, I'm looking forward to it.
+[00:50:57] wil block: But it should then be trained enough to know that...
+[00:50:59] wil block: again.
+[00:50:59] wil block: again.
+[00:50:59] wil block: .
+[00:50:59] wil block: you.
+[00:51:00] wil block: The club might have a relationship with Hilton Hotels, and it could then say, oh, you know, while you're over, have you figured out your accommodation yet?
+[00:51:10] wil block: No, oh, well, we've got a special deal with Hilton Hotels.
+[00:51:15] wil block: You know, either we can do this over the phone or we can send you a push notification with a link that you can go through our discount code for Hilton, which then reflects back on the relationship the club's got with the hotel brand.
+[00:51:27] wil block: It could also say, are you coming alone?
+[00:51:30] wil block: No, I'm bringing my daughter.
+[00:51:32] wil block: Oh, you know, how many times has she been?
+[00:51:33] wil block: It's her first ever time.
+[00:51:35] wil block: Unbelievable.
+[00:51:36] wil block: you going to buy her any merchandise?
+[00:51:37] wil block: Yeah, I'm going to buy her a shirt with her favorite player is Zaha or whatever it might be.
+[00:51:43] wil block: Why don't we do this?
+[00:51:44] wil block: You know, tell us what size she wants right now.
+[00:51:46] wil block: We'll put the name on the shirt.
+[00:51:48] wil block: We'll have the shirt waiting for you because the day of the game, the Superstore is going to be an absolute zoo.
+[00:51:52] wil block: So we'll pre-order anything you want right now.
+[00:51:54] wil block: Is there anything else you want from the club shop?
+[00:51:56] wil block: You know, let us know.
+[00:51:57] wil block: We'll add it to the order.
+[00:51:59] wil block: It will be in a bag show.
+[00:52:00] wil block: Put a QR code, Bosch, you're in.
+[00:52:02] Stewart Irvine: But, Graham, on, but that conversation, the structure of that, that'll be basically consistent through most clubs.
+[00:52:11] Stewart Irvine: Right.
+[00:52:12] Stewart Irvine: The structure, the sequence.
+[00:52:13] wil block: Of course, of course.
+[00:52:14] Stewart Irvine: Yeah, the process of it.
+[00:52:16] Stewart Irvine: So, you know, we're building the structured part of the conversation.
+[00:52:21] Stewart Irvine: It's not going to really change how the interaction part of it.
+[00:52:26] Graham Warren: We also want to enable the clubs, especially the smaller clubs.
+[00:52:29] Graham Warren: I mean, when you talk about, say, the Manchester United and the Liverpools in this world, they've got major sponsorships.
+[00:52:35] Graham Warren: But when you look at, say, the Stuttons and you look at, say, the Macclesfields and the smaller clubs, they're looking for anybody that will sponsor them.
+[00:52:43] Graham Warren: They're even looking down to where people sponsor one of their players for £100 a season, like, on their shirts.
+[00:52:49] Graham Warren: It's literally, they are skin and bone, like, with the money that they've got.
+[00:52:53] Graham Warren: So you want to be able to get in touch.
+[00:52:55] Graham Warren: Stuart made a point the other week, which was actually a good, not saying you don't normally make good points, but this was a good point.
+[00:53:03] Graham Warren: Stewart, when he gets there, he wants to look for like a vegan restaurant.
+[00:53:07] Graham Warren: My wife likes Japanese food.
+[00:53:09] Graham Warren: We might want to decide to go to Japanese.
+[00:53:10] Graham Warren: So what you want to do is to be able to have a link with the club where it will get, say, the restaurants to actually sponsor the clubs because they can get a kickback for actually putting out any information.
+[00:53:21] Graham Warren: So there's lots of different ways that there can be links built on this as well.
+[00:53:25] Graham Warren: So let me propose, there are two business models here, right?
+[00:53:29] Shekhar Dewan: One is a subscription model.
+[00:53:30] Shekhar Dewan: They pay us, and we provide them a service, right?
+[00:53:33] Shekhar Dewan: Yep.
+[00:53:34] Shekhar Dewan: The other model is we make our app free, okay?
+[00:53:38] Shekhar Dewan: We make it free, right?
+[00:53:41] Shekhar Dewan: And then if we make it free, would start with the game day one, right?
+[00:53:45] Shekhar Dewan: All we ask the club to do is just put the QR code, we'll handle the rest.
+[00:53:49] Shekhar Dewan: Now, we can't do this, like, well, there'll be some cost to build the whole thing.
+[00:53:54] Shekhar Dewan: Once it's built, we can give it to clubs for free.
+[00:53:57] Shekhar Dewan: Zero money.
+[00:53:58] Shekhar Dewan: And we, and we just take
+[00:54:00] Shekhar Dewan: Take a small percentage, 2%, 3%, 4% of the transactions that go through our app.
+[00:54:04] Shekhar Dewan: No.
+[00:54:05] wil block: No.
+[00:54:07] wil block: Sorry to cut you off, we've had this conversation before, we're not in the business of making little incremental bits of shrapnel here and there, we're selling a relationship between club and fan, and we're not trying to make little marginal bits of bits here and there, I understand exactly what you're saying.
+[00:54:29] wil block: So, I think the fan, to me that just feels like the wrong approach, I think we want to say to a club, we're going to sell you a package, and we're going to increase your sales and you keep all of that, we're going to increase this and we're going to increase your fan, because ultimately for us, at some point, the value of the data that we're keeping is going to far outstrip the subscription model anyway, so we're going to make a significant amount of money once we've got, let's say, 20, 30, 50, 100 clubs, we've got a really
+[00:55:00] wil block: That's compelling amount of data that we're getting from all these fan interactions.
+[00:55:03] wil block: We then start selling that data and harvesting that data ourselves.
+[00:55:09] wil block: We then start writing our own sports-specific LLM that clubs will buy into if they want to get projections and things like that.
+[00:55:17] wil block: I just feel like if we're in the club's pocket for transactions, to me it just doesn't.
+[00:55:25] Stewart Irvine: Yeah, as the SaaS subscription model, enabling basically a full, live, personalized, conversational engagement, interaction, and tracking their purchases, looking at that as a high level, is the primary go-to.
+[00:55:49] Stewart Irvine: All the back-end, all the other different interactions and other things like that, that's another back-end.
+[00:55:57] Stewart Irvine: That'll happen.
+[00:55:58] Graham Warren: Yes, Graham.
+[00:55:59] Graham Warren: you.
+[00:56:00] Graham Warren: Guys, this has been really good, and we need to have more of these conversations.
+[00:56:03] Graham Warren: Literally, we need to book something at least once a week so we can get through this.
+[00:56:09] Graham Warren: Whether or not Shekhar join once a week, we need to have myself, Stewart, Will, and the other guys need to be on a call at least two or three times a week at the moment.
+[00:56:17] Graham Warren: I had a big question.
+[00:56:19] Graham Warren: We've got five minutes left.
+[00:56:21] Graham Warren: I have got three potential investors that are contacting me at the moment and want to see something.
+[00:56:27] Graham Warren: We've sent them the investment decks.
+[00:56:29] Graham Warren: They want to have conversations.
+[00:56:31] Graham Warren: I've got clubs that I've approached back two months ago.
+[00:56:34] Graham Warren: I can't speak to at the moment.
+[00:56:35] Graham Warren: I can't follow them up.
+[00:56:36] Graham Warren: I can't even follow up one of my closest friends who's a big name in football because I haven't got anything to show him at the moment.
+[00:56:42] Graham Warren: Right.
+[00:56:43] Graham Warren: We must, we must have something soon, like literally, I'm talking like within the next week to be able to take back no matter what it's like at the moment, but we've got to get that because if we don't, I'm losing face with people, which I can get around, but we, it's such an
+[00:57:00] Graham Warren: The incestuous industry over here is that people will be, they're just time wasters, there isn't anything substantial beyond what they're first talking about.
+[00:57:07] Graham Warren: I've gone and played golf with them, I've gone out, we've paid tickets for people to go and meet in London.
+[00:57:13] Graham Warren: We're so far behind at the moment that we've got to get something out there.
+[00:57:17] Graham Warren: Especially, I've got, just one second, I've got an investor calling me on a daily basis, literally, pardon my French, where the  is it?
+[00:57:28] Stewart Irvine: Shaq and I had a conversation prior to this about that, about deliverables and a roadmap.
+[00:57:34] Stewart Irvine: So here's what I'm going to suggest, because we have three minutes.
+[00:57:37] Shekhar Dewan: I can give us a little bit more time by making another Google Meets link, so we have a little bit more than three minutes.
+[00:57:43] Shekhar Dewan: Does anybody have to run?
+[00:57:45] wil block: Yeah, I know it's late in the UK, but...
+[00:57:48] Graham Warren: I've got to run after seven, 15 minutes.
+[00:57:52] Stewart Irvine: I was going to say, Jack, what we can do, because we've talked about this and creating the roadmap.
+[00:58:00] Stewart Irvine: And what I'd like to suggest is that, you know, I think it's really important, and I'm sorry I've just been out of pocket.
+[00:58:09] Stewart Irvine: I wanted to have you into the conversation on this, but what I'd like to do is let's create a roadmap of deliverables because it's really simple.
+[00:58:22] Stewart Irvine: I mean, Graham has said very succinctly, we need to take this demo and enhance it, not much, but enhance this so that an investor looks at it and goes, holy , I get it.
+[00:58:38] Stewart Irvine: Yeah.
+[00:58:38] Graham Warren: I want to leave them wanting more at the end of it.
+[00:58:41] Graham Warren: I'm not expecting you guys to be able to sort of show everything.
+[00:58:45] Graham Warren: In fact, I don't even think that's a good thing to do on a demo.
+[00:58:47] wil block: Why don't we jump on the other link before this turns us out?
+[00:58:50] wil block: We'll jump on the other link and just pick us Where is it sent to?
+[00:58:53] wil block: Have I got it at mine?
+[00:58:54] wil block: Yeah, it's in the chat.
+[00:58:55] Shekhar Dewan: also emailed it to everybody.
+[00:58:57] Shekhar Dewan: Chat, chat, chat, chat.
+[00:58:58] Graham Warren: Will, maybe you could text it
+[00:59:00] Graham Warren: Yeah, I'll text it to you, Graham.
+[00:59:03] Graham Warren: All right, see you there in sec.
+[00:59:05] Shekhar Dewan: Okay.
+[00:59:17] Graham Warren: Okay.

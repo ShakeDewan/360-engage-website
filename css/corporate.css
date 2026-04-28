@@ -1,0 +1,334 @@
+:root {
+    /* Pro Classic Core Palette */
+    --primary: #1D4ED8;
+    --primary-light: #3B82F6;
+    --primary-dark: #1E3A8A;
+    --surface: #FFFFFF;
+    --surface-alt: #F8FAFC;
+    --background: #F1F5F9;
+    --text-primary: #0F172A;
+    --text-secondary: #475569;
+    --border: #E2E8F0;
+    --accent: #10B981;
+    --font-heading: 'Outfit', -apple-system, sans-serif;
+    --font-body: 'Inter', -apple-system, sans-serif;
+    --nav-height: 80px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    background-color: var(--surface);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding-top: var(--nav-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-primary);
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Global Nav */
+.global-nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    height: var(--nav-height);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    text-decoration: none;
+    letter-spacing: -0.05em;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover { color: var(--primary); }
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--primary-dark);
+}
+
+.btn-outline {
+    border: 1px solid var(--border);
+    color: var(--text-primary);
+}
+
+.btn-outline:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+/* Typography Utilities */
+.overline {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-top: 1.5rem;
+    max-width: 800px;
+}
+
+/* Sections */
+.section {
+    padding: 8rem 0;
+    position: relative;
+}
+
+.section-dark {
+    background-color: var(--text-primary);
+    color: var(--surface);
+}
+.section-dark h2, .section-dark h3, .section-dark .btn-outline {
+    color: var(--surface);
+}
+.section-dark .lead, .section-dark p {
+    color: #94A3B8;
+}
+.section-dark .btn-outline {
+    border-color: rgba(255,255,255,0.2);
+}
+
+.section-alt {
+    background-color: var(--surface-alt);
+}
+
+/* Custom Section Layouts */
+.hero-corporate {
+    height: calc(100vh - var(--nav-height));
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.6) 100%), url('../assets/soccer-stadium-1920-x-1080-background-g83icg1d3pxsb9a9.jpg') center/cover;
+    color: white;
+}
+
+.hero-corporate h1 {
+    font-size: clamp(3rem, 6vw, 5rem);
+    color: white;
+    max-width: 900px;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.02em;
+}
+
+.hero-corporate p {
+    font-size: 1.25rem;
+    color: #E2E8F0;
+    max-width: 600px;
+    margin-bottom: 2.5rem;
+}
+
+/* Problem Split Layout */
+.split-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
+
+.image-stack {
+    position: relative;
+    height: 500px;
+}
+
+.image-stack img {
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+.img-main {
+    width: 80%;
+    height: 400px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.img-accent {
+    width: 60%;
+    height: 300px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    border: 8px solid var(--surface);
+}
+
+/* Solution Band */
+.solution-band {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* ROI Cards */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Grid */
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.team-card {
+    text-align: left;
+}
+
+.team-photo {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: var(--border);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    font-size: 3rem;
+}
+
+.team-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Footer */
+.corporate-footer {
+    background: var(--text-primary);
+    color: white;
+    padding: 6rem 0 2rem;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+}
+
+.footer-col h5 {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 0.75rem;
+}
+
+.footer-col a {
+    color: #94A3B8;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-col a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #94A3B8;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 900px) {
+    .split-layout { grid-template-columns: 1fr; }
+    .grid-3 { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .nav-links { display: none; }
+}

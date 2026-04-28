@@ -1,0 +1,407 @@
+Title: Stewart / Shake - 360 Engage
+Date: 2026-02-23T20:51:57Z
+Recording ID: 124628275
+Share URL: https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr
+Internal URL: https://fathom.video/calls/578053927
+Attendees: sirvineyvr@gmail.com <sirvineyvr@gmail.com>, Shake Dewan <contact@unlimitedleadengine.com>, stewart@biosquares.com <stewart@biosquares.com>, Shekhar Dewan <shekhar.dewan@gmail.com>
+========================================
+SUMMARY
+========================================
+
+## Meeting Purpose
+
+[Review product feedback and define the MVP scope.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=41.0)
+
+## Key Takeaways
+
+  - [**Pivot from Voice to Chat:** The MVP will use a chat interface, not voice. This avoids high operational costs (\~$1/fan), phone permission issues, and unreliable stadium data.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=781.0)
+  - [**Phased Rollout:** The product will launch in phases (e.g., Food/Drink → Merch → Tickets) to manage complexity and build a defensible position by integrating with club POS systems.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1707.0)
+  - [**Illustrative Demo:** The current demo will be updated to show the *potential* of a full product, using placeholder buttons for features like "Incident Report" to secure Letters of Intent (LOIs) for the MVP.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2042.0)
+  - [**Revenue Model:** A revenue-share model (e.g., 5–10% of sales) aligns incentives, making the product a direct path for clubs to monetize their fan base.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1781.0)
+
+## Topics
+
+### Voice vs. Chat Interface
+
+  - [**Initial Request:** The team requested a voice interface for a "companion" experience.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=522.0)
+  - [**Decision:** The MVP will use a chat interface.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1642.0)
+  - [**Rationale:** Voice is too complex and costly for an MVP.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=781.0)
+      - [**Operational Cost:** \~$1/fan for 10 mins vs. negligible cost for chat.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=781.0)
+      - [**Technical Issues:** Phone permissions, battery drain, and unreliable stadium data.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1069.0)
+      - [**Reliability:** Chat via web app works for 100% of users, ensuring a stable experience.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1058.0)
+
+### MVP Scope & Phased Rollout
+
+  - [**Strategy:** Launch with a focused MVP and expand features over time.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1707.0)
+  - [**Phase 1 MVP:** Food & Drink ordering.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1448.0)
+      - [**Rationale:** A simple, high-revenue feature that provides immediate value.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1448.0)
+      - [**Process:** Requires integrating with diverse stadium POS systems, which is a key challenge but also a long-term competitive advantage.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1736.0)
+  - [**Future Phases:** Merch, Tickets, Auctions, Donations, and personalized offers.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1986.0)
+      - [**Timeline:** A full-featured app could take 2+ years.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=1939.0)
+
+### Dashboard & Demo Strategy
+
+  - [**Feedback:** The club dashboard needs a revenue breakdown by campaign.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=61.0)
+  - [**Decision:** The current dashboard is illustrative; it shows *what's possible* with data, not a final view.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=242.0)
+      - [**Rationale:** The backend can generate any view from available data. The sales pitch will be: "Tell us what you need to see, and we'll build it."](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=242.0)
+  - [**Demo Update for Wednesday:**](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2042.0)
+      - [**Goal:** Secure LOIs for the MVP by showcasing the full vision.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2042.0)
+      - [**Action:** Add placeholder buttons for key features (Food, Incident Report, Tickets).](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2200.0)
+      - [**Rationale:** This shows potential without requiring full functionality, which is critical for the upcoming sales meetings.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2223.0)
+
+## Next Steps
+
+  - [**Shekhar:**](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2155.0)
+      - [Update the demo for Wednesday's meetings:](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2042.0)
+          - [Change "Match Day" to "Game Day."](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2155.0)
+          - [Add placeholder buttons for Food Ordering, Incident Report, and Tickets.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2200.0)
+      - [Prepare to explain the dashboard's illustrative nature and the phased product roadmap.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2155.0)
+  - [**Stewart:**](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2100.0)
+      - [Use the updated demo to secure LOIs, which will fund the MVP build.](https://fathom.video/share/n1Lpz9nDtaPCDmCaqdrzxeXc1d38cMyr?tab=summary&timestamp=2100.0)
+
+
+========================================
+ACTION ITEMS
+========================================
+
+No explicit action items.
+
+========================================
+TRANSCRIPT
+========================================
+
+[00:00:17] Stewart Irvine: Hey Ben, sent you a link.
+[00:00:19] Stewart Irvine: Are you able just to jump on?
+[00:00:24] Stewart Irvine: Oh, you tried, okay.
+[00:00:27] Shekhar Dewan: Oh, there he is.
+[00:00:29] Stewart Irvine: There you are.
+[00:00:29] Stewart Irvine: Thanks.
+[00:00:31] Shekhar Dewan: Hey Ben, I see you're wearing a jersey, so that's, you know, very suggestive.
+[00:00:38] Ben Prior: Yeah, yeah.
+[00:00:39] Ben Prior: Hiya.
+[00:00:40] Ben Prior: Hi, pleasure.
+[00:00:41] Shekhar Dewan: So you reviewed the product with the team as well, I guess, today?
+[00:00:45] Shekhar Dewan: Yes, yeah.
+[00:00:47] Ben Prior: Okay, great.
+[00:00:47] Shekhar Dewan: So, and you guys had some feedback.
+[00:00:49] Shekhar Dewan: I got bullet points from Stuart.
+[00:00:50] Shekhar Dewan: I'd love it if you could give me your version of it as well.
+[00:00:55] Shekhar Dewan: Yeah, yeah, sure.
+[00:00:56] Ben Prior: Let me pick up what I had.
+[00:00:58] Ben Prior: Yeah.
+[00:00:59] Ben Prior: Yeah.
+[00:01:01] Ben Prior: Yeah, so the first one, I'll actually get up the demo first and have a look, it's been the first one we're looking at the club dashboard, and I know Simon mentioned about the getting more of a revenue breakdown, so when you sort of clicked on to say like the total revenue, sort of take you to another page, I had a bit more of a detailed breakdown.
+[00:01:24] Shekhar Dewan: Yeah, mean, if you scroll down, you can see on the revenue tracker, you'll see person by person how much came in.
+[00:01:32] Shekhar Dewan: It's all there, it's just like...
+[00:01:34] Ben Prior: Yeah, I think it was more like in terms of a breakdown of different types of revenue, I think that's what was mentioned.
+[00:01:42] Ben Prior: Yeah.
+[00:01:44] Ben Prior: You know, that's saying total revenue, but maybe...
+[00:01:48] Ben Prior: Yeah, I mean, we can go over it.
+[00:01:49] Ben Prior: So essentially, so you can see revenue tracker right here.
+[00:01:53] Ben Prior: Yeah.
+[00:01:54] Shekhar Dewan: It has the fans name, it has what campaign they purchased from.
+[00:01:58] Shekhar Dewan: It has the status.
+[00:02:00] Shekhar Dewan: Did they save it?
+[00:02:01] Shekhar Dewan: Did they buy it?
+[00:02:02] Shekhar Dewan: And it has the value as well.
+[00:02:04] Ben Prior: So is there a way of saying, so you know, the campaign, is there a way of then showing that this is the total amount per campaign, potentially?
+[00:02:12] Shekhar Dewan: Yeah, I mean, that's, that's, that's, that's no, that's no challenge.
+[00:02:16] Shekhar Dewan: that's fine.
+[00:02:18] Ben Prior: That's probably what they were, they were getting at, saying that can have a breakdown of sort of each individual type of revenue.
+[00:02:26] Ben Prior: Yeah, that was on the dashboard.
+[00:02:29] Ben Prior: then, what's we got?
+[00:02:32] Ben Prior: Yeah, I think the main thing that we spoke about.
+[00:02:35] Ben Prior: So just want totals per campaign?
+[00:02:37] Shekhar Dewan: Is that, is that the main request?
+[00:02:39] Shekhar Dewan: Like, can we, is that what we want?
+[00:02:40] Shekhar Dewan: Or how do we want it?
+[00:02:42] Ben Prior: Yeah, I believe so.
+[00:02:43] Ben Prior: I think that's sort of what Simon was suggesting.
+[00:02:46] Shekhar Dewan: Or do you want total, do you want it at the item level as well as the campaign level?
+[00:02:51] Stewart Irvine: Well, one of the ideas I was trying to explain is that we can do like a, a fan, and it's merchandise.
+[00:03:03] Stewart Irvine: It's beer, you know, mean, it's a variety of different things where it's going to come from.
+[00:03:09] Stewart Irvine: I mean, I don't think we have to, from a club owner, what was, one of the guys actually referenced the dashboard is a big deal for clubs.
+[00:03:21] Stewart Irvine: Yeah.
+[00:03:22] Stewart Irvine: It's being able to see where it's coming from.
+[00:03:26] Stewart Irvine: We don't have to get too granular because, again, we're simulating this.
+[00:03:31] Stewart Irvine: This is just a synthetic conversation, so it's not in real time.
+[00:03:36] Stewart Irvine: We're just showing where these things can come from.
+[00:03:39] Stewart Irvine: So if there's merchandise or, you know, beer and wine hospitality items, however we do that, I don't think we need to get too deep into it.
+[00:03:55] Stewart Irvine: No, it's more just showing that it can be split out, I think, because each club is...
+[00:04:02] Shekhar Dewan: Yeah, mean, so it can all be done, and what I can do is I can make it such that, like, you can click buttons and get, like, your own kind of metrics, like, the kind of, like, the main point is we have data, right?
+[00:04:18] Ben Prior: Yeah.
+[00:04:19] Shekhar Dewan: And then we have different views that we can derive off the data itself.
+[00:04:25] Shekhar Dewan: So any possible conceivable view is possible to do that's in the data.
+[00:04:33] Shekhar Dewan: So any view that they can conceive of that exists in the data can be done.
+[00:04:38] Shekhar Dewan: That's not a problem, okay?
+[00:04:40] Shekhar Dewan: So what I would love is for every club that we sell to, we can get a list of views they want.
+[00:04:47] Shekhar Dewan: And as long as those views exist in the data, we can create those views.
+[00:04:50] Shekhar Dewan: So if you then want it at the campaign level, fan level, item level, whatever, like, all of that is doable.
+[00:04:58] Shekhar Dewan: This is more just to show them.
+[00:04:59] Shekhar Dewan: ...
+[00:05:00] Shekhar Dewan: This example of the kinds of views they can get.
+[00:05:02] Shekhar Dewan: They can get traffic over time.
+[00:05:05] Shekhar Dewan: They can get total rates like message open conversion.
+[00:05:08] Shekhar Dewan: They can get a summary here.
+[00:05:10] Shekhar Dewan: They have admin controls.
+[00:05:11] Shekhar Dewan: They can see incidents.
+[00:05:14] Shekhar Dewan: Again, they can see over time.
+[00:05:15] Shekhar Dewan: They can see it at the level of per fan what happened.
+[00:05:18] Shekhar Dewan: They can see different segments of fans.
+[00:05:22] Shekhar Dewan: They can see an activity feed.
+[00:05:24] Shekhar Dewan: There's a bunch of things like fan lists, right?
+[00:05:30] Shekhar Dewan: Yeah, sorry.
+[00:05:31] Stewart Irvine: It'll show the possibilities.
+[00:05:34] Stewart Irvine: Exactly.
+[00:05:36] Stewart Irvine: If you're capturing and harvesting data, you can display it in a multitude of different ways.
+[00:05:43] Stewart Irvine: It's about illustrating the capability.
+[00:05:47] Shekhar Dewan: Yeah, this is meant to be illustrative.
+[00:05:49] Shekhar Dewan: Exactly.
+[00:05:51] Stewart Irvine: Then Graham can go, okay, so what's important to you?
+[00:05:55] Stewart Irvine: What do you want to see?
+[00:05:55] Stewart Irvine: And we'll build it in for you.
+[00:05:57] Shekhar Dewan: That's how we sell this.
+[00:05:59] Shekhar Dewan: Yes.
+[00:05:59] Shekhar Dewan: Yeah, Nah… Yeah.
+[00:06:00] Stewart Irvine: Now, one of the points that I wanted to bring up, and, you know, we've been discussing this is other revenue items, so if somebody's going to a game, and we facilitate a train ticket, facilitate, you know, once we start this whole journey, hey, you're going to this game, great, it's going to, I'm going to go and I'm going to meet some friends, I need two train tickets, I want to pre-buy some beer, some wine, all, all the transactions, and this is where this is all about making money on the back end, once we have this companion relationship with that fan, then we can start essentially putting our hand in their pocket, in a nice way, you know, and this is, this is where the exciting part is, to repay Mhm.
+[00:06:59] Stewart Irvine: All
+[00:07:00] Stewart Irvine: And having a revenue share with the club.
+[00:07:06] Stewart Irvine: Now, so is there a way that we can visually show this, or is there a way that we can, within the confines of what we have here, how could we show that part of the fan or the journey or the game day?
+[00:07:27] Stewart Irvine: Because game day is one thing, but then being able to interact with them prior, so they're going to find out, is the match still on?
+[00:07:38] Stewart Irvine: Is the game still on?
+[00:07:40] Stewart Irvine: You know, these are the different scenarios.
+[00:07:44] Shekhar Dewan: Yeah, so, I want to just kind of position that technology products are very complicated, very complicated.
+[00:07:52] Shekhar Dewan: The thing that we're trying to build in the past would have taken a team of developers and several months of time, right?
+[00:07:58] Shekhar Dewan: Thanks so
+[00:08:00] Shekhar Dewan: Thanks to advancements in technology, we can get things done a lot faster now, but it's very important to define scope, because if we make it over complicated, it will just not work, and nobody will be happy.
+[00:08:13] Shekhar Dewan: So the things we have right now, a dashboard, is already going to be quite a bit of lift, because we have to pull in their data, right, which will be of an assortment of things, and could be quite messy.
+[00:08:27] Shekhar Dewan: The data could contradict, so we have to do data reconciliation, build data engineering pipelines, make sure the data coming in is stable, and then build a dashboard that's stable, that's real-time, et cetera.
+[00:08:41] Shekhar Dewan: So that's the dashboard piece.
+[00:08:42] Shekhar Dewan: The other piece we're discussing is the fan interaction, that's right, right?
+[00:08:48] Shekhar Dewan: Now, there is a fan interaction that is an all-inclusive companion, tells them everything, et cetera.
+[00:08:56] Shekhar Dewan: That is going to be very hard to do.
+[00:08:58] Shekhar Dewan: Okay, I can go into the one.
+[00:10:00] Shekhar Dewan: We're discussing, we will just have to build an app, okay, if you want pre-game, like all of this stuff, but the problem with an app is again, there's already a lot of competition, but even if we do an app, we would still need the stadium to reliably give us data about the match, like they need to tell us the timings, like if there are data issues from their end, which I will guarantee for many stadiums, they will update things late, they'll put the wrong date, stuff like that, like there will be mistakes, that data will propagate into our app, right?
+[00:10:36] Shekhar Dewan: So we really want to understand that, like, technology is a perfect solution in a very messy world, and we have to reduce the amount of messy, the surface of that messiness that we have to deal with, because we, that will be the main challenge here, just overall, is the messiness of what we'll be dealing with on their site.
+[00:10:59] Shekhar Dewan: next
+[00:13:01] Shekhar Dewan: The problem with that, it's not that we can do it, it'll just be over the phone, but the only problem with it is it'll cost us some money to run that.
+[00:13:11] Shekhar Dewan: The chat's going to be much less expensive than voice.
+[00:13:14] Shekhar Dewan: If you think of voice as 10 cents a minute, let's say, so per 10 minutes we're paying a dollar, that's per fan.
+[00:13:22] Shekhar Dewan: So if you have 100 fans using it for 10 minutes each, that's going to be $100.
+[00:13:28] Shekhar Dewan: It's not crazy, but it is an operational cost.
+[00:13:32] Shekhar Dewan: Chat is far cheaper.
+[00:13:34] Shekhar Dewan: Chat is like, you know, $15 for a million tokens, right?
+[00:13:38] Shekhar Dewan: It's not even, yeah, so that's orders of magnitude.
+[00:13:44] Shekhar Dewan: It's like maybe one cent a minute if you want, or maybe less, right?
+[00:13:51] Shekhar Dewan: So, but we have to pick one.
+[00:13:53] Shekhar Dewan: If you really want to do voice, we can look into voice, but then we don't do the chat, right?
+[00:13:58] Shekhar Dewan: Because they're totally-
+[00:14:00] Shekhar Dewan: They will work very differently.
+[00:14:04] Shekhar Dewan: And they will require different kinds of testing and all that stuff.
+[00:14:09] Shekhar Dewan: I think a chat one is a better starting point, but yeah.
+[00:14:15] Shekhar Dewan: So do I.
+[00:14:16] Stewart Irvine: I think at this stage where you're going to a club, and what we have to look at is that the tier one, the big boys, the big clubs, the Manchester, and those clubs are different than the Suttons and the lower tier clubs.
+[00:14:36] Stewart Irvine: The big thing that I envision and dealing with the women's spectator sports is these are the clubs where they don't have apps.
+[00:14:49] Stewart Irvine: Exactly.
+[00:14:50] Shekhar Dewan: So you can think of this as the Shopify of sports clubs.
+[00:14:53] Shekhar Dewan: That's exactly.
+[00:14:55] Stewart Irvine: So we can provide them a solution that's going to do
+[00:16:00] Stewart Irvine: Aspect of it, because it was able to use the voice and simulate, okay, I'm coming from Liverpool down, I want to go see a game, whatever.
+[00:16:11] Stewart Irvine: You know, so I think the ticket is probably the biggest.
+[00:16:16] Stewart Irvine: When I was talking before, Ben, and you can add to this, is when I was speaking with Will about what are the customer interactions, and he was saying that one of the big reasons people call up to complain is the policing, you know, when they're at away games and other things.
+[00:16:37] Stewart Irvine: That's, as Canadians, we don't have that problem.
+[00:16:44] Shekhar Dewan: In the chat, we can do what you want to do.
+[00:16:47] Shekhar Dewan: Do you need to report an issue, like incident report?
+[00:16:50] Shekhar Dewan: you want to?
+[00:16:51] Shekhar Dewan: So we can, so look, already what we've got is pretty sophisticated.
+[00:16:54] Shekhar Dewan: We're going to give them QR codes, right?
+[00:16:58] Shekhar Dewan: And we want
+[00:17:00] Shekhar Dewan: So to give them a unique QR code based on their seat, okay?
+[00:17:05] Shekhar Dewan: So we're going to build a system that prints unique QR codes per seat that they're sitting at, okay?
+[00:17:14] Shekhar Dewan: Then based on the time of the game, based on the time, based on what we know is on, we will know which game they're watching and which seat they're watching from, okay?
+[00:17:24] Shekhar Dewan: So we will know that information and based on that information, we will make it relevant.
+[00:17:29] Shekhar Dewan: And secondly, if they want to report an incident, we know where they're sitting, right?
+[00:17:33] Shekhar Dewan: So the police goes to their seat and talks to them directly, right?
+[00:17:38] Shekhar Dewan: So, and the reason we want to have it as chat right now is because chat over a web app will work, like a micro app, will work for 100% of people.
+[00:17:47] Shekhar Dewan: It will work for everybody.
+[00:17:49] Shekhar Dewan: I cannot, the voice will not work for everybody.
+[00:17:52] Shekhar Dewan: And if it doesn't work for some people, it just creates a huge confusion because people say, well, the voice isn't working, they're going to report.
+[00:18:01] Shekhar Dewan: It's a bigger problem.
+[00:18:02] Shekhar Dewan: It's a phone's permission issue, then we have to have a customer support department that teaches people how to enable voice access on their phone.
+[00:18:11] Shekhar Dewan: It'll drain their battery faster, some of them will be unhappy because we drain 30% of the battery.
+[00:18:17] Shekhar Dewan: There's a whole host of things, there's data retention and transmission issues.
+[00:18:23] Shekhar Dewan: There's a whole host of complexity that comes in with voice, especially if it's not over the phone.
+[00:18:32] Shekhar Dewan: And if it's over the phone, you can have a call me thing, but then integrating that with the app, I think what will be great for stadiums is just something that works reliably, which works very well with like QR codes and like standard functionality.
+[00:18:51] Shekhar Dewan: And even on the dashboard, I can guarantee how well their data will come into our dashboard.
+[00:18:56] Shekhar Dewan: But I can guarantee that from our chats to the dashboard.
+[00:18:59] Shekhar Dewan: the going
+[00:19:00] Shekhar Dewan: That's a 100% transmission rate.
+[00:19:02] Shekhar Dewan: It's going to have no errors.
+[00:19:05] Shekhar Dewan: Sorry to interrupt you.
+[00:19:07] Stewart Irvine: I really like the incident report.
+[00:19:11] Stewart Irvine: So let's say we visualize, we put a telephone icon with contact and then that opens up and then we've got a tickets or whatever.
+[00:19:28] Stewart Irvine: Yeah, you can have a button on the top right that's incident report.
+[00:19:31] Shekhar Dewan: They can click it whenever they want.
+[00:19:32] Shekhar Dewan: Yeah.
+[00:19:33] Shekhar Dewan: Right.
+[00:19:35] Shekhar Dewan: And, and, and yeah, like, so we can, we can have an incident report button that's always, like we can have a couple of buttons they can always access.
+[00:19:43] Shekhar Dewan: Okay.
+[00:19:44] Shekhar Dewan: Yeah.
+[00:19:44] Shekhar Dewan: Or something now button, like on the top right and the incident.
+[00:19:48] Shekhar Dewan: Order now.
+[00:19:48] Shekhar Dewan: Yeah.
+[00:19:49] Shekhar Dewan: You know, so they'll have, and we'll also collect their phone numbers.
+[00:19:53] Shekhar Dewan: So again, if they file an incident report, somebody needs to call them.
+[00:19:57] Shekhar Dewan: They can call them, or, you know, yeah.
+[00:19:59] Shekhar Dewan: Yeah.
+[00:20:02] Shekhar Dewan: So, and based on their phone number and where they're sitting, we will probably know roughly who they are based on, who bought the ticket, like, but again, that'll be a whole set of engineering on the back end, going from who bought the ticket to who's texting us right now, probably, and some people resell their tickets.
+[00:20:19] Shekhar Dewan: So again, that data is not going to be reliable.
+[00:20:21] Shekhar Dewan: So that's always like, yeah, yeah.
+[00:20:24] Stewart Irvine: But for this purpose, let's streamline it, keep it simple.
+[00:20:28] Stewart Irvine: When we go into the MVP, the MVP will be in stages, as we build up because we will have, we will be building the MVP with a team.
+[00:20:41] Stewart Irvine: Yeah.
+[00:20:41] Stewart Irvine: So we're building against, we'll reverse engineer and find out with the team rather than just spec it.
+[00:20:48] Shekhar Dewan: The other thing I want to say is like, guys, at the end of the day, like the value proposition we're offering should be clear.
+[00:20:54] Shekhar Dewan: I think the value proposition, this will help you make more money from the people who are attending, right?
+[00:20:59] Shekhar Dewan: That's it.
+[00:21:00] Shekhar Dewan: And so, really, if we want to do that, there's just two things.
+[00:21:03] Shekhar Dewan: There's, do you want to get some food or apparel?
+[00:21:08] Shekhar Dewan: Or do you want to report an incident?
+[00:21:09] Shekhar Dewan: Like, is there an emergency?
+[00:21:11] Shekhar Dewan: And like, sure, incident reports are great, right?
+[00:21:13] Shekhar Dewan: But honestly, we don't even need incident reports for there to be, like, food that they're getting.
+[00:21:20] Shekhar Dewan: Even for food, we'll have to make sure that we're tracking our apparel.
+[00:21:24] Shekhar Dewan: We have to make sure that it gets to the right person.
+[00:21:27] Shekhar Dewan: Like, we have to make sure it actually gets delivered.
+[00:21:30] Shekhar Dewan: Because there'll be five to 10% of people, maybe the person serving the food forgot, maybe they went to the wrong seat, maybe the person was in the bathroom at the time, and then the order went back, and then the order was not brought back.
+[00:21:43] Shekhar Dewan: Like, there's a, and we have to even just building an order tracking, I don't think we can even build an order tracking, that'll be very complex, right?
+[00:21:52] Shekhar Dewan: So just making it so that they can order food, like, do we even want that?
+[00:21:56] Shekhar Dewan: Do we want just apparel?
+[00:21:57] Shekhar Dewan: That's going to be post game?
+[00:21:59] Shekhar Dewan: we want?
+[00:21:59] Shekhar Dewan: No, no,
+[00:22:00] Stewart Irvine: The food and the drink is a big deal, pre-ordering drinks and food is a big deal, so if we have the merch incident and pre-ordering food, but you want to interact with people, so call now, and then it cascades down, keeping it simple.
+[00:22:22] Shekhar Dewan: Exactly, so even the food, you know what it's going to be like, like what's going to really suck is there's going to be all these vendors.
+[00:22:29] Shekhar Dewan: We have to be able to figure out how to place orders with vendors, I don't know how we're going to do that, right?
+[00:22:35] Shekhar Dewan: And then some vendor will have to accept the order, that'll have to be just one vendor.
+[00:22:39] Shekhar Dewan: Whoever accepts the order, when the order is like, they have to give us a number that we can send back to the customers that this is your order number from this vendor, this is the vendor that's supposed to give you the food.
+[00:22:50] Shekhar Dewan: Here's the number if you don't get the food, here's where you can like...
+[00:22:53] Stewart Irvine: The logistics behind this and the POS systems, dependent upon the stadium...
+[00:22:59] Stewart Irvine: ...
+[00:22:59] Stewart Irvine: ...
+[00:22:59] Stewart Irvine: ...
+[00:22:59] Stewart Irvine: ...
+[00:22:59] Stewart Irvine: ...
+[00:24:00] Stewart Irvine: Easy click, you know, the game day.
+[00:24:04] Stewart Irvine: I'm just looking at your notes, Ben, because I want to keep this.
+[00:24:08] Shekhar Dewan: I mean, even if this is just a food ordering app, if the QR code just said, order your food and drink now, we need nothing else.
+[00:24:16] Shekhar Dewan: This would still make money, right?
+[00:24:20] Shekhar Dewan: And stadiums would still pay for it.
+[00:24:21] Shekhar Dewan: And the fans would not even expect much from the app.
+[00:24:24] Shekhar Dewan: They'll say, if I want to order food or I want to order drinks, I go to the app, I order something.
+[00:24:27] Shekhar Dewan: Like we could even just start there, right?
+[00:24:30] Stewart Irvine: I think that's a good, I think that's a good, you know, the contact and you want to order food, I want to order tickets.
+[00:24:39] Shekhar Dewan: Yeah.
+[00:24:40] Shekhar Dewan: You want to order food, drinks, tickets will be a little hard, but we can, you know, but if we just actually narrowed scope to just food and drinks for now, it might actually make it easier for us to sell it because we're not promising the moon and then not delivering on it.
+[00:24:57] Shekhar Dewan: We're like saying, look, here's a, here's, I mean, it did.
+[00:25:00] Shekhar Dewan: We have to figure out how we're going to sell it.
+[00:25:01] Shekhar Dewan: That's going to be the arc.
+[00:25:02] Shekhar Dewan: But we could sell it just as a food or drinks app that'll say, look, we'll increase your revenue for orders by 30-40%, easy money.
+[00:25:12] Shekhar Dewan: It could be a food and drinks plus apparel.
+[00:25:15] Shekhar Dewan: It could be a food and drinks plus apparel plus tickets, right?
+[00:25:20] Shekhar Dewan: Yeah.
+[00:25:22] Stewart Irvine: And again, all the clubs are going to be different.
+[00:25:25] Stewart Irvine: Every single club wants to sell merch.
+[00:25:28] Stewart Irvine: Every single club wants to sell a beer.
+[00:25:32] Stewart Irvine: That we know.
+[00:25:34] Stewart Irvine: So, you know, when we have that scoped down and just, again, the incident, you know, and it was a big deal to Dan about the, you know, the communication aspect of this.
+[00:25:51] Stewart Irvine: And I still think that if we just say tickets, yes, we have tickets.
+[00:25:55] Stewart Irvine: How many do you want?
+[00:25:57] Stewart Irvine: That, that, that, that, that, you know.
+[00:25:58] Stewart Irvine: And we're just showing the case.
+[00:27:00] Shekhar Dewan: It if somebody bought from their website one second ago and they bought in the app one second later, the whole backend has to be totally real-time so that you're not having people double-buy tickets, where the last ticket just got bought by two people because they bought within a quarter-second of each other.
+[00:27:22] Stewart Irvine: For this purpose, we just need to do some fine-tuning, create the simulated structured chat rather than the voice, you know, for the planning, because it is way too problematic to do voice right now.
+[00:27:47] Stewart Irvine: No one's, there's no app, there's no one doing voice.
+[00:27:50] Stewart Irvine: I mean, it's like, I've been in the VoIP game, I know all the problems with that.
+[00:27:56] Stewart Irvine: We don't want to go there for live voice today.
+[00:27:59] Stewart Irvine: Okay.
+[00:28:00] Stewart Irvine: And that I think we just need to up our game a bit on that.
+[00:28:05] Stewart Irvine: Ben, what else can you think?
+[00:28:07] Stewart Irvine: I'm just looking at your notes.
+[00:28:09] Ben Prior: Yeah, I mean, the main thing that we spoke about is the voice feature.
+[00:28:15] Ben Prior: obviously, after hearing you guys talk about it, I appreciate that that's not something that be done, obviously, right now.
+[00:28:21] Ben Prior: But I think the main thing, I sort of agree with having sort of this basic idea, you know, just doing food and drink, things like that.
+[00:28:26] Ben Prior: I agree with that.
+[00:28:27] Ben Prior: But I think what's important, and I think the guys will then come back and say this is they want to see, like, there's potential that more is going to be added, you know, that's going to grow into something more than just food and drink.
+[00:28:38] Shekhar Dewan: So what we can do is we can come back to them with, hey, here's what the full thing can look like and do and we can show them of it.
+[00:28:45] Shekhar Dewan: And then here's the phases of implementation, right?
+[00:28:48] Shekhar Dewan: Phase one, let's do one thing, either food and drink or merch or tickets, let's do one, right?
+[00:28:56] Shekhar Dewan: And then and because we have to connect to their back end POS.
+[00:29:00] Shekhar Dewan: We have to build a dashboard for just that one particular thing, we have to test it with some things, maybe we test it on a game and say, you know, like, we allow people to buy things, and then we do a review at the end of the game, if there's issues, we give everybody a refund and say, here's 10% off, you can, you know, like, for the next, or, like, we can, like, we have to do it really in stages, and build one thing, we have to build it on the back end, build it in the stadium, and stuff like that.
+[00:29:31] Shekhar Dewan: By the way, this will be one of our competitive advantages later, know, right, will be one of the things that makes it harder for somebody else to come in, because we're already in all their systems we talked to.
+[00:29:41] Shekhar Dewan: So the downside is also the upside, right, because this is a large client, you know, they're gonna, they have, let's say, you know, don't know, 10 matches a month, maybe more, right.
+[00:29:54] Shekhar Dewan: And for each match, if we can do a rev share of 5%, 10% on top of of that.
+[00:30:01] Shekhar Dewan: The upside is massive, and this also lines incentives to make sure that our goal is to help them get as much money as they can.
+[00:30:09] Shekhar Dewan: Uber does this, they take a percentage, all the food ordering apps do it.
+[00:30:14] Shekhar Dewan: So everybody takes a percentage of orders, Eventbrite, all these other platforms also.
+[00:30:21] Shekhar Dewan: So ticketing platforms, I think they take a percentage.
+[00:30:24] Shekhar Dewan: So percentage is how everything else works, and that also means that each new feature we add, we're going to make more money off that, right?
+[00:30:33] Shekhar Dewan: Like we do food, we make some money, we add merch, we make more, we add tickets, we make more.
+[00:30:42] Stewart Irvine: And, you know, but for now, and I'm not going to get into it because we're running along on time, but there's, you know, if we buff up that, I think we're really good.
+[00:30:54] Stewart Irvine: You know, by the way, Chuck, I explained that once you do a single sign-up.
+[00:31:00] Stewart Irvine: You're in our system, and like in the case of Ben where he'll go to, you know, one team and then there's another team, and you can be, let's say, Crystal Palace, but you live near Sutton, and you're going to go with a bunch of mates to Sutton, you become, when you're a sports fan, you're in our world, but you're going to, you know, I mean, those are all the different interactions, and that's a whole other conversation, because we know that you like hamburgers over hot dogs, we know that you like a certain type of beer, you know, you'd rather drink blush wine than having a beer.
+[00:31:44] Shekhar Dewan: That's something else, again, is that we'll have to build that system also, we'll have to build a database that uses single sign-on or their phone numbers to uniquely, I might even say we'd start with phone numbers, but it uniquely matches to that person.
+[00:32:00] Shekhar Dewan: Or I think SSO is good, but the thing is, like with Apple, maybe we can do it, maybe with Android we can't, or vice versa, right?
+[00:32:07] Shekhar Dewan: So we have to really look at how are they going to sign in, but we'll have a system.
+[00:32:14] Shekhar Dewan: But I have to make sure that that's built working correctly, so they can sign in.
+[00:32:19] Shekhar Dewan: After that, they can start interacting, but let's sort of, so it'll really, if you're talking about the full, like, it might be a two-year timeline from food ordering to the full app, right?
+[00:32:31] Shekhar Dewan: It doesn't really have to be in stages.
+[00:32:33] Stewart Irvine: None of these things are going to, I mean, it's not a full load from day one.
+[00:32:40] Stewart Irvine: And every team that we onboard, we're going to learn, and every stadium.
+[00:32:46] Stewart Irvine: And, you know, again, we're dealing with teams from Copenhagen to Dallas, and everything in between.
+[00:32:56] Stewart Irvine: So there are all kinds of different permeate.
+[00:33:00] Stewart Irvine: Different things, different things, and that's what makes it exciting, so, okay.
+[00:33:06] Shekhar Dewan: and so, you know, later on we can even have things like auctions, can have, you know, like the auction for a t-shirt of like whoever scored the game winning run, that, you know, like our goal, like auction for the t-shirt, like all that can be done, we can have custom offers that are presented by the stadium, we can have donations, people can donate to support their team, whatever.
+[00:33:28] Shekhar Dewan: Like there's a variety of things that will keep, like this is, if you think of this as a five to ten year project where we continue to improve fan interactions for live experiences, like that's, and we'll hire data scientists, figure out what timings of offers work best, what pricing, what auction models, like this is a, like this is a billion dollar company potentially with a long-term time horizon.
+[00:33:52] Shekhar Dewan: Yeah.
+[00:33:53] Shekhar Dewan: And we want to start somewhere, we want to deliver value, create money, and then kind of.
+[00:34:00] Shekhar Dewan: Yeah, it's an ongoing.
+[00:34:02] Stewart Irvine: So, this is great.
+[00:34:07] Stewart Irvine: I think if we can start with a few of the changes for the, obviously, it's easy to go from match day to game day, and they just have the little icons in there and a structured conversation, that gets us into demo mode, showing that.
+[00:34:27] Stewart Irvine: And then we can layer these things on as we can.
+[00:34:30] Stewart Irvine: I mean, that's the simple stuff that we need the takeaways for those.
+[00:34:36] Shekhar Dewan: Yeah, and if you guys want, I can make two versions to demo.
+[00:34:39] Shekhar Dewan: One is like a full, like, mock version of what that'll look like.
+[00:34:43] Shekhar Dewan: And then the other one will be like, what's realistic to start with, which is like...
+[00:34:48] Stewart Irvine: Yeah, let's work with what we have now.
+[00:34:51] Stewart Irvine: Okay.
+[00:34:52] Stewart Irvine: Because we've got on Wednesday...
+[00:34:55] Stewart Irvine: Actually, the guys have meetings all this week.
+[00:34:58] Stewart Irvine: So...
+[00:34:59] Stewart Irvine: Bye.
+[00:35:00] Stewart Irvine: If we just put the phone or, you know, the contact and scale down with a couple of those buttons, I love the incident, that's a very, very interesting key point, you know, just to be able to show that, tickets, merch, you know, I mean, keeping it simple, if we keep it simple for this next rep, because what, again, we're going to, getting into LOIs, the LOIs get us into the MVP, so that's the, that's the whole purpose of this thing, you know, so the guys will go, holy , this is great, you know, we control the demo, so.
+[00:35:46] Stewart Irvine: Okay, guys, any other things, I'm sorry, but I've got a crazy day.
+[00:35:55] Shekhar Dewan: No worries, so let's just recap, so one is, of course, I'll change match to the game dance.
+[00:36:01] Shekhar Dewan: Second is, do you guys want any changes on the dashboard specifically?
+[00:36:10] Ben Prior: Yeah, I don't think, I think the fact that if we can say that, like you said, it's just whatever data is available, then whatever they want around that can be done.
+[00:36:19] Ben Prior: Exactly, yes.
+[00:36:21] Ben Prior: Just reporting that back to the show, think that would be enough.
+[00:36:23] Shekhar Dewan: Yeah, so this is just to show them the kinds of things, this is illustrative, and then what specific data they have, as long as we can access the data, can be shown.
+[00:36:32] Shekhar Dewan: Yeah, okay.
+[00:36:33] Shekhar Dewan: And whatever data is being generated in the app, again, can be put out of the dashboard, okay?
+[00:36:37] Shekhar Dewan: Yeah.
+[00:36:38] Shekhar Dewan: So that's that.
+[00:36:40] Shekhar Dewan: And then when it comes to the chat itself, I can add a button for food ordering, I can add a button for incident reports.
+[00:36:49] Shekhar Dewan: I don't know if we want to do incident reports to start with, because again, it's a different channel.
+[00:36:53] Shekhar Dewan: But I don't mind putting it in.
+[00:36:55] Shekhar Dewan: I'm just saying that what we show to them and then what we can realistically implement.
+[00:36:59] Shekhar Dewan: We'll We'll
+[00:37:03] Stewart Irvine: What I'm thinking about is showing it, because I think it's a value, and even if there's a button, people will click it and it just goes, this is where we will, and we describe what it has to be.
+[00:37:17] Stewart Irvine: We don't have to show the functionality, it's showing that this button is here, this is where this is going to go, so we don't have to overthink ourselves.
+[00:37:28] Stewart Irvine: You know, you're dealing with club owners, the management, this is what this button does, this is what we're doing, this is, you know, these guys are smart enough to figure out the functionality is, this is a demo, or at least I'm hoping they are.
+[00:37:48] Shekhar Dewan: And when are we showing it to them?
+[00:37:50] Shekhar Dewan: Wednesday.
+[00:37:51] Shekhar Dewan: Okay, Wednesday, alright.
+[00:37:53] Shekhar Dewan: Yeah.
+[00:37:53] Shekhar Dewan: So, Stewart, might, at what time?
+[00:37:59] Shekhar Dewan: Uh, ...

@@ -1,0 +1,258 @@
+Title: AI for Sports
+Date: 2026-03-27T18:58:56Z
+Recording ID: 133566944
+Share URL: https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh
+Internal URL: https://fathom.video/calls/617682880
+Attendees: Wil Block <wil@glasshouse-group.co.uk>, Graham Warren <graham@glasshouse-group.co.uk>, grahamwarren1972@gmail.com <grahamwarren1972@gmail.com>, Shekhar Dewan <shekhar.dewan@gmail.com>
+========================================
+SUMMARY
+========================================
+
+## Meeting Purpose
+
+[Refine the product demo, define the voice AI's capabilities, and address immediate needs like tidying up the QR code functionality.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=4.0)
+
+## Key Takeaways
+
+  - [**Voice AI Demo is the Top Priority:** A live, interactive voice AI demo is now the primary focus for sales, as it is more compelling and easier to build than a pre-recorded video, driven by strong prospect interest.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=342.0)
+  - [**New Demo Flow Defined:** The demo will now start with the voice AI, followed by the game-day chat, to lead with the most innovative feature and leave prospects wanting more within a 15-minute presentation.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=144.0)
+  - [**Flexible Pricing Model Adopted:** The team will offer clubs a choice between a subscription and a transaction-based ("eat-what-you-kill") model to maximize revenue and client appeal, rather than solely pursuing subscriptions.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=586.0)
+  - [**Follow-up Meeting Scheduled:** A meeting is set for Monday, March 30, at 5 PM UK time (after the time change, which would be 12 PM Eastern for Shekhar and 9 AM Pacific for Stewart) to review Shekhar's progress on the voice AI demo.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=761.0)
+
+## Topics
+
+### Voice AI Demo: The New Priority
+
+  - [The voice AI demo is now the top priority for sales, driven by strong prospect interest (e.g., Graham spent 18 hours of golf discussing voice activation on 12 holes with a contact).](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=43.0)
+  - [Shekhar confirmed a live, interactive demo is easier to build than a pre-recorded AI video, stating he would "rather give you guys a voice station."](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=342.0)
+  - [**Demo Scenario:** A fan from the US planning a trip to a match, as this is a common and effective conversation starter for demonstrating capabilities.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=715.0)
+      - [**Fan Request Example:** "I'm flying home for the match in two weeks; I need help with tickets, a hotel, and merchandise."](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=306.0)
+      - [**Outcome:** The demo must show the voice interaction (transcript) and the resulting data captured by the system, demonstrating how the club picks up the phone at the other end.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=306.0)
+
+### Demo Structure & Game-Day Chat
+
+  - [The new demo flow, anticipated to be around 15 minutes, is designed to build excitement and leave prospects wanting more:](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=144.0)
+    1.  [**Voice Activation:** Start with the most innovative feature, showcasing the direct interaction.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=144.0)
+    2.  [**Game-Day Chat:** Follow with the nearly-complete, highly compelling game-day experience.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=199.0)
+  - [The game-day chat is a key differentiator, leveraging real-time data to drive revenue and fan engagement.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=199.0)
+      - [**Example:** If food sales are low pre-game or during the match, the QR code game day simulator should send a notification (e.g., "price drop in XYZ food") to encourage fans to stay after the game for discounted items (e.g., "burgers will be half price").](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=252.0)
+      - [**Rationale:** This strategy helps clubs capture revenue from unsold inventory and trains fans to stay in the stadium longer, aligning with club goals (e.g., Arsenal's game-day revenue increased from £300k to £1M after building new stadium infrastructure for entertainment and food sales).](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=216.0)
+
+### Pricing Model
+
+  - [Shekhar initially proposed a transaction-based model ("eat-what-you-kill") over a subscription, believing it could generate more money for both the company and the clubs.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=586.0)
+  - [The team decided to offer clubs a choice between the two models.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=632.0)
+      - [**Rationale:** This flexible approach maximizes client appeal and revenue potential, allowing clubs to choose the model that best suits their financial structure.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=632.0)
+
+## Next Steps
+
+  - [**Shekhar:**](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=799.0)
+      - [Build a live, interactive voice AI demo based on the US fan trip scenario, prioritizing the "dream list" of capabilities provided.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=715.0)
+      - [Send a WhatsApp group invite to the core team (Wil, Graham, Ben, Simon) to facilitate quicker communication.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=554.0)
+  - [**Stewart:**](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=799.0)
+      - [Provide Shekhar with a detailed "dream list" of desired voice AI capabilities, including the specific conversation starter for the demo (e.g., the US fan bringing two kids over for a match).](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=715.0)
+  - [**All:**](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=761.0)
+      - [Attend the follow-up meeting on **Monday, March 30, at 5 PM UK time**.](https://fathom.video/share/qmT7ypGbzh_rHbTJXa_1hiEEXaHLS3nh?tab=summary&timestamp=761.0)
+
+
+========================================
+ACTION ITEMS
+========================================
+
+No explicit action items.
+
+========================================
+TRANSCRIPT
+========================================
+
+[00:00:04] wil block: What in your mind, Graham, obviously there's a bit of tidying up on the QR code at the moment, what in your mind needs to be there for the people that we're speaking to that isn't there yet?
+[00:00:18] Graham Warren: I think what Sheik's shown us today and what Stuart did show us a few weeks ago, which is the same thing, but obviously it's even more impressive now, is I think just a few little changes to make it more kind of like UK-based.
+[00:00:33] Graham Warren: Even that's not really essential because we can say that this is built, but we've basically done the demo in the US market, we can change that according to wherever they might be.
+[00:00:43] Graham Warren: We need to have something to show in regards for the voice activation and how that works, because I've spent literally 18 hours of golf talking to someone on 12 of the holes about how this can sort of voice activate.
+[00:00:56] Graham Warren: And if we take this back to him, the first thing he's going to say to me is, where's the voice activation?
+[00:00:59] Graham Warren: That sounded really compelling.
+[00:01:01] Graham Warren: So that's something we've got to bring together.
+[00:01:04] Graham Warren: And again, I'm not talking about it's all got to, it's not, I'm not expecting it all to come and show to, but we can do it in bits.
+[00:01:12] Graham Warren: We can say in stage one is this, in stage two is that.
+[00:01:16] wil block: Just quickly, I know Stuart was calling you Shekhar we're calling you Shekhar.
+[00:01:20] Shekhar Dewan: How you pronounce It's Shekhar.
+[00:01:22] Shekhar Dewan: I've told him a few times, I don't like, you know.
+[00:01:26] Shekhar Dewan: It's good.
+[00:01:27] Shekhar Dewan: It's pretty, it's pretty evident, isn't it?
+[00:01:29] Shekhar Dewan: It's got the ear.
+[00:01:30] wil block: Um, Shek, how difficult would it be to, to create, um, like a, like a, an AI video that just shows even, even a cartoon.
+[00:01:41] wil block: I'm going to sneeze in a sec, so I apologize.
+[00:01:43] wil block: Even a cartoon, hang on, I'll be back in a sec, sorry.
+[00:01:46] wil block: Yeah.
+[00:01:50] Graham Warren: Yeah, mean, when, when I was first, so basically, to be honest with you, Shek, it was Will and, um, Dan, our other partner, it was their idea.
+[00:01:59] Graham Warren: It was.
+[00:02:00] Graham Warren: It's their baby with this.
+[00:02:01] Graham Warren: I was brought on board, not well, I've been working for Will for years, but Will sold me this idea, because I'll be honest with you, Will made a good point earlier on, these fan engagement tools, or fan engagement things, most of them are , to be perfectly honest with you, they're just all the same.
+[00:02:16] Graham Warren: What I liked about this was this was something different, and I see this from when I ran a football club, how important this could be.
+[00:02:24] Graham Warren: What we need to do, and what, the first thing I see was Stewart actually sent some really good little, say, 20 minute, 20 minute, sorry, 20 second, 30 second videos, just something where you can, when we start the demo off, you engage people with something, AI, quite flashy, kind of thing, so they see that, that's in their mind, well, this is how it's going to look, then we can go into the voice chat, I think needs to come next, and then the game day chat, because the voice chat, let's take it as the days of the week, Monday, Tuesday, are normally days without a game, Wednesday, it's normally,
+[00:03:01] Graham Warren: And then Thursday, because it's like a European, and then you get your game day chat on a Saturday and a Sunday as well.
+[00:03:07] Graham Warren: So if we take it through that, that's the way the demo should run.
+[00:03:10] Graham Warren: It should be the voice activation, then it should be the game day chat, and then you'll leave them at the end of it wanting more.
+[00:03:17] Graham Warren: And we only do it for 15 minutes.
+[00:03:19] wil block: I think the game day, and I'll come back to the question, Sheik, in a sec.
+[00:03:23] wil block: The game day one is almost there, because I think when you flip to the dashboard and you show the detail that we're going to give them, like down to the transactional level, it's really compelling, right?
+[00:03:36] wil block: And the point I was making about food not being sold at halftime or pregame, football clubs, and if you'll see like Arsenal, Tottenham, Fulham to an extent, they're building these grounds now to capture game day revenue, right?
+[00:03:50] wil block: So Arsenal are a great example.
+[00:03:52] wil block: They used to, I think they became, they went from getting like £300,000 a game, game day revenue.
+[00:03:59] wil block: to something like a million pounds game day revenue because they built this cathedral of a stadium with bars inside, entertainment inside, restaurants and stuff.
+[00:04:08] wil block: And so the clubs want people in the ground buying stuff.
+[00:04:12] wil block: So the point I made about if we hadn't sold enough, and I'm being really flippant like hot dogs, burgers, whatever, imagine whatever the food that they sell in the grounds.
+[00:04:22] wil block: We haven't sold that during the game.
+[00:04:25] wil block: The QR code game day simulator should send out a little note, or next time they go on to it, there's been a price drop in XYZ food.
+[00:04:34] wil block: Please stick around after the game, have a couple of beers, you know, the burgers will be half price or whatever.
+[00:04:40] wil block: So they can get the food that's going to otherwise go in the bin, and it trains people to stay in the stadium longer rather than just going home.
+[00:04:48] wil block: So that's one thing.
+[00:04:49] wil block: So I think we're almost there with that.
+[00:04:50] wil block: The question I was going to ask is, Stuart was doing a really good job of creating YouTube videos ages at the beginning of all this.
+[00:04:59] wil block: And I
+[00:05:00] wil block: Really were compelling, like I was showing them to friends and family, and like, holy , like, these stats are real.
+[00:05:06] wil block: How difficult would it be to create one of those types of videos that just shows a fan going on, you know, like, pretend it's me, like, go onto my app, click on the button, all right, and then, you know, then the club is seen picking up the phone at the other end.
+[00:05:24] wil block: Hi, Will, how are you doing?
+[00:05:26] Graham Warren: You know, what's going on?
+[00:05:27] wil block: And just run through the scenario that I did.
+[00:05:29] wil block: I'm flying home to see the match this week on two weeks' time, want to make sure blah, blah, blah, tickets, blah, blah, hotel, you know, merchandise, and just how difficult would it be just to create, like, an AI video?
+[00:05:42] wil block: So it's not even interactive, but just show someone what we will be doing.
+[00:05:46] Shekhar Dewan: It would be easier for me to make an interactive demo than to give you an AI video.
+[00:05:50] Shekhar Dewan: Okay.
+[00:05:51] Shekhar Dewan: AI video will be way harder.
+[00:05:52] Stewart Irvine: Yeah.
+[00:05:54] Shekhar Dewan: So, please, I would rather give you guys a voice station.
+[00:05:57] Shekhar Dewan: I didn't know you guys wanted one this bad, and...
+[00:06:00] Shekhar Dewan: And all of that, I didn't know that was the primary thing.
+[00:06:02] Shekhar Dewan: It's absolutely imperative, Rashad.
+[00:06:06] Shekhar Dewan: Had I known, I would have gotten you guys something, but I didn't know, so I'll have to work on it now, right?
+[00:06:12] Shekhar Dewan: But, sorry, maybe I misunderstood.
+[00:06:14] Shekhar Dewan: I'm not saying it wasn't communicated to me, but it was not my understanding that this was how we were doing things.
+[00:06:22] Shekhar Dewan: So if that's a priority, I can work on that.
+[00:06:26] Shekhar Dewan: I can't give you a promised timeline yet, but what I can say is, let's meet on Monday, let's see if I can put something together for you guys on Monday, and then we can go over it, okay?
+[00:06:36] Shekhar Dewan: That would be phenomenal, yeah.
+[00:06:38] Shekhar Dewan: So how about a time on Monday?
+[00:06:39] Shekhar Dewan: I'm not promising that I'll get it on Monday, but I'll try to get something.
+[00:06:45] Shekhar Dewan: Let's take the pressure off.
+[00:06:46] Graham Warren: Let's do Tuesday.
+[00:06:47] Graham Warren: Okay.
+[00:06:48] Graham Warren: Yeah, I mean, I'm staying now.
+[00:06:50] Graham Warren: I don't want put a gun to anyone's head here.
+[00:06:52] Graham Warren: Let's do Tuesday.
+[00:06:54] Shekhar Dewan: I'd rather we do Monday, because otherwise, if I don't do it on the weekend, I'll get caught up on it in the weekend.
+[00:07:04] wil block: I'll also be driving home from Boston on Tuesday, so that's a six or seven hour drive.
+[00:07:09] wil block: Yeah, okay, so Monday what time?
+[00:07:13] Stewart Irvine: Generally around this time is going to be good because it's about six o'clock for Graham.
+[00:07:20] Stewart Irvine: And my birthday.
+[00:07:22] Graham Warren: On Monday?
+[00:07:23] Stewart Irvine: Yeah.
+[00:07:26] Graham Warren: The only thing is I don't know if there's anything planned that I don't know about.
+[00:07:30] Graham Warren: That's my only...
+[00:07:32] Graham Warren: If we meet a little earlier, like at...
+[00:07:35] Shekhar Dewan: So right now it's 3pm for me and it's 8pm for you or 7pm for you?
+[00:07:41] Shekhar Dewan: Let me just check my calendar for Monday.
+[00:07:45] Graham Warren: I've got 12pm.
+[00:07:49] Graham Warren: No, we're actually pretty good.
+[00:07:51] Graham Warren: The only one we've got in the afternoon, which I sent earlier on, was a glasshouse call.
+[00:07:56] Graham Warren: So we can cancel that.
+[00:07:58] Graham Warren: Yeah.
+[00:07:59] Graham Warren: Yeah.
+[00:07:59] Graham Warren: We're...
+[00:08:00] Graham Warren: So in the UK, I'm not sure, I think Starman might be away, don't worry, it's just mainly for me and Will at the moment, and Dan would also be good to join.
+[00:08:08] Graham Warren: Dan's accepted 4pm, so if you've got 4pm UK time, that would be perfect.
+[00:08:13] Graham Warren: Let me just...
+[00:08:15] Shekhar Dewan: That's 11 o'clock for us, Shekhar.
+[00:08:17] wil block: I think your clock's changed this weekend, Graham, right?
+[00:08:21] Shekhar Dewan: Oh, yeah, so right now it's 7pm, so what I'm putting would be 5 o'clock UK, is that too late?
+[00:08:31] Shekhar Dewan: No, no, that'd be fine, that'd be fine.
+[00:08:33] Shekhar Dewan: Okay, so I'm going to put 5 o'clock UK, you guys let me know if anything changes, but I've sent an invite already for them.
+[00:08:40] Graham Warren: I'll definitely be there, we will definitely be there, no disrespect to the other guys, they do something slightly different to us, we're the ones who's got to go out there and focus and sell it to clients and speak to them, so as long as us two are available, we can feel that back, but I'm sure, in fact, we will get Ben on the call as well, I think.
+[00:08:58] Graham Warren: Yeah.
+[00:08:59] Graham Warren: Yeah.
+[00:08:59] Graham Warren: Yeah.
+[00:09:01] Shekhar Dewan: So please put his email, because I've only invited Graham and Will on this invite.
+[00:09:06] Shekhar Dewan: Will, can you, have you got?
+[00:09:08] wil block: I don't know, I mean, right, Shek, have you got my phone on?
+[00:09:12] Stewart Irvine: I'll send you the emails.
+[00:09:14] Shekhar Dewan: Yeah, we could also, if you guys use WhatsApp, we could also have a WhatsApp group.
+[00:09:18] Shekhar Dewan: Let's definitely do that, yeah.
+[00:09:20] Shekhar Dewan: Make things a little faster, right?
+[00:09:21] Shekhar Dewan: Yep, yep, yep.
+[00:09:23] Graham Warren: Yeah, that's good to get everybody's availability.
+[00:09:25] Graham Warren: But yeah, so basically all the email addresses we've got are all the same.
+[00:09:29] Graham Warren: It's just Will, Graham, Ben, Simon, and Ben.
+[00:09:33] Shekhar Dewan: If we could do a WhatsApp group with everybody in there just for, you know, whatever.
+[00:09:39] Shekhar Dewan: I put my number, I'm more than happy to do that.
+[00:09:46] Shekhar Dewan: So, like, I still want to have a conversation about, like, so my goal with this is to, A, provide the most value to the clubs, right?
+[00:09:54] Shekhar Dewan: But also make the most money both for the clubs and for us, right?
+[00:09:57] Shekhar Dewan: I'm sure we all have the same goals.
+[00:09:59] Shekhar Dewan: Thanks,
+[00:10:01] Shekhar Dewan: My feeling is that taking a percentage of transactions will actually make us more money than selling subscriptions, but I will leave that as an open question.
+[00:10:11] Shekhar Dewan: That's totally fine.
+[00:10:13] Graham Warren: I agree with what Will was saying from the first point, but Shekhar, if you make it more compelling and you show us that, then it would be stupid not to look at that situation.
+[00:10:24] Graham Warren: I agree with Will in principle, and that's the road we want to take, but let's not cut our nose off to spite our face.
+[00:10:30] Graham Warren: Let's look at what you're suggesting.
+[00:10:32] wil block: You know, what we could also do, sorry to cut you off, Shek, is we could give the club the option.
+[00:10:37] wil block: We could say, look, we don't want to be in your pocket for everything.
+[00:10:39] wil block: We have two models.
+[00:10:40] wil block: We have a subscription model, or we have a eat-what-you-kill model, and you decide.
+[00:10:46] wil block: Yeah, I love that.
+[00:10:47] Stewart Irvine: Yeah.
+[00:10:48] Stewart Irvine: Yeah.
+[00:10:48] Stewart Irvine: I mean, let's leave it at that.
+[00:10:51] Stewart Irvine: I don't want to get too far into it.
+[00:10:52] Stewart Irvine: I want to keep focused on the AI and the presentation of the demo.
+[00:10:59] Stewart Irvine: Yeah.
+[00:11:00] Shekhar Dewan: So let me get you guys an awesome voice demo as soon as I can.
+[00:11:04] Shekhar Dewan: Please tell me what you want, okay?
+[00:11:08] wil block: Really, in my mind's eye, it's a cartoon or some sort of demo of someone calling the club, having a phone call with the club, the club answering questions, and then some evidence of what data we've just captured from that interaction.
+[00:11:26] wil block: Okay, so I can give you something live, okay?
+[00:11:29] Shekhar Dewan: And anybody can make a video, any four of us here can make a video recording ourselves talking to it, right?
+[00:11:37] Shekhar Dewan: And I can show the transcript of that conversation and the recording of the data from that, okay?
+[00:11:44] Graham Warren: Well, you send that, I'm not trying to get away from that, but you're better at that than me.
+[00:11:50] Graham Warren: If you send over to Sheik, I think, like the question, the conversation kind of thing, I think that will be...
+[00:11:55] Stewart Irvine: Yeah, if you could tell me what you want the AI to do, that would be great.
+[00:11:59] Stewart Irvine: So...
+[00:12:00] Stewart Irvine: So let's look at this, a conversation starter.
+[00:12:03] Stewart Irvine: So, you know, we have a fan, and what we want to do is demonstrate the capability.
+[00:12:10] Stewart Irvine: So we just have to simulate and start the conversation.
+[00:12:14] Stewart Irvine: What is the most likely thing a fan is going to start with?
+[00:12:21] Stewart Irvine: And, you know, if we walk through, just think of bubbles, and we walk through essentially what is the mission.
+[00:12:28] Stewart Irvine: What would be a good one to start with?
+[00:12:30] Stewart Irvine: What do mean?
+[00:12:31] Graham Warren: You know what we said, that's one we always go back to, that you live in, say, the US, and you're coming over and you're bringing over your two kids kind of thing, you want to travel.
+[00:12:39] Graham Warren: I think that's a good starting point.
+[00:12:41] Graham Warren: Just so that you know, I've shared that link with Dan, Simon and Ben, so nobody needs to send it out.
+[00:12:47] Graham Warren: So that's all sorted.
+[00:12:49] Shekhar Dewan: Great.
+[00:12:50] Shekhar Dewan: If you need to move the time back a little bit, you guys just let me know.
+[00:12:54] Shekhar Dewan: But right now I have it for noon Eastern, which is 9 a.m.
+[00:12:58] Shekhar Dewan: for you, Stuart.
+[00:13:01] Shekhar Dewan: And I think 5 p.m.
+[00:13:04] Shekhar Dewan: UK, after the time change.
+[00:13:07] wil block: Yeah, good.
+[00:13:09] wil block: Good.
+[00:13:09] wil block: Great.
+[00:13:11] wil block: Okay, well, yeah, it was absolutely brilliant to meet you, Shek.
+[00:13:15] wil block: Thanks so much for your time.
+[00:13:18] wil block: Same here.
+[00:13:19] Shekhar Dewan: Please send me whatever you want the why's to be able to do, and you can give me your dream list.
+[00:13:25] Shekhar Dewan: And then I can look at that and say, which of that can we do right away, and which of that might take longer, right?
+[00:13:31] Shekhar Dewan: And I'll get that back to you and say, I think we can do this sooner, this might take longer, and what can we have ready to at least show people something as soon as we can, right?
+[00:13:43] Graham Warren: You're not going understand it, Shek, but if Will sends over a message saying, can Crystal Palace sign Eberichi Ezebeck, just put a laughing emoji at the end of it.
+[00:13:54] Graham Warren: We don't want it back.
+[00:13:56] Stewart Irvine: On that note, I've got to Yes.
+[00:13:59] Graham Warren: All right, guys.
+[00:14:00] Graham Warren: Thank you.
+[00:14:01] Stewart Irvine: Please send me what you want, okay?
+[00:14:03] Shekhar Dewan: However, email or WhatsApp or anything else.
+[00:14:06] Shekhar Dewan: Okay.
+[00:14:07] Shekhar Dewan: Sounds good.
+[00:14:07] Shekhar Dewan: you.
+[00:14:07] Shekhar Dewan: All right.
+[00:14:08] Shekhar Dewan: Cheers.
+[00:14:08] Shekhar Dewan: It's been a pleasure.
+[00:14:09] Shekhar Dewan: Thank you.
+[00:14:10] Shekhar Dewan: Cheers.
+[00:14:10] Shekhar Dewan: Bye.
+[00:14:10] Shekhar Dewan: Bye.
