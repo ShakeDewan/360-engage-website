@@ -537,9 +537,154 @@
     color: #94A3B8;
 }
 
+/* ============================================
+   INTERACTIVITY SIGNALS
+   ============================================ */
+
+/* CTA pulse animation — draws attention to primary action */
+@keyframes cta-pulse {
+    0%, 100% { box-shadow: 0 10px 25px -5px var(--accent-glow); }
+    50% { box-shadow: 0 10px 35px -2px rgba(29, 78, 216, 0.35); }
+}
+.cta-button:not(:hover) {
+    animation: cta-pulse 3s ease-in-out infinite;
+}
+
+/* Scroll indicator — animated down chevron below hero */
+.scroll-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+}
+.scroll-indicator:hover {
+    opacity: 1;
+}
+.scroll-indicator .chevron {
+    width: 24px;
+    height: 24px;
+    border-right: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    transform: rotate(45deg);
+    animation: scroll-bounce 2s ease-in-out infinite;
+}
+@keyframes scroll-bounce {
+    0%, 100% { transform: rotate(45deg) translateY(0); }
+    50% { transform: rotate(45deg) translateY(6px); }
+}
+
+/* Enhanced nav link hover — underline slide-in */
+.nav-link {
+    position: relative;
+}
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Contact form styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.form-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 0.875rem 1rem;
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: var(--text-primary);
+    background: #ffffff;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    outline: none;
+}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+/* ============================================
+   MOBILE RESPONSIVE OVERHAUL
+   ============================================ */
 @media (max-width: 900px) {
+    /* Layout stacking */
     .split-layout, .grid-3, .footer-grid { grid-template-columns: 1fr; }
-    .nav-links { display: none; }
     .image-stack { height: auto; }
     .img-main, .img-accent { position: relative; width: 100%; height: auto; border: none; margin-bottom: 1rem; }
+
+    /* Reduce section padding */
+    .section { padding: 4rem 1.25rem; }
+
+    /* Center text alignment on mobile */
+    .tagline { justify-content: center; text-align: center; }
+
+    /* Team grid: 2 columns on tablet, will go 1 on very small */
+    .team-grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+    .team-card { text-align: center; }
+
+    /* Stack all grid-4 cards */
+    .grid-4 { grid-template-columns: 1fr; }
+
+    /* Stack contact cards */
+    .grid-2 { grid-template-columns: 1fr; gap: 1.5rem; }
+
+    /* Fix hero overlap with fixed nav */
+    .hero { padding-top: 100px; min-height: auto; }
+
+    /* Contact form row stacking */
+    .form-row { grid-template-columns: 1fr; }
+
+    /* Footer adjustments */
+    .footer-bottom { flex-direction: column; text-align: center; gap: 0.5rem; }
+}
+
+@media (max-width: 480px) {
+    .team-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: clamp(2rem, 8vw, 3rem); }
+    .section { padding: 3rem 1rem; }
 }

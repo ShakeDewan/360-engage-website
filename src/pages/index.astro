@@ -10,8 +10,12 @@ import Layout from '../layouts/Layout.astro';
             <h1 style="max-width: 900px; margin: 0 auto 1.5rem; font-size: clamp(3rem, 6vw, 5rem); line-height: 1.1; letter-spacing: -0.03em; background: linear-gradient(90deg, #0f172a 0%, #334155 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">7 OUT OF 10 OF YOUR FANS ARE INVISIBLE.</h1>
             <p style="max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.25rem; line-height: 1.6; color: var(--text-secondary);">They follow every result. They wear your colours. They have supported your club for years. And they have never once appeared in your database.</p>
             <p style="max-width: 600px; margin: 0 auto 3rem; font-size: 1.25rem; font-weight: 600; color: var(--accent);">360ENGAGE is the infrastructure built to change that.</p>
-            <a href="#talk-to-us" class="cta-button" style="background: var(--accent); color: #ffffff; padding: 1rem 2rem; font-size: 1.1rem;">Talk to Us</a>
+            <a href="/contact/" class="cta-button" style="background: var(--accent); color: #ffffff; padding: 1rem 2rem; font-size: 1.1rem;">Talk to Us</a>
             <a href="/demo/" style="display: inline-block; margin-left: 1.5rem; color: var(--text-secondary); text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: color 0.2s ease;">Explore the Platform &rarr;</a>
+            <a href="#the-gap" class="scroll-indicator">
+                <span>Discover more</span>
+                <div class="chevron"></div>
+            </a>
         </div>
     </section>
 
@@ -31,29 +35,23 @@ import Layout from '../layouts/Layout.astro';
         </div>
     </section>
 
-    <!-- USP BLOCK -->
+    <!-- USP + PROOF POINTS (consolidated) -->
     <section class="section" style="background: #0f172a; color: white; text-align: center; border-top: 2px solid var(--accent); border-bottom: 2px solid var(--accent);">
-        <div class="container" style="max-width: 900px;">
-            <h3 style="font-size: clamp(1.5rem, 3vw, 2.5rem); color: white; line-height: 1.4; font-weight: 500;">360ENGAGE is the first fan intelligence platform purpose-built for the fan your club has never met.</h3>
-            <p style="font-size: 1.25rem; color: #bae6fd; margin-top: 1.5rem; font-weight: 500;">No app. No account. No prior relationship required. One scan, and the conversation begins.</p>
-        </div>
-    </section>
-
-    <!-- PROOF POINTS -->
-    <section class="section" style="background: rgba(241, 245, 249, 0.4);">
-        <div class="container">
+        <div class="container" style="max-width: 1000px;">
+            <h3 style="font-size: clamp(1.5rem, 3vw, 2.5rem); color: white; line-height: 1.4; font-weight: 500; margin-bottom: 1rem;">360ENGAGE is the first fan intelligence platform purpose-built for the fan your club has never met.</h3>
+            <p style="font-size: 1.25rem; color: #bae6fd; margin-bottom: 3rem; font-weight: 500;">No app. No account. No prior relationship required. One scan, and the conversation begins.</p>
             <div class="grid-3">
-                <div class="glass-card" style="padding: 2.5rem; background: #ffffff;">
-                    <div style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent); font-weight: 800; font-family: 'Outfit', sans-serif;">7 in 10</div>
-                    <p style="color: var(--text-secondary); line-height: 1.6;">Fans at professional sports clubs are commercially unidentified. They exist. They spend. They are not in your system.</p>
+                <div style="padding: 2rem;">
+                    <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #60a5fa; font-weight: 800; font-family: 'Outfit', sans-serif;">7 in 10</div>
+                    <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">Fans at professional sports clubs are commercially unidentified. They exist. They spend. They are not in your system.</p>
                 </div>
-                <div class="glass-card" style="padding: 2.5rem; background: #ffffff;">
-                    <div style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent); font-weight: 800; font-family: 'Outfit', sans-serif;">4x</div>
-                    <p style="color: var(--text-secondary); line-height: 1.6;">Higher conversion. AI-driven fan conversations outperform traditional digital channels by a factor of four.</p>
+                <div style="padding: 2rem; border-left: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1);">
+                    <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #60a5fa; font-weight: 800; font-family: 'Outfit', sans-serif;">4x</div>
+                    <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">Higher conversion. AI-driven fan conversations outperform traditional digital channels by a factor of four.</p>
                 </div>
-                <div class="glass-card" style="padding: 2.5rem; background: #ffffff;">
-                    <div style="font-size: 3rem; margin-bottom: 1rem; color: var(--accent); font-weight: 800; font-family: 'Outfit', sans-serif;">1 Scan</div>
-                    <p style="color: var(--text-secondary); line-height: 1.6;">No download. No form. No barrier. That is how every 360ENGAGE conversation starts.</p>
+                <div style="padding: 2rem;">
+                    <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #60a5fa; font-weight: 800; font-family: 'Outfit', sans-serif;">1 Scan</div>
+                    <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">No download. No form. No barrier. That is how every 360ENGAGE conversation starts.</p>
                 </div>
             </div>
         </div>
@@ -86,51 +84,6 @@ import Layout from '../layouts/Layout.astro';
                 </div>
             </div>
 
-            <div style="max-width: 900px; margin: 0 auto;">
-                <h3 style="font-size: 2rem; margin-bottom: 3rem; text-align: center;">From Scan to Revenue. Five Steps.</h3>
-                
-                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
-                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">01</div>
-                        <div>
-                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Scan</h4>
-                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">A fan scans a QR code on merchandise or a stadium asset. No app required. A Progressive Web App opens instantly.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
-                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">02</div>
-                        <div>
-                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Conversation</h4>
-                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">An AI-powered interface opens a natural dialogue, capturing name, location, and intent without a form.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
-                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">03</div>
-                        <div>
-                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Profile</h4>
-                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">Each conversation builds a verified first-party profile integrated directly into the club's CRM.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
-                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">04</div>
-                        <div>
-                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Revenue Trigger</h4>
-                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">The platform surfaces relevant offers—merchandise, F&B, partner promotions—delivering 4x traditional conversion.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="glass-card" style="display: flex; gap: 2rem; align-items: flex-start; padding: 2rem; background: #ffffff;">
-                        <div style="font-size: 2.5rem; font-weight: 800; color: var(--accent); font-family: 'Outfit', sans-serif; line-height: 1;">05</div>
-                        <div>
-                            <h4 style="font-size: 1.25rem; margin-bottom: 0.5rem; color: #0f172a;">The Relationship</h4>
-                            <p style="color: var(--text-secondary); line-height: 1.6; margin: 0;">The fan is no longer invisible. Every subsequent interaction deepens the profile and compounds commercial value.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -239,7 +192,7 @@ import Layout from '../layouts/Layout.astro';
     <!-- PAGE 6: TALK TO US -->
     <section id="talk-to-us" class="section" style="background: #ffffff; border-top: 1px solid var(--border);">
         <div class="container" style="text-align: center; max-width: 900px;">
-            <div class="tagline" style="justify-content: center;">Founding Club Programme</div>
+            <div class="tagline" style="justify-content: center;">Get Started</div>
             <h2 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem; letter-spacing: -0.02em;">Every great partnership<br>starts with a conversation.</h2>
             <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 3rem;">
                 Tell us about your club, your sport, and your market. We will tell you whether a Founding Club position is still available for you — and what it means commercially.

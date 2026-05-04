@@ -11,24 +11,58 @@ const { isDemo = false } = Astro.props;
       <img src="/images/360engage-logo.png" alt="360ENGAGE Logo" style="height: 32px; object-fit: contain;">
       <span>360ENGAGE</span>
   </a>
-  <div class="nav-links">
+
+  <!-- Desktop nav -->
+  <div class="nav-links nav-desktop">
       {isDemo ? (
           <>
-              <a href="/" class="nav-link">&larr; Back to Corporate Homepage</a>
+              <a href="/" class="nav-link">&larr; Back to Homepage</a>
               <a href="#investment-thesis" class="nav-link">Investment Thesis</a>
           </>
       ) : (
           <>
-              <a href="#the-gap" class="nav-link">Mind the Gap</a>
-              <a href="#the-platform" class="nav-link">The Platform</a>
-              <a href="#fan-intelligence" class="nav-link">Fan Intelligence</a>
-              <a href="#our-team" class="nav-link">Our Team</a>
-              <a href="/demo/" class="cta-button" style="padding: 0.75rem 1.5rem; font-size: 0.9rem; margin-right: 0.5rem; background: transparent; border: 1px solid var(--accent); color: var(--accent);">Explore Demo</a>
-              <a href="#talk-to-us" class="cta-button" style="padding: 0.75rem 1.5rem; font-size: 0.9rem; background: var(--accent); color: #ffffff;">Talk to Us</a>
+              <a href="#the-gap" class="nav-link">The Problem</a>
+              <a href="#the-platform" class="nav-link">Platform</a>
+              <a href="#fan-intelligence" class="nav-link">Intelligence</a>
+              <a href="#our-team" class="nav-link">Team</a>
+              <a href="/contact/" class="nav-link">Contact</a>
+              <a href="/demo/" class="cta-button cta-outline">Explore Demo</a>
+              <a href="/contact/" class="cta-button cta-solid">Talk to Us</a>
           </>
       )}
   </div>
+
+  <!-- Hamburger button (mobile only) -->
+  <button class="hamburger-btn" id="hamburger-btn" type="button" aria-label="Open navigation menu" aria-expanded="false">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+  </button>
 </nav>
+
+<!-- Mobile menu overlay -->
+<div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <div class="mobile-menu-inner">
+        {isDemo ? (
+            <>
+                <a href="/" class="mobile-link">&larr; Back to Homepage</a>
+                <a href="#investment-thesis" class="mobile-link">Investment Thesis</a>
+            </>
+        ) : (
+            <>
+                <a href="#the-gap" class="mobile-link">The Problem</a>
+                <a href="#the-platform" class="mobile-link">Platform</a>
+                <a href="#fan-intelligence" class="mobile-link">Intelligence</a>
+                <a href="#our-team" class="mobile-link">Team</a>
+                <a href="/contact/" class="mobile-link">Contact</a>
+                <div class="mobile-cta-group">
+                    <a href="/demo/" class="cta-button cta-outline" style="width: 100%; justify-content: center;">Explore Demo</a>
+                    <a href="/contact/" class="cta-button cta-solid" style="width: 100%; justify-content: center;">Talk to Us</a>
+                </div>
+            </>
+        )}
+    </div>
+</div>
 
 <style>
   .brand-logo {
@@ -39,4 +73,141 @@ const { isDemo = false } = Astro.props;
       text-decoration: none;
       letter-spacing: -0.05em;
   }
+
+  /* CTA button variants */
+  .cta-outline {
+      padding: 0.6rem 1.25rem !important;
+      font-size: 0.9rem !important;
+      background: transparent !important;
+      border: 1.5px solid var(--accent) !important;
+      color: var(--accent) !important;
+      box-shadow: none !important;
+  }
+  .cta-outline:hover {
+      background: rgba(29, 78, 216, 0.08) !important;
+  }
+  .cta-solid {
+      padding: 0.6rem 1.25rem !important;
+      font-size: 0.9rem !important;
+      background: var(--accent) !important;
+      color: #ffffff !important;
+  }
+
+  /* Hamburger button */
+  .hamburger-btn {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      padding: 8px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      z-index: 1002;
+  }
+  .hamburger-line {
+      display: block;
+      width: 24px;
+      height: 2.5px;
+      background: var(--text-primary);
+      border-radius: 2px;
+      transition: all 0.3s ease;
+  }
+  /* Animate to X when open */
+  .hamburger-btn.is-open .hamburger-line:nth-child(1) {
+      transform: translateY(7.5px) rotate(45deg);
+  }
+  .hamburger-btn.is-open .hamburger-line:nth-child(2) {
+      opacity: 0;
+  }
+  .hamburger-btn.is-open .hamburger-line:nth-child(3) {
+      transform: translateY(-7.5px) rotate(-45deg);
+  }
+
+  /* Mobile menu overlay */
+  .mobile-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  .mobile-menu.is-open {
+      opacity: 1;
+      visibility: visible;
+  }
+  .mobile-menu-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      gap: 0;
+      padding: 5rem 2rem 2rem;
+  }
+  .mobile-link {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      text-decoration: none;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+      width: 100%;
+      max-width: 300px;
+      text-align: center;
+      transition: color 0.2s ease;
+  }
+  .mobile-link:hover {
+      color: var(--accent);
+  }
+  .mobile-cta-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 300px;
+  }
+
+  /* Responsive: show hamburger, hide desktop nav */
+  @media (max-width: 900px) {
+      .nav-desktop { display: none !important; }
+      .hamburger-btn { display: flex; }
+  }
+  @media (min-width: 901px) {
+      .mobile-menu { display: none !important; }
+  }
 </style>
+
+<script>
+  const btn = document.getElementById('hamburger-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  if (btn && menu) {
+    btn.addEventListener('click', () => {
+      const isOpen = menu.classList.toggle('is-open');
+      btn.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', String(isOpen));
+      menu.setAttribute('aria-hidden', String(!isOpen));
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    });
+
+    // Close menu when a link is clicked
+    menu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        menu.classList.remove('is-open');
+        btn.classList.remove('is-open');
+        btn.setAttribute('aria-expanded', 'false');
+        menu.setAttribute('aria-hidden', 'true');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+</script>

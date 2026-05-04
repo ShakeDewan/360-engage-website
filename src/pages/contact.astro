@@ -1,0 +1,98 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contact Us | 360ENGAGE">
+    <section class="section" style="padding-top: 140px; min-height: 100vh;">
+        <div class="container" style="max-width: 800px;">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <div class="tagline" style="justify-content: center;">Get in Touch</div>
+                <h1 style="font-size: clamp(2.5rem, 5vw, 3.5rem); margin-bottom: 1.5rem; letter-spacing: -0.02em;">Every great partnership<br>starts with a conversation.</h1>
+                <p style="font-size: 1.15rem; color: var(--text-secondary); line-height: 1.7; max-width: 600px; margin: 0 auto;">
+                    Tell us about your club, your sport, and your market. We'll tell you whether a Founding Club position is still available — and what it means commercially.
+                </p>
+            </div>
+
+            <!-- Netlify Forms: the form will be auto-detected at deploy time -->
+            <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+                <!-- Honeypot field for spam protection -->
+                <p style="display: none;">
+                    <label>Don't fill this out: <input name="bot-field" /></label>
+                </p>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Jane Smith" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="jane@club.com" />
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="organisation">Club / Organisation</label>
+                        <input type="text" id="organisation" name="organisation" placeholder="Manchester City FC" />
+                    </div>
+                    <div class="form-group">
+                        <label for="sport">Sport</label>
+                        <input type="text" id="sport" name="sport" placeholder="Football, Rugby, Cricket…" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="region">Your Region</label>
+                    <select id="region" name="region" required>
+                        <option value="" disabled selected>Select your region…</option>
+                        <option value="UK & Europe">UK & Europe</option>
+                        <option value="North America">North America</option>
+                        <option value="Asia Pacific">Asia Pacific</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message (optional)</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your club and what you're looking for…"></textarea>
+                </div>
+
+                <button type="submit" class="cta-button" style="background: var(--accent); color: #ffffff; padding: 1rem 2rem; font-size: 1.1rem; border: none; cursor: pointer; width: 100%; justify-content: center;">
+                    Send Enquiry
+                </button>
+            </form>
+
+            <!-- Regional contact info -->
+            <div style="margin-top: 4rem; padding-top: 3rem; border-top: 1px solid var(--border);">
+                <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem; font-size: 0.95rem;">Prefer to reach us directly?</p>
+                <div class="grid-2" style="gap: 2rem;">
+                    <div class="glass-card" style="padding: 2rem; background: rgba(241, 245, 249, 0.5); text-align: center;">
+                        <h3 style="color: var(--accent); margin-bottom: 0.5rem; font-size: 1.15rem;">UK & Europe</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.25rem;">Graham Warren</p>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Co-Founder, GlassHouse Group</p>
+                        <a href="mailto:Graham@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500; font-size: 0.9rem;">Graham@glasshouse-group.co.uk</a>
+                    </div>
+                    <div class="glass-card" style="padding: 2rem; background: rgba(241, 245, 249, 0.5); text-align: center;">
+                        <h3 style="color: var(--accent); margin-bottom: 0.5rem; font-size: 1.15rem;">North America & Global</h3>
+                        <p style="font-weight: 600; margin-bottom: 0.25rem;">Will Block</p>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">CEO, GlassHouse Group</p>
+                        <a href="mailto:wil@glasshouse-group.co.uk" style="color: var(--accent); text-decoration: none; font-weight: 500; font-size: 0.9rem;">wil@glasshouse-group.co.uk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>
+
+<script>
+  // Show regional contact info based on region selection
+  const regionSelect = document.getElementById('region');
+  if (regionSelect) {
+    regionSelect.addEventListener('change', (e) => {
+      const value = (e.target as HTMLSelectElement).value;
+      // Could add dynamic routing logic here in the future
+      console.log('Region selected:', value);
+    });
+  }
+</script>
