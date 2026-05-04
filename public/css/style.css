@@ -180,6 +180,38 @@
             box-shadow: 0 15px 35px -5px var(--accent-glow);
         }
 
+        /* CTA button variants */
+        .cta-outline {
+            background: transparent !important;
+            border: 2px solid var(--accent) !important;
+            color: var(--accent) !important;
+            box-shadow: none !important;
+        }
+        .cta-outline:hover {
+            background: rgba(29, 78, 216, 0.08) !important;
+        }
+        .cta-outline::after {
+            display: none; /* Remove the white shine for outline buttons */
+        }
+
+        .cta-solid {
+            background: var(--accent) !important;
+            color: #ffffff !important;
+        }
+
+        .cta-outline-white {
+            background: transparent !important;
+            border: 2px solid #ffffff !important;
+            color: #ffffff !important;
+            box-shadow: none !important;
+        }
+        .cta-outline-white:hover {
+            background: rgba(255, 255, 255, 0.1) !important;
+        }
+        .cta-outline-white::after {
+            display: none;
+        }
+
         /* High-Impact Key Metrics Band */
         .master-metrics {
             width: 100%;
@@ -363,7 +395,8 @@
             text-align: center;
             padding: 10rem 2rem;
             position: relative;
-            background-color: #f8fafc;
+            background-color: #0f172a;
+            color: white;
         }
 
         .footer-cta::before {
