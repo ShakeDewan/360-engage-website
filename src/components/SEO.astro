@@ -1,0 +1,76 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  canonicalURL?: URL;
+  type?: string;
+}
+
+const {
+  title,
+  description,
+  image = '/images/360engage-logo.png',
+  canonicalURL = new URL(Astro.url.pathname, Astro.site),
+  type = 'website',
+} = Astro.props;
+
+const siteName = '360ENGAGE';
+
+// Schema.org JSON-LD
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": `${Astro.site}#organization`,
+      "name": siteName,
+      "url": Astro.site,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${Astro.site}images/360engage-logo.png`
+      },
+      "description": "The Fan Intelligence Platform built for professional sports. 360ENGAGE identifies and engages invisible fans using AI-driven infrastructure."
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${Astro.site}#website`,
+      "url": Astro.site,
+      "name": siteName,
+      "publisher": { "@id": `${Astro.site}#organization` }
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${canonicalURL}#webpage`,
+      "url": canonicalURL,
+      "name": title,
+      "description": description,
+      "isPartOf": { "@id": `${Astro.site}#website` }
+    }
+  ]
+};
+---
+
+<!-- Primary Meta Tags -->
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={new URL(image, Astro.site)} />
+<meta property="og:site_name" content={siteName} />
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={title} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={new URL(image, Astro.site)} />
+
+<!-- Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
