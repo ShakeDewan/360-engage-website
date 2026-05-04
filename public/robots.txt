@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://360-engage-website.netlify.app/sitemap-index.xml
+Sitemap: https://360engage.ai/sitemap-index.xml

@@ -3,6 +3,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://360-engage-website.netlify.app/',
+  site: 'https://360engage.ai/',
   integrations: [sitemap()],
 });
