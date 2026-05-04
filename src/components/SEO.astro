@@ -10,7 +10,7 @@ interface Props {
 const {
   title,
   description,
-  image = '/images/360engage-logo.png',
+  image = '/images/360engage-logo-upscaled.png',
   canonicalURL = new URL(Astro.url.pathname, Astro.site),
   type = 'website',
 } = Astro.props;
@@ -28,7 +28,7 @@ const schema = {
       "url": Astro.site,
       "logo": {
         "@type": "ImageObject",
-        "url": `${Astro.site}images/360engage-logo.png`
+        "url": `${Astro.site}images/360engage-logo-upscaled.png`
       },
       "description": "The Fan Intelligence Platform built for professional sports. 360ENGAGE identifies and engages invisible fans using AI-driven infrastructure."
     },
