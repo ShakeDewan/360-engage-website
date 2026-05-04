@@ -161,7 +161,28 @@
             position: relative;
             overflow: hidden;
             font-family: 'Outfit', sans-serif;
-            letter-spacing: 0.02em;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            .hero-ctas {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .hero-ctas .cta-button {
+                width: 100%;
+                max-width: 320px;
+                justify-content: center;
+                margin-left: 0 !important;
+            }
         }
 
         .cta-button::after {

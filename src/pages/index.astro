@@ -10,8 +10,10 @@ import Layout from '../layouts/Layout.astro';
             <h1 style="max-width: 900px; margin: 0 auto 1.5rem; font-size: clamp(3rem, 6vw, 5rem); line-height: 1.1; letter-spacing: -0.03em; background: linear-gradient(90deg, #0f172a 0%, #334155 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">7 OUT OF 10 OF YOUR FANS ARE INVISIBLE.</h1>
             <p style="max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.25rem; line-height: 1.6; color: var(--text-secondary);">They follow every result. They wear your colours. They have supported your club for years. And they have never once appeared in your database.</p>
             <p style="max-width: 600px; margin: 0 auto 3rem; font-size: 1.25rem; font-weight: 600; color: var(--accent);">360ENGAGE is the infrastructure built to change that.</p>
-            <a href="/contact/" class="cta-button">Talk to Us</a>
-            <a href="/demo/" class="cta-button cta-outline" style="margin-left: 1rem;">Explore the Platform &rarr;</a>
+            <div class="hero-ctas">
+                <a href="/contact/" class="cta-button">Talk to Us</a>
+                <a href="/demo/" class="cta-button cta-outline">Explore the Platform &rarr;</a>
+            </div>
             <a href="#the-gap" class="scroll-indicator">
                 <span>Discover more</span>
                 <div class="chevron"></div>
@@ -27,7 +29,7 @@ import Layout from '../layouts/Layout.astro';
                 <h2 style="font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 1.5rem; letter-spacing: -0.02em;">This is not a data problem.<br><span style="color: var(--accent);">It is an infrastructure problem.</span></h2>
                 <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.6;">Most fan engagement platforms were built for fans you already know — ticketed supporters, app users, loyalty members. They require an account, a download, or a transaction before a fan can enter the system.</p>
                 <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.6; margin-top: 1rem;">7 out of 10 of your fans never clear that bar. They are loyal. They are reachable. They are invisible.</p>
-                <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                <div class="hero-ctas" style="justify-content: flex-start; margin-top: 2rem;">
                     <a href="/demo/" class="cta-button cta-solid">Explore the Platform</a>
                     <a href="/contact/" class="cta-button cta-outline">Contact Us</a>
                 </div>
