@@ -1,245 +1,38 @@
 ---
-import Layout from '../layouts/Layout.astro';
 ---
 
-<Layout 
-    title="360ENGAGE | The Fan Intelligence Platform"
-    description="The Fan Intelligence Platform built for professional sports. 360ENGAGE identifies and engages the 70% of fans invisible to traditional databases using AI-driven infrastructure."
->
-    <!-- PAGE 1: HERO SECTION -->
-    <section class="hero" style="padding-top: 120px; padding-bottom: 80px; background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(241,245,249,0.5) 100%);">
-        <div class="container" style="text-align: center; position: relative; z-index: 10;">
-            <div class="tagline" style="justify-content: center; margin-bottom: 1.5rem;">The Million-Dollar Blind Spot</div>
-            <h1 style="max-width: 900px; margin: 0 auto 1.5rem; font-size: clamp(3rem, 6vw, 5rem); line-height: 1.1; letter-spacing: -0.03em; background: linear-gradient(90deg, #0f172a 0%, #334155 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">7 OUT OF 10 OF YOUR FANS ARE INVISIBLE.</h1>
-            <p style="max-width: 600px; margin: 0 auto 1.5rem; font-size: 1.25rem; line-height: 1.6; color: var(--text-secondary);">They follow every result. They wear your colours. They have supported your club for years. And they have never once appeared in your database.</p>
-            <p style="max-width: 600px; margin: 0 auto 3rem; font-size: 1.25rem; font-weight: 600; color: var(--accent);">360ENGAGE is the infrastructure built to change that.</p>
-            <div class="hero-ctas">
-                <a href="/contact/" class="cta-button">Talk to Us</a>
-                <a href="/demo/" class="cta-button cta-outline">Explore the Platform &rarr;</a>
-            </div>
-            <a href="#the-gap" class="scroll-indicator">
-                <span>Discover more</span>
-                <div class="chevron"></div>
-            </a>
-        </div>
-    </section>
-
-    <!-- PAGE 2: MIND THE GAP -->
-    <section id="the-gap" class="section">
-        <div class="container split-layout">
-            <div>
-                <div class="tagline">The Gap</div>
-                <h2 style="font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 1.5rem; letter-spacing: -0.02em;">This is not a data problem.<br><span style="color: var(--accent);">It is an infrastructure problem.</span></h2>
-                <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.6;">Most fan engagement platforms were built for fans you already know — ticketed supporters, app users, loyalty members. They require an account, a download, or a transaction before a fan can enter the system.</p>
-                <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.6; margin-top: 1rem;">7 out of 10 of your fans never clear that bar. They are loyal. They are reachable. They are invisible.</p>
-                <div class="hero-ctas" style="justify-content: flex-start; margin-top: 2rem;">
-                    <a href="/demo/" class="cta-button cta-solid">Explore the Platform</a>
-                    <a href="/contact/" class="cta-button cta-outline">Contact Us</a>
-                </div>
-            </div>
-            <div class="image-stack">
-                <img src="/assets/alfonso-scarpa-e12EkMYv44U-unsplash.jpg" alt="Stadium Crowd" class="img-main" onerror="this.src='https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&q=80&w=800';">
-                <img src="/assets/thomas-serer-alUSb8lCE5s-unsplash.jpg" alt="Fan Interaction" class="img-accent" onerror="this.src='https://images.unsplash.com/photo-1489944440615-453fc2b6a9a9?auto=format&fit=crop&q=80&w=600';">
-            </div>
-        </div>
-    </section>
-
-    <!-- USP + PROOF POINTS (consolidated) -->
-    <section class="section" style="background: #0f172a; color: white; text-align: center; border-top: 2px solid var(--accent); border-bottom: 2px solid var(--accent);">
-        <div class="container" style="max-width: 1000px;">
-            <h3 style="font-size: clamp(1.5rem, 3vw, 2.5rem); color: white; line-height: 1.4; font-weight: 500; margin-bottom: 1rem;">360ENGAGE is the first fan intelligence platform purpose-built for the fan your club has never met.</h3>
-            <p style="font-size: 1.25rem; color: #bae6fd; margin-bottom: 3rem; font-weight: 500;">No app. No account. No prior relationship required. One scan, and the conversation begins.</p>
-            <div class="grid-3">
-                <div style="padding: 2rem;">
-                    <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #60a5fa; font-weight: 800; font-family: 'Outfit', sans-serif;">7 in 10</div>
-                    <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">Fans at professional sports clubs are commercially unidentified. They exist. They spend. They are not in your system.</p>
-                </div>
-                <div style="padding: 2rem; border-left: 1px solid rgba(255,255,255,0.1); border-right: 1px solid rgba(255,255,255,0.1);">
-                    <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #60a5fa; font-weight: 800; font-family: 'Outfit', sans-serif;">4x</div>
-                    <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">Higher conversion. AI-driven fan conversations outperform traditional digital channels by a factor of four.</p>
-                </div>
-                <div style="padding: 2rem;">
-                    <div style="font-size: 3rem; margin-bottom: 0.75rem; color: #60a5fa; font-weight: 800; font-family: 'Outfit', sans-serif;">1 Scan</div>
-                    <p style="color: #cbd5e1; line-height: 1.6; font-size: 0.95rem;">No download. No form. No barrier. That is how every 360ENGAGE conversation starts.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PAGE 3: THE PLATFORM -->
-    <section id="the-platform" class="section">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 4rem;">
-                <div class="tagline" style="justify-content: center;">The Platform</div>
-                <h2 style="font-size: clamp(2rem, 4vw, 3rem); letter-spacing: -0.02em;">We have expanded the boundaries of fan engagement.</h2>
-                <p style="max-width: 800px; margin: 1.5rem auto 0; font-size: 1.25rem; color: var(--text-secondary);">360ENGAGE is the only platform that identifies and engages fans who have never been in your system — and turns them into a verified, monetisable audience from the first interaction.</p>
-            </div>
-            
-            <div class="grid-3" style="margin-bottom: 4rem;">
-                <div class="glass-card step-card" style="background: #0f172a; color: white; border: 1px solid rgba(255,255,255,0.1);">
-                    <span class="step-number" style="color: #60a5fa;">01</span>
-                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: white;">Every Sport</h3>
-                    <p style="color: #e2e8f0; line-height: 1.6;">Purpose-built for professional sports with distributed fanbases. The infrastructure is sport-agnostic. The conversation is club-specific.</p>
-                </div>
-                <div class="glass-card step-card" style="background: #0f172a; color: white; border: 1px solid rgba(255,255,255,0.1);">
-                    <span class="step-number" style="color: #60a5fa;">02</span>
-                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: white;">Every Fan</h3>
-                    <p style="color: #e2e8f0; line-height: 1.6;">Ticketed. Non-ticketed. Local. Global. We engage fans regardless of whether they have ever attended a match or downloaded an app.</p>
-                </div>
-                <div class="glass-card step-card" style="background: #0f172a; color: white; border: 1px solid rgba(255,255,255,0.1);">
-                    <span class="step-number" style="color: #60a5fa;">03</span>
-                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; color: white;">Every Conversation</h3>
-                    <p style="color: #e2e8f0; line-height: 1.6;">Each interaction is structured and returned to the club as verified first-party data. No third-party platforms. You own everything generated.</p>
-                </div>
-            </div>
-            
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="/demo/" class="cta-button cta-solid" style="padding: 1rem 2.5rem;">Explore Full Platform Capabilities &rarr;</a>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- PAGE 4: FAN INTELLIGENCE -->
-    <section id="fan-intelligence" class="section" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white;">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 4rem;">
-                <div class="tagline" style="justify-content: center; color: #93c5fd; border-color: rgba(147, 197, 253, 0.3);">Fan Intelligence</div>
-                <h2 style="font-size: clamp(2rem, 4vw, 3rem); color: white; margin-bottom: 1.5rem;">You already have the world's most loyal audience.</h2>
-                <p style="font-size: 1.25rem; color: #e2e8f0; line-height: 1.6; font-weight: 500;">You do not yet know most of them. Fan intelligence changes that.</p>
-            </div>
-            
-            <div class="grid-4">
-                <div class="glass-card" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.4); padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);">
-                    <h3 style="color: #60a5fa; margin-bottom: 1rem; font-size: 1.35rem; font-weight: 700;">01 — Fan Discovery</h3>
-                    <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.6; font-weight: 500;">Surface and identify the 70% of fans currently invisible to your database. No app, no account, no friction — just a direct line to your most loyal audience.</p>
-                </div>
-                <div class="glass-card" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.4); padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);">
-                    <h3 style="color: #60a5fa; margin-bottom: 1rem; font-size: 1.35rem; font-weight: 700;">02 — Intelligent Engagement</h3>
-                    <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.6; font-weight: 500;">AI-driven conversations that build verified first-party profiles at scale. Transform passive supporters into known members through deep, personalized engagement.</p>
-                </div>
-                <div class="glass-card" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.4); padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);">
-                    <h3 style="color: #60a5fa; margin-bottom: 1rem; font-size: 1.35rem; font-weight: 700;">03 — Direct Revenue</h3>
-                    <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.6; font-weight: 500;">Merchandise, ticketing, and F&B surfaced in-conversation at peak intent. High-conversion commercial prompts that live where the fan is already engaged.</p>
-                </div>
-                <div class="glass-card" style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.4); padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);">
-                    <h3 style="color: #60a5fa; margin-bottom: 1rem; font-size: 1.35rem; font-weight: 700;">04 — Partner Activation</h3>
-                    <p style="color: #ffffff; font-size: 1.05rem; line-height: 1.6; font-weight: 500;">Give commercial partners precision targeting built on verified first-party data. Move beyond panel estimates to measurable, data-backed partner performance.</p>
-                </div>
-            </div>
-
-            <div style="text-align: center; margin-top: 4rem;">
-                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="/demo/" class="cta-button cta-solid" style="padding: 1rem 2rem;">Explore the Investor Brief</a>
-                    <a href="/contact/" class="cta-button cta-outline-white" style="padding: 1rem 2rem;">Contact Our Team</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PAGE 5: OUR TEAM -->
-    <section id="our-team" class="section" style="background: var(--bg-surface);">
-        <div class="container">
-            <div class="tagline">Our Team</div>
-            <h2 style="font-size: clamp(2rem, 4vw, 3rem); max-width: 800px; margin-bottom: 1.5rem; letter-spacing: -0.02em;">Purpose-built technology. Purpose-driven thinkers.</h2>
-            <p style="max-width: 800px; font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 4rem; line-height: 1.6;">We are engineers and operators who have spent careers at the intersection of sport, technology, and commercial performance — and we built 360ENGAGE because the infrastructure we needed did not exist.</p>
-            
-            <div class="team-grid">
-                <div class="team-card">
-                    <img src="/images/Simon Moseley.jpg" alt="Simon Moseley" class="team-photo glass-card" style="padding:0; object-fit: cover; object-position: top;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">SM</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Simon Moseley</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">COB (Chairman of the Board)</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Strategic advisor and specialist in commercial growth. Simon brings decades of experience as a leader in international sports infrastructure and corporate governance.</p>
-                </div>
-                <div class="team-card">
-                    <img src="/images/William Block.jpeg" alt="Will Block" class="team-photo glass-card" style="padding:0; object-fit: cover; object-position: top;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">WB</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Will Block</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">CEO</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Drives global commercial operations and strategic partnership development. Background spans sports business, digital media, and growth-stage tech ventures.</p>
-                </div>
-                <div class="team-card">
-                    <img src="/images/Stewart Irvine.jpeg" alt="Stewart Irvine" class="team-photo glass-card" style="padding:0; object-fit: cover; object-position: top;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">SI</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Stewart Irvine</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">CTO</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">30 years of technology entrepreneurship across three continents. Stewart scales ventures in AI, commerce, and environmental infrastructure.</p>
-                </div>
-                <div class="team-card">
-                    <img src="/images/Graham Warren.png" alt="Graham Warren" class="team-photo glass-card" style="padding:0; object-fit: cover; object-position: top;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">GW</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Graham Warren</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">COO</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Leads UK and European strategy through GlassHouse Group. Deep relationships across the professional sports business landscape.</p>
-                </div>
-                <div class="team-card">
-                    <img src="/images/Daniel Davis.png" alt="Daniel Davis" class="team-photo glass-card" style="padding:0; object-fit: cover; object-position: top;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">DD</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Daniel Davis</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">CFO</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Oversees financial strategy and investor relations. Brings institutional finance experience to a team that builds fast and plans deliberately.</p>
-                </div>
-                <div class="team-card">
-                    <img src="/images/Shake Dewan.jpeg" alt="Shake Dewan" class="team-photo glass-card" style="padding:0; object-fit: cover;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">SD</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Shake Dewan</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">Chief AI Officer</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Leads platform architecture and AI deployment. Brings applied AI engineering expertise to build systems that scale globally.</p>
-                </div>
-                <div class="team-card">
-                    <img src="/images/Ben Prior.png" alt="Ben Prior" class="team-photo glass-card" style="padding:0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                    <div class="team-photo glass-card" style="display:none;">BP</div>
-                    <h4 style="font-size: 1.25rem; margin-bottom: 0.25rem;">Ben Prior</h4>
-                    <p style="color: var(--accent); font-weight: 600; font-size: 0.875rem; margin-bottom: 1rem;">Creative Director</p>
-                    <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">Leads brand, design, and user experience. Ensures that every fan-facing interface is frictionless and worth coming back to.</p>
-                </div>
-            </div>
-            
-            <!-- Partners -->
-            <div style="margin-top: 4rem; text-align: center;">
-                <h4 style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">Powered by world-class infrastructure & partners</h4>
-                <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; align-items: center; opacity: 0.7;">
-                    <img src="/images/glasshouse-logo.png" alt="GlassHouse Group" style="height: 40px; object-fit: contain;">
-                    <span style="font-weight: 700; font-size: 1.25rem; color: #0f172a;">Anthropic Claude</span>
-                    <span style="font-weight: 700; font-size: 1.25rem; color: #0f172a;">AWS</span>
-                    <span style="font-weight: 700; font-size: 1.25rem; color: #0f172a;">IBM</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- PAGE 6: TALK TO US -->
-    <section id="talk-to-us" class="section" style="background: #ffffff; border-top: 1px solid var(--border);">
-        <div class="container" style="text-align: center; max-width: 900px;">
-            <div class="tagline" style="justify-content: center;">Get Started</div>
-            <h2 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem; letter-spacing: -0.02em;">Every great partnership<br>starts with a conversation.</h2>
-            <p style="font-size: 1.25rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 3rem;">
-                Tell us about your club, your sport, and your market. We will tell you whether a Founding Club position is still available for you — and what it means commercially.
-            </p>
-            
-            <div class="grid-2" style="text-align: left; margin-bottom: 4rem;">
-                <div class="glass-card" style="padding: 2.5rem; background: rgba(241, 245, 249, 0.5);">
-                    <h3 style="color: var(--accent); margin-bottom: 0.5rem; font-size: 1.25rem;">UK & Europe</h3>
-                    <p style="font-weight: 600; margin-bottom: 0.25rem;">Graham Warren</p>
-                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">COO</p>
-                    <a href="mailto:Graham@glasshouse-group.co.uk" style="color: #0f172a; text-decoration: none; font-weight: 500; border-bottom: 1px solid var(--accent);">Graham@glasshouse-group.co.uk</a>
-                </div>
-                <div class="glass-card" style="padding: 2.5rem; background: rgba(241, 245, 249, 0.5);">
-                    <h3 style="color: var(--accent); margin-bottom: 0.5rem; font-size: 1.25rem;">North America & Global</h3>
-                    <p style="font-weight: 600; margin-bottom: 0.25rem;">Will Block</p>
-                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">CEO</p>
-                    <a href="mailto:wil@glasshouse-group.co.uk" style="color: #0f172a; text-decoration: none; font-weight: 500; border-bottom: 1px solid var(--accent);">wil@glasshouse-group.co.uk</a>
-                </div>
-            </div>
-
-            <div style="padding: 4rem 2rem; background: #0f172a; color: white; border-radius: 16px; margin-bottom: 4rem;">
-                <h3 style="font-size: clamp(2rem, 3vw, 2.5rem); margin-bottom: 2rem; font-family: 'Outfit', sans-serif;">The unseen fan is waiting.<br><span style="color: var(--accent);">So are we.</span></h3>
-                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="/contact/" class="cta-button cta-solid" style="padding: 1rem 2.5rem; font-size: 1.2rem;">Start a Conversation</a>
-                    <a href="/demo/" class="cta-button cta-outline-white" style="padding: 1rem 2.5rem; font-size: 1.2rem;">Explore the Demo</a>
-                </div>
-            </div>
-        </div>
-    </section>
-</Layout>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>360ENGAGE</title>
+    <meta name="description" content="360ENGAGE is not accepting business enquiries at this time." />
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        align-items: center;
+        background: #0b1220;
+        color: #f8fafc;
+        display: flex;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        justify-content: center;
+        margin: 0;
+        min-height: 100vh;
+        padding: 2rem;
+      }
+      main { max-width: 38rem; text-align: center; }
+      .wordmark { font-size: 0.875rem; font-weight: 800; letter-spacing: 0.18em; margin: 0 0 2.5rem; }
+      h1 { font-size: clamp(2.1rem, 7vw, 4.25rem); letter-spacing: -0.045em; line-height: 1.04; margin: 0; }
+      p { color: #cbd5e1; font-size: clamp(1rem, 2.2vw, 1.2rem); line-height: 1.65; margin: 1.5rem auto 0; max-width: 32rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="wordmark">360ENGAGE</p>
+      <h1>Currently unavailable.</h1>
+      <p>360ENGAGE is not accepting business enquiries at this time.</p>
+    </main>
+  </body>
+</html>
