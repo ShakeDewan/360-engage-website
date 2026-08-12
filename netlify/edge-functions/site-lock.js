@@ -1,5 +1,5 @@
 const REALM = "360ENGAGE private area";
-const PASSWORD_VARIABLE = "NETLIFY_SITE_LOCK_PASSWORD";
+const PASSWORD_VARIABLE = "SITE_LOCK_PASSWORD";
 
 function unauthorized() {
   return new Response("Authentication is required.", {
