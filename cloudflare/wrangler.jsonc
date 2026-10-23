@@ -1,0 +1,18 @@
+// 360-engage-website on Cloudflare Workers: dist/ plus the site-lock edge function (cloudflare/worker.mjs).
+// Deploy: npm run build && cd cloudflare && wrangler deploy. Secret: wrangler secret put SITE_LOCK_PASSWORD.
+{
+  "name": "360-engage-website",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "../dist",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  },
+  "observability": { "enabled": true }
+}
