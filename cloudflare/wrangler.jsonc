@@ -14,5 +14,12 @@
     "not_found_handling": "404-page",
     "run_worker_first": true
   },
+  // Netlify Forms replacement (cloudflare/forms.js): the recipients Netlify notified. RESEND_API_KEY is a Worker secret.
+  "d1_databases": [{ "binding": "FORMS_DB", "database_name": "forms", "database_id": "ad2881b0-2793-4f4b-96c6-1f553f56a209" }],
+  "vars": {
+    "FORMS_SITE": "360-engage-website",
+    "FORMS_NOTIFY": "Graham@glasshouse-group.co.uk,mokingjill@gmail.com,shekhar.dewan@gmail.com,sirvineyvr@gmail.com,wil@glasshouse-group.co.uk",
+    "FORMS_FROM": "Website forms <forms@aiforward.ca>"
+  },
   "observability": { "enabled": true }
 }
